@@ -1,0 +1,48 @@
+/* 홈 진입: 양쪽 막대가 중앙에서 연결되고 메인 화면으로 전환됩니다. */
+.yid-intro { display: none; }
+.intro-enabled { overflow: hidden; }
+.intro-enabled .yid-intro {
+  --bar-height: clamp(80px, 22.3vh, 320px);
+  display: block;
+  position: fixed;
+  inset: 0;
+  z-index: 2147483647;
+  overflow: hidden;
+  background: #001F75;
+  animation: yid-intro-reveal 2.8s both;
+}
+.yid-intro__bar {
+  position: absolute;
+  top: 50%;
+  height: var(--bar-height);
+  width: 60%;
+  margin-top: calc(var(--bar-height) / -2);
+  background: #FFFFFF;
+  will-change: transform;
+}
+.yid-intro__bar--round {
+  left: calc(-10% - 15px);
+  border-radius: 0 999px 999px 0;
+  animation: yid-connect-left 1.7s cubic-bezier(.22, 1, .36, 1) both;
+}
+.yid-intro__bar--square {
+  right: calc(-10% - 15px);
+  animation: yid-connect-right 1.7s cubic-bezier(.22, 1, .36, 1) both;
+}
+
+@keyframes yid-connect-left {
+  from { transform: translateX(-100%); }
+  to { transform: translateX(0); }
+}
+@keyframes yid-connect-right {
+  from { transform: translateX(100%); }
+  to { transform: translateX(0); }
+}
+
+@keyframes yid-intro-reveal {
+  0%, 78% { opacity: 1; }
+  100% { opacity: 0; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .intro-enabled .yid-intro { animation-duration: .2s; }
+  .yid-intro__bar--round, .yid-intro__bar--square, 

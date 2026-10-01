@@ -1,0 +1,104 @@
+html.education-white,html.education-white body{background:#fff!important;color:#001f75!important;scroll-behavior:smooth}
+.education-white .elementor-location-header,.education-white .elementor-location-footer,.education-white .elementor-location-header .elementor-section,.education-white .elementor-location-footer .elementor-section{background:#fff!important;background-image:none!important}
+html.education-white body .elementor-location-header .elementor-motion-effects-layer,html.education-white body .elementor-location-header .elementor-background-overlay{background:#fff!important;background-image:none!important;opacity:1!important}
+html.education-white body .elementor-location-header,html.education-white body .elementor-location-header .elementor-section,html.education-white body .elementor-location-header .elementor-container,html.education-white body .elementor-location-header .elementor-widget-wrap{border:0!important;box-shadow:none!important}
+html.education-white body .elementor-location-header .elementor-item,html.education-white body .elementor-location-header .elementor-sub-item,html.education-white body .elementor-location-header .elementor-menu-toggle,html.education-white body .elementor-location-footer .elementor-icon-list-text{color:#001f75!important}
+.education-white .elementor-location-header .menu-item-has-children>a.elementor-item::after{border-top-color:#001f75!important}
+.education-white .elementor-location-header .elementor-menu-toggle svg{fill:#001f75!important}
+.education-white .elementor-location-header img.yid-brand-logo{filter:none}
+html.education-white body .education-editorial{box-sizing:border-box;width:calc(100% - 48px);max-width:1024px;margin:0 auto;padding:0;color:#001f75;font-family:'YID Avant Garde','Pretendard',sans-serif}
+.education-editorial h1,.education-editorial h2,.education-editorial h3,.education-editorial p,.education-editorial li{color:inherit;font-family:inherit;margin:0;word-break:keep-all;overflow-wrap:anywhere}
+.education-introduction{padding-top:clamp(100px,18vh,190px)}
+.education-introduction h1{font-size:clamp(56px,9vw,112px);font-weight:500;line-height:1.1;letter-spacing:-.06em}
+.education-body{display:grid;grid-template-columns:180px minmax(0,1fr);gap:64px;align-items:start;margin:clamp(150px,20vh,230px) 0 140px}
+.education-index{position:sticky;top:48px;display:flex;flex-direction:column;gap:18px;padding-top:5px}
+.education-index a{color:#001f75;font-size:15px;font-weight:500;text-decoration:none;opacity:.72}
+.education-sections section{scroll-margin-top:45px;margin-bottom:140px}
+.education-sections section:last-child{margin-bottom:0}
+.education-sections h2{font-size:clamp(27px,2.7vw,40px);font-weight:600;line-height:1.35;letter-spacing:-.025em;margin-bottom:36px}
+.education-sections h2>span{display:block;font-size:13px;font-weight:600;letter-spacing:.06em;margin-bottom:22px}
+.education-sections p,.education-sections li{font-size:14.4px;font-weight:500;line-height:1.9;letter-spacing:-.015em;text-wrap:pretty;margin-bottom:26px}
+.education-sections ul{padding-left:1.2em;margin:36px 0}
+.education-diagram{margin:44px 0 0}
+.education-diagram img{display:block;width:100%;height:auto}
+.education-course-group{font-size:18px;font-weight:600;line-height:1.6;margin:48px 0 20px!important}
+.education-course{border-bottom:1px solid #001f7530}
+.education-course summary{position:relative;padding:19px 32px 19px 0;cursor:pointer;font-size:18px;font-weight:500;line-height:1.6;list-style:none;word-break:keep-all;overflow-wrap:anywhere}
+.education-course summary::-webkit-details-marker{display:none}
+.education-course summary::after{content:'+';position:absolute;right:0;top:18px;font-size:25px;font-weight:400}
+.education-course[open] summary::after{content:'−'}
+.education-course-description{padding:4px 0 20px}
+.education-course-description p{font-size:12.8px;line-height:1.9;margin-bottom:12px}
+.education-course-description p:last-child{margin-bottom:0}
+.education-lab{padding:36px 0 44px;border-bottom:1px solid #001f7530}
+.education-lab:first-of-type{padding-top:0}
+.education-lab h3{font-size:clamp(22px,2.15vw,30px);font-weight:600;line-height:1.5;margin-bottom:24px}
+.education-lab-image{display:block;width:100%;height:auto;margin-bottom:24px}
+.education-lab p{font-size:12.8px;line-height:1.9;margin-bottom:10px}
+.education-link{display:flex;justify-content:space-between;gap:24px;align-items:center;border-bottom:1px solid #001f7540;padding:18px 0;color:#001f75;font-size:18px;margin-top:32px;text-decoration:none}
+.education-link span{font-size:30px}
+.education-white .elementor-location-footer{border-top:1px solid #001f7520}
+html.education-white body a:hover,html.education-white body a:focus-visible,html.education-white body .elementor-location-header a.elementor-item:hover,html.education-white body .elementor-location-header a.elementor-item:focus-visible,.education-course summary:hover{color:#508aff!important;text-decoration:none!important}
+html.education-white body a:hover *,html.education-white body a:focus-visible *{color:inherit!important}
+.education-editorial a,.education-course summary{transition:color .18s ease}
+.education-editorial :focus-visible{outline:2px solid #508aff;outline-offset:5px}
+@media(max-width:850px){.education-introduction{padding-top:80px}.education-body{grid-template-columns:1fr;margin-top:110px;gap:60px}.education-index{position:static;flex-direction:row;flex-wrap:wrap;gap:14px 24px}.education-index a{font-size:13px}.education-sections section{margin-bottom:90px}.education-course-group{font-size:16px}.education-course summary,.education-link{font-size:16px}}
+@media(prefers-reduced-motion:reduce){html.education-white{scroll-behavior:auto}}
+
+/* Notice와 같은 이미지 + 텍스트 카드 구성 */
+.education-lab-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:40px 28px}
+.education-lab-grid .education-lab{display:flex;flex-direction:column;min-width:0;padding:0;border:0;background:transparent;box-shadow:none}
+.education-lab-grid .education-lab-image{width:100%;aspect-ratio:1.6;object-fit:cover;border-radius:8px;margin:0 0 18px}
+.education-lab-grid .education-lab h3{font-size:16px;line-height:1.5;font-weight:700;letter-spacing:-.02em;margin:0 0 12px}
+.education-lab-grid .education-lab p{font-size:12.8px;line-height:1.65;margin:0;word-break:normal;text-wrap:pretty}
+.education-lab-copy{margin-bottom:20px}
+.education-lab-meta{display:flex;flex-direction:column;gap:6px;margin-top:auto}
+.education-lab-grid .education-lab-meta p{font-size:12px;line-height:1.6}
+.education-lab-grid .education-link{font-size:12px;line-height:1.5;margin-top:14px;padding:10px 0;border-bottom:1px solid #001f7530}
+.education-lab-grid .education-link span{font-size:20px}
+@media(min-width:851px) and (max-width:1000px){.education-lab-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:600px){.education-lab-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:32px 20px}.education-lab-grid .education-lab h3{font-size:14px}}
+@media(max-width:420px){.education-lab-grid{grid-template-columns:1fr;gap:36px}}
+
+/* 카테고리별 교과목 네 열 배치 */
+.education-course-grid{display:flex;flex-direction:column;gap:48px}
+.education-course-category{min-width:0}
+.education-course-category .education-course-group{font-size:18px;line-height:1.6;margin:0 0 20px!important}
+.education-course-items{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:0 24px;align-items:start}
+.education-course-items .education-course summary{font-size:13px;line-height:1.65;padding:14px 20px 14px 0;word-break:keep-all;overflow-wrap:anywhere}
+.education-course-items .education-course summary::after{font-size:18px;top:13px}
+.education-course-items .education-course-description p{font-size:12.8px;line-height:1.8;word-break:normal}
+@media(max-width:700px){.education-course-items{grid-template-columns:repeat(2,minmax(0,1fr));gap:0 20px}}
+@media(max-width:420px){.education-course-items{grid-template-columns:1fr}}
+
+/* 교과목명은 구분선과 펼침 기호 없이 표시 */
+.education-course-items .education-course{border:0}
+.education-course-items .education-course summary{padding-right:0}
+.education-course-items .education-course summary::after{content:none}
+
+/* 2026-2 개편안의 학부 네 분야 */
+.education-under-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:24px;align-items:start}
+.education-under-grid .education-course-items{display:flex;flex-direction:column;gap:0}
+.education-under-grid .education-course-category .education-course-group{font-size:12px;letter-spacing:.025em;margin-bottom:24px!important}
+.education-under-grid .education-course{width:100%;border:0}
+.education-under-grid .education-course-name{font-size:13px;line-height:1.65;padding:14px 0;word-break:keep-all;overflow-wrap:anywhere}
+@media(max-width:700px){.education-under-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:40px 20px}}
+@media(max-width:420px){.education-under-grid{grid-template-columns:1fr}}
+
+/* INTEGRATED 두 열 + 전문 분야 각 한 열 */
+.education-under-grid{grid-template-columns:repeat(5,minmax(0,1fr))}
+.education-under-grid>.education-course-category:first-child{grid-column:span 2}
+.education-under-grid>.education-course-category:first-child .education-course-items{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 24px;align-items:start}
+@media(max-width:700px){.education-under-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:420px){.education-under-grid{grid-template-columns:1fr}.education-under-grid>.education-course-category:first-child{grid-column:auto}.education-under-grid>.education-course-category:first-child .education-course-items{grid-template-columns:1fr}}
+
+/* Education 제목 고정 크기와 여백 */
+.education-introduction{padding-top:150px}
+.education-introduction h1{font-family:'YID Avant Garde','Pretendard',sans-serif;font-weight:600;font-size:80px;letter-spacing:-.01em}
+.education-body{margin-top:100px}
+
+/* 모든 영문 제목을 대문자로 표시 */
+.education-editorial h1,.education-editorial h2,.education-editorial h3{text-transform:uppercase}
+
+/* 제목의 수동 자간을 제거하고 서체의 커닝 적용 */
+.education-introduction h1{letter-spacing:normal;font-kerning:normal;font-feature-settings:"kern" 1;text-rendering:optimizeLegibility}

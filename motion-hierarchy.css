@@ -1,0 +1,7 @@
+/* Brand geometry leads; navigation and reading content remain stable. */
+.elementor-invisible { visibility:visible!important; }
+.elementor .animated { animation:none!important; transform:none!important; }
+.about-blue .about-logo,.about-blue .about-lead { animation:none!important; }
+.about-blue .about-reveal { opacity:1!important; transform:none!important; transition:none!important; }
+.elementor-location-header,.elementor-location-header .elementor-sticky { transition:none!important; }
+@media(prefers-reduced-motion:reduce) { html { scroll-behavior:auto!important; } *,*::before,*::after { animation:none!important; transition:none!important; } }

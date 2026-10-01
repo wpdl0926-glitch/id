@@ -1,0 +1,306 @@
+/* 리디자인 전용 스타일. 원본 스타일을 보존하고 아래에서 덮어씁니다.
+   전 페이지 공통으로 로드되며, 현재는 원본 디자인을 유지합니다. */
+:root {
+  --yid-accent: #003876;
+}
+
+/* 새 SVG 로고의 가로세로 비율과 가독성 유지 */
+.elementor-element-73f70af3 .yid-brand-logo {
+  width: 125px !important;
+  max-width: 60vw !important;
+  height: auto !important;
+}
+
+/* 기존 사진 영역을 SVG 기하학 모션으로 교체 */
+.yid-geometry-hero {
+  width: 100%;
+  margin: 0 auto;
+  background: #FFFFFF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 402.058688px;
+  overflow: hidden;
+}
+.yid-geometry {
+  display: block;
+  width: 100%;
+  height: min(39.263544vw, 402.058688px);
+  overflow: visible;
+}
+@media (max-width: 1024px) {
+  .yid-geometry-hero { min-height: 39.263544vw; }
+}
+/* 제거한 사진 슬라이드의 겹침용 여백도 함께 정리합니다. */
+.elementor-92 > .elementor-element-03a7d4f { display: none !important; }
+.elementor-92 { margin-top: 0 !important; padding-top: 0 !important; }
+.yid-geometry-hero { margin-top: 3px !important; }
+
+/* Pretendard: 기본 Medium, 정보 위계는 동일 서체의 굵기로 표현 */
+body, body.elementor-page {
+  font-family: 'Pretendard', sans-serif !important;
+  font-weight: 500 !important;
+}
+.elementor-kit-10 {
+  --e-global-typography-primary-font-family: 'Pretendard';
+  --e-global-typography-secondary-font-family: 'Pretendard';
+  --e-global-typography-text-font-family: 'Pretendard';
+  --e-global-typography-accent-font-family: 'Pretendard';
+}
+.elementor .elementor-heading-title,
+.elementor .elementor-post__title,
+.elementor .elementor-post__title a,
+.elementor .elementor-text-editor,
+.elementor .elementor-widget-text-editor,
+.elementor .elementor-widget-text-editor p,
+.elementor .elementor-item,
+.elementor .elementor-sub-item,
+.elementor .elementor-icon-list-text,
+.elementor p, button, input, select, textarea {
+  font-family: 'Pretendard', sans-serif !important;
+}
+.elementor p, .elementor .elementor-item, .elementor .elementor-sub-item,
+.elementor .elementor-widget-text-editor, button, input, select, textarea {
+  font-weight: 500 !important;
+}
+.elementor h1, .elementor h2 { font-weight: 700 !important; }
+.elementor h3, .elementor h4, .elementor h5, .elementor h6,
+.elementor .elementor-post__title a { font-weight: 600 !important; }
+.elementor strong, .elementor b { font-weight: 700 !important; }
+.elementor .elementor-post__meta-data { font-family: 'Pretendard', sans-serif !important; font-weight: 400 !important; }
+
+/* 최신 공지 3개: 아웃라인 없는 가로 카드 */
+.yid-notices { max-width: 1200px; margin: 32px auto 48px; padding: 0 28px; font-family: 'Pretendard', sans-serif; }
+.yid-notices__heading { display: flex; align-items: center; justify-content: space-between; margin-bottom: 20px; }
+.yid-notices__heading h2 { margin: 0; font-size: 16px; font-weight: 700; }
+.yid-notices__heading > a { color: #777; font-size: 13px; font-weight: 500; text-decoration: none; }
+.yid-notice-grid { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 28px; }
+.yid-notice-card { min-width: 0; border: 0; background: transparent; box-shadow: none; }
+.yid-notice-card > a { display: block; color: #202020; text-decoration: none; }
+.yid-notice-card__image { aspect-ratio: 1.6; border-radius: 8px; overflow: hidden; background: transparent; margin-bottom: 18px; }
+.yid-notice-card__image img { display: block; width: 100%; height: 100%; object-fit: contain; }
+.yid-notice-card__copy { transform-origin: left top; transition: transform .22s cubic-bezier(.22,1,.36,1); }
+.yid-notice-card h3 { margin: 0 0 10px; font-family: 'Pretendard', sans-serif; font-size: 16.61px; font-weight: 700; line-height: 1.4; letter-spacing: -.02em; color: #202020; transition: color .18s ease; }
+.yid-notice-card p { margin: 0; font-family: 'Pretendard', sans-serif; font-size: 14px; font-weight: 500; line-height: 1.6; color: #777; }
+.yid-notice-card__meta { display: flex; flex-direction: column; gap: 5px; margin-top: 16px; font-size: 12px; line-height: 1.5; font-weight: 500; color: #888; }
+.yid-notice-card a:hover .yid-notice-card__copy, .yid-notice-card a:focus-visible .yid-notice-card__copy { transform: scale(1.025); }
+.yid-notice-card a:hover h3, .yid-notice-card a:focus-visible h3 { color: #1f4298; }
+.yid-notice-card a:focus-visible { outline: 2px solid #1f4298; outline-offset: 6px; }
+@media(max-width:600px) { .yid-notices { padding:0 20px; } .yid-notice-grid { grid-template-columns:1fr; gap:32px; } }
+@media(prefers-reduced-motion:reduce) { .yid-notice-card__copy, .yid-notice-card h3 { transition:none; } .yid-notice-card a:hover .yid-notice-card__copy { transform:none; } }
+
+.yid-notice-card h3 { white-space: nowrap; }
+
+/* 1200px 기준 레이아웃 전체를 800px로 비례 축소 */
+.yid-notices {
+  --notice-scale: 0.666666667;
+  zoom: var(--notice-scale);
+}
+
+/* 800px 영역은 유지하고 글자는 축소 전 표시 크기로 복원 */
+.yid-notices { margin-top: 128px; }
+.yid-notices__heading h2 { font-size: 24px; }
+.yid-notices__heading > a { font-size: 19.5px; }
+.yid-notice-card h3 { font-size: 24.915px; }
+.yid-notice-card p { font-size: 21px; }
+.yid-notice-card__meta { font-size: 18px; }
+@media(max-width:600px) { .yid-notices { margin-top: 80px; } }
+
+.yid-notice-card h3 { overflow: hidden; text-overflow: ellipsis; }
+
+/* 제목은 두 줄, 카테고리와 날짜는 한 줄로 정렬 */
+.yid-notice-card h3 {
+  white-space: normal;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  min-height: 2.8em;
+  margin-bottom: 0;
+}
+.yid-notice-card__meta {
+  flex-direction: row;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 12px;
+  margin-top: 12px;
+}
+.yid-notice-card__meta span { min-width: 0; }
+.yid-notice-card__meta time { flex-shrink: 0; text-align: right; }
+
+/* 제목 줄 길이를 균형 있게 나눠 마지막 한 글자가 따로 남는 현상 방지 */
+.yid-notice-card h3 {
+  text-wrap: balance;
+  word-break: keep-all;
+  overflow-wrap: anywhere;
+}
+
+/* 설치된 ITC Avant Garde: 영문·숫자, 한글은 Pretendard 유지 */
+
+body, body.elementor-page,
+.elementor .elementor-heading-title, .elementor .elementor-post__title,
+.elementor .elementor-post__title a, .elementor .elementor-text-editor,
+.elementor .elementor-widget-text-editor, .elementor .elementor-widget-text-editor p,
+.elementor .elementor-item, .elementor .elementor-sub-item,
+.elementor .elementor-icon-list-text, .elementor p,
+.yid-notices, .yid-notice-card h3, .yid-notice-card p,
+button, input, select, textarea {
+  font-family: 'YID Avant Garde', 'Pretendard', sans-serif !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 상단 메뉴: Avant Garde Bold / 학과 블루 */
+.elementor .elementor-nav-menu a.elementor-item,
+.elementor .elementor-nav-menu a.elementor-item:hover,
+.elementor .elementor-nav-menu a.elementor-item:focus,
+.elementor .elementor-nav-menu a.elementor-item.elementor-item-active {
+  font-weight: 700 !important;
+  color: #001F75 !important;
+}
+.elementor .elementor-menu-toggle { color: #001F75 !important; }
+
+/* 데스크톱 메뉴: 텍스트와 화살표를 포함한 항목 사이 간격 통일 */
+.elementor .elementor-nav-menu--main > .elementor-nav-menu {
+  display: flex !important;
+  column-gap: 46px !important;
+}
+.elementor .elementor-nav-menu--main > .elementor-nav-menu > li {
+  margin: 0 !important;
+}
+.elementor .elementor-nav-menu--main > .elementor-nav-menu > li > a.elementor-item {
+  display: inline-flex;
+  align-items: center;
+  margin: 0 !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+.elementor .elementor-nav-menu--main .sub-arrow {
+  padding-left: 8px !important;
+  padding-right: 0 !important;
+}
+
+/* 펼침 아이콘을 텍스트 옆의 삼각형으로 고정 */
+.elementor .elementor-nav-menu a.has-submenu {
+  display: inline-flex !important;
+  align-items: center !important;
+  gap: 8px !important;
+}
+.elementor .elementor-nav-menu .sub-arrow {
+  position: static !important;
+  float: none !important;
+  display: inline-flex !important;
+  align-items: center;
+  justify-content: center;
+  flex: 0 0 7px !important;
+  width: 7px !important;
+  height: 5px !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  transform: none !important;
+}
+.elementor .elementor-nav-menu .sub-arrow > * { display: none !important; }
+.elementor .elementor-nav-menu .sub-arrow::before {
+  content: '';
+  display: block;
+  width: 0;
+  height: 0;
+  border-left: 3.5px solid transparent;
+  border-right: 3.5px solid transparent;
+  border-top: 5px solid #001F75;
+}
+/* 플러그인이 아이콘을 추가하는 시점과 무관하게 삼각형 하나만 표시 */
+.elementor .elementor-nav-menu .sub-arrow { display: none !important; }
+.elementor .elementor-nav-menu > .menu-item-has-children > a.elementor-item {
+  display: inline-flex !important;
+  align-items: center !important;
+  gap: 8px !important;
+}
+.elementor .elementor-nav-menu > .menu-item-has-children > a.elementor-item::after {
+  content: '' !important;
+  position: static !important;
+  display: block !important;
+  flex: 0 0 auto;
+  width: 0 !important;
+  height: 0 !important;
+  border-left: 3.5px solid transparent;
+  border-right: 3.5px solid transparent;
+  border-top: 5px solid #001F75;
+  background: transparent !important;
+  opacity: 1 !important;
+  transform: none !important;
+}
+
+/* 원본 테마의 GIF 화살표 제거: 새 삼각형만 유지 */
+.elementor ul.elementor-nav-menu li.menu-item-has-children,
+.elementor ul.elementor-nav-menu li.menu-item-has-children:hover,
+.elementor ul.elementor-nav-menu li.current-menu-item.menu-item-has-children {
+  background-image: none !important;
+}
+
+/* 콘텐츠가 짧아도 화면 하단까지 흰 배경 유지 */
+html { min-height: 100%; background-color: #FFFFFF !important; }
+body { min-height: 100vh; background-color: #FFFFFF !important; }
+
+/* 모바일 펼침 메뉴: 불투명한 밝은 회색 배경 */
+.elementor .elementor-nav-menu--dropdown,
+.elementor .elementor-nav-menu--dropdown .sub-menu {
+  background-color: #F2F3F5 !important;
+}
+.elementor .elementor-nav-menu--dropdown a,
+.elementor .elementor-nav-menu--dropdown a.elementor-sub-item {
+  color: #001F75 !important;
+}
+.elementor .elementor-nav-menu--dropdown a:hover,
+.elementor .elementor-nav-menu--dropdown a:focus,
+.elementor .elementor-nav-menu--dropdown a.highlighted {
+  background-color: #E4E7EC !important;
+}
+
+/* 교수진 탭: Pretendard SemiBold, 선택 상태는 학과 블루 */
+.elementor .e-n-tab-title,
+.elementor .e-n-tab-title-text {
+  font-family: 'Pretendard', sans-serif !important;
+  font-weight: 600 !important;
+}
+.elementor .e-n-tab-title[aria-selected="true"],
+.elementor .e-n-tab-title[aria-selected="true"] .e-n-tab-title-text {
+  color: #001F75 !important;
+}
+
+/* 교수 프로필 정보 위계 */
+.box_profile_text h5 {
+  font-family: 'Pretendard', sans-serif !important;
+  font-size: 20px !important;
+  font-weight: 700 !important;
+}
+.profile_text > li:first-child { font-weight: 700 !important; }
+.profile_text > li.profile-email { color: #969AA3 !important; }
+.profile_text a[href^="mailto:"] { color: #969AA3 !important; }
+/* 공통 로고는 헤더의 페이지별 크기 규칙보다 우선 */
+.elementor img.yid-brand-logo {
+  width: 125px !important;
+  min-width: 125px !important;
+  max-width: 125px !important;
+  height: auto !important;
+  object-fit: contain;
+}
+.elementor .elementor-widget-image:has(.yid-brand-logo) { flex-shrink: 0 !important; }
+
+/* ITC Avant Garde는 CE 계열만 사용: 설치된 Book / Demi */
+@font-face{font-family:'YID Avant Garde';src:local('AvantGardeCE-Book'),local('ITC Avant Garde CE Gothic Book');font-weight:200 500;font-style:normal;unicode-range:U+0000-024F,U+2000-206F}
+@font-face{font-family:'YID Avant Garde';src:local('AvantGardeCE-Demi'),local('ITC Avant Garde CE Gothic Demi');font-weight:600 900;font-style:normal;unicode-range:U+0000-024F,U+2000-206F}

@@ -1,0 +1,243 @@
+/* Homepage only: shared page styling and all interior pages remain intact. */
+html:has(body.home-photo) { background: #353942 !important; }
+body.home-photo { background: transparent !important; isolation: isolate; }
+.yid-photo-background { position: absolute; inset: 0; z-index: 0; pointer-events: none; overflow: hidden; background: #353942; }
+.yid-photo-layer { position: absolute; inset: 0; width: 100%; height: 100%; max-width: none; object-fit: cover; object-position: center; }
+.yid-photo-background::after { content: ''; position: absolute; inset: 0; background: linear-gradient(180deg,rgba(0,0,0,.38),rgba(0,0,0,.12) 38%,rgba(0,0,0,.48)); }
+.home-photo .yid-geometry-hero { background: transparent; }
+.home-photo .yid-geometry__round, .home-photo .yid-geometry__square { fill: var(--yid-photo-complement, #A3ADDD); }
+.home-photo .elementor-location-header .elementor-section,
+.home-photo .elementor-location-header .elementor-motion-effects-layer,
+.home-photo .elementor-location-footer .elementor-section { background: transparent !important; border-color: rgba(255,255,255,.25) !important; }
+.home-photo .elementor img.yid-brand-logo { filter: brightness(0) invert(1) drop-shadow(0 2px 5px rgba(0,0,0,.6)); }
+.home-photo .elementor .elementor-nav-menu a.elementor-item,
+.home-photo .elementor .elementor-nav-menu a.elementor-sub-item,
+.home-photo .elementor .elementor-menu-toggle,
+.home-photo .elementor-location-footer a,
+.home-photo .elementor-location-footer p,
+.home-photo .elementor-location-footer .elementor-icon-list-text,
+.home-photo .yid-notices__heading h2,
+.home-photo .yid-notices__heading > a,
+.home-photo .yid-notice-card > a,
+.home-photo .yid-notice-card h3,
+.home-photo .yid-notice-card p,
+.home-photo .yid-notice-card__meta { color: #fff !important; text-shadow: 0 1px 3px rgba(0,0,0,.8), 0 3px 10px rgba(0,0,0,.5); }
+.home-photo .elementor .elementor-nav-menu > .menu-item-has-children > a.elementor-item::after { border-top-color: #fff; filter: drop-shadow(0 1px 2px rgba(0,0,0,.6)); }
+.home-photo .elementor .elementor-nav-menu--dropdown,
+.home-photo .elementor .elementor-nav-menu--dropdown .sub-menu { background: rgba(25,29,37,.95) !important; }
+.home-photo .elementor .elementor-nav-menu--dropdown a:hover,
+.home-photo .elementor .elementor-nav-menu--dropdown a:focus,
+.home-photo .elementor .elementor-nav-menu--dropdown a.highlighted { background: #414651 !important; }
+.home-photo a:focus-visible, .home-photo .elementor-menu-toggle:focus-visible { outline: 2px solid #fff; outline-offset: 5px; }
+
+/* Every current/future slide shares this responsive, non-destructive crop. */
+body.home-photo {
+  --home-object-height: min(39.263544vw, 402.058688px);
+  --home-photo-height: calc(var(--home-object-height) + 40px);
+  --home-header-height: 64px;
+  background: #353942 !important;
+}
+.home-photo .yid-geometry-hero {
+  position: relative;
+  height: var(--home-photo-height);
+  min-height: 0;
+  padding: 20px 0;
+  margin-top: 0 !important;
+  box-sizing: border-box;
+}
+.home-photo .yid-geometry { position: relative; z-index: 1; height: var(--home-object-height); flex-shrink: 0; }
+.home-photo .yid-notice-spacer { height: max(80px, calc(100svh - var(--home-header-height) - var(--home-photo-height) + 40px)); }
+.home-photo .yid-notices { margin-top: 0; }
+/* Remove the original header overlap so the photo starts below the navigation. */
+.home-photo .elementor-location-header { margin-bottom: 0 !important; }
+.home-photo .elementor-location-header > .elementor-section { margin-bottom: 0 !important; }
+/* Full-viewport animated home: navigation floats above the photo. */
+body.home-photo {
+  --home-object-height: 100svh;
+  --home-photo-height: 100svh;
+}
+.home-photo .elementor-location-header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+}
+.home-photo .yid-geometry-hero {
+  height: 100svh;
+  padding: 0;
+}
+.home-photo .yid-geometry {
+  height: 100svh;
+}
+.home-photo .yid-geometry__round,
+.home-photo .yid-geometry__square {
+  opacity: .6;
+}
+.home-photo .yid-notice-spacer { height: 80px; }
+
+/* Center every slide and proportionally upscale small photos to cover the screen. */
+.home-photo .yid-photo-layer { object-fit: cover; object-position: center center !important; }
+.home-photo .elementor-location-header,
+.home-photo .elementor-location-header .elementor-section {
+  border: 0 !important;
+  box-shadow: none !important;
+}
+
+/* Portrait photos keep their central region; navigation shadows at half strength. */
+.home-photo .yid-photo-layer { object-position: 50% 50% !important; }
+.home-photo .elementor img.yid-brand-logo {
+  filter: brightness(0) invert(1) drop-shadow(0 2px 5px rgba(0,0,0,.3));
+}
+.home-photo .elementor .elementor-nav-menu a.elementor-item,
+.home-photo .elementor .elementor-nav-menu a.elementor-sub-item,
+.home-photo .elementor .elementor-menu-toggle {
+  text-shadow: 0 1px 3px rgba(0,0,0,.4), 0 3px 10px rgba(0,0,0,.25);
+}
+.home-photo .elementor .elementor-nav-menu > .menu-item-has-children > a.elementor-item::after {
+  filter: drop-shadow(0 1px 2px rgba(0,0,0,.3));
+}
+/* Restore the original notice surface and typography below the photo hero. */
+body.home-photo { background: #fff !important; }
+.home-photo .yid-notices { background: #fff; }
+.home-photo .yid-notices__heading h2,
+.home-photo .yid-notice-card > a,
+.home-photo .yid-notice-card h3 { color: #202020 !important; text-shadow: none; }
+.home-photo .yid-notices__heading > a,
+.home-photo .yid-notice-card p { color: #777 !important; text-shadow: none; }
+.home-photo .yid-notice-card__meta { color: #888 !important; text-shadow: none; }
+.home-photo .yid-notice-card a:hover h3,
+.home-photo .yid-notice-card a:focus-visible h3 { color: #1f4298 !important; }
+.home-photo .yid-notices a:focus-visible { outline-color: #1f4298; }
+/* Override the original theme's image height:auto so cover fills the hero. */
+.home-photo .yid-photo-layer { width: 100% !important; height: 100% !important; max-height: none !important; }
+/* Center the homepage identity and navigation over the animated hero. */
+.home-photo .elementor-location-header {
+  top: 50svh;
+  transform: translateY(-50%);
+}
+.home-photo .elementor-location-header > .elementor-section > .elementor-container { max-width: 100% !important; }
+.home-photo .elementor-location-header .elementor-element-634949b3 > .elementor-container {
+  flex-direction: column;
+  align-items: center;
+}
+.home-photo .elementor-location-header .elementor-element-25be21d2,
+.home-photo .elementor-location-header .elementor-element-58b6b3f9 { width: 100% !important; }
+.home-photo .elementor-location-header .elementor-element-25be21d2 > .elementor-widget-wrap,
+.home-photo .elementor-location-header .elementor-element-58b6b3f9 > .elementor-widget-wrap {
+  justify-content: center;
+  padding: 12px 20px !important;
+}
+.home-photo .elementor-location-header .elementor-element-73f70af3 { width: 100%; text-align: center; }
+.home-photo .elementor-location-header .elementor-element-73f70af3 > .elementor-widget-container { margin: 0 !important; }
+.home-photo .elementor-location-header #nav_menu { width: 100%; }
+.home-photo .elementor .elementor-nav-menu--main > .elementor-nav-menu { justify-content: center !important; }
+.home-photo .elementor .elementor-menu-toggle { margin: 0 auto !important; }
+.home-photo .elementor .elementor-nav-menu--dropdown .elementor-item,
+.home-photo .elementor .elementor-nav-menu--dropdown .elementor-sub-item { justify-content: center !important; }
+/* Keep navigation at its original top-row y; center the logo independently. */
+.home-photo .elementor-location-header {
+  top: 0;
+  transform: none;
+}
+.home-photo .elementor-location-header .elementor-element-634949b3 > .elementor-container {
+  flex-direction: row;
+}
+.home-photo .elementor-location-header .elementor-element-25be21d2 {
+  position: absolute;
+  top: 50svh;
+  left: 0;
+  transform: translateY(-50%);
+}
+.home-photo .elementor-location-header .elementor-element-25be21d2 > .elementor-widget-wrap {
+  padding: 0 !important;
+}
+.home-photo .elementor-location-header .elementor-element-58b6b3f9 > .elementor-widget-wrap {
+  padding: 10px 0 10px 10px !important;
+}
+.home-photo .elementor img.yid-brand-logo {
+  width: 375px !important;
+  min-width: 0 !important;
+  max-width: calc(100vw - 40px) !important;
+  height: auto !important;
+}
+.home-photo .elementor-location-header .elementor-element-25be21d2 { position: fixed; }
+.home-photo .elementor-location-header .elementor-element-58b6b3f9 > .elementor-widget-wrap { padding: 0 0 0 10px !important; }
+.home-photo .elementor-location-header .elementor-element-25be21d2 { position: absolute; top: calc(50svh - 10px); }
+/* Always show category text; center the text group rather than an empty menu container. */
+.home-photo .elementor-location-header .elementor-menu-toggle,
+.home-photo .elementor-location-header #nav_menu > .elementor-widget-container > .elementor-nav-menu--dropdown { display: none !important; }
+.home-photo .elementor-location-header #nav_menu .elementor-nav-menu--main {
+  display: flex !important;
+  justify-content: center !important;
+  width: 100% !important;
+  margin: 0 !important;
+}
+.home-photo .elementor-location-header #nav_menu .elementor-nav-menu--main > .elementor-nav-menu {
+  display: flex !important;
+  flex-wrap: wrap;
+  justify-content: center !important;
+  width: auto !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  column-gap: 46px !important;
+  row-gap: 8px;
+}
+.home-photo .elementor-location-header .elementor-element-58b6b3f9 > .elementor-widget-wrap {
+  padding: 10px 20px !important;
+}
+.home-photo .elementor-location-header #nav_menu .elementor-nav-menu--main > .elementor-nav-menu > li {
+  margin: 0 !important;
+}
+@media (max-width: 600px) {
+  .home-photo .elementor-location-header #nav_menu .elementor-nav-menu--main > .elementor-nav-menu { column-gap: 18px !important; }
+  .home-photo .elementor-location-header #nav_menu .elementor-nav-menu--main > .elementor-nav-menu > li > a { font-size: 12px; padding-top: 8px; padding-bottom: 8px; }
+}
+/* The legacy clearfix became a seventh flex item and added a trailing 46px gap. */
+.home-photo #nav_menu .elementor-nav-menu--main > .elementor-nav-menu::before,
+.home-photo #nav_menu .elementor-nav-menu--main > .elementor-nav-menu::after { content: none !important; display: none !important; }
+/* A single homepage header owns scroll motion, independent of Elementor sticky logic. */
+.home-photo .home-scroll-header { position: fixed; inset: 0 0 auto; height: 80px; z-index: 100; pointer-events: none; transition: background .6s ease, box-shadow .6s ease; }
+.home-photo .home-scroll-header .home-scroll-logo {
+  position: fixed; left: 50%; top: 50svh; display: block; pointer-events: auto;
+  transform: translate(-50%,-50%) scale(1); transform-origin: center;
+  transition: left .7s cubic-bezier(.22,1,.36,1), top .7s cubic-bezier(.22,1,.36,1), transform .7s cubic-bezier(.22,1,.36,1);
+}
+.home-photo .home-scroll-header img.yid-brand-logo { display: block; width: 375px !important; max-width: calc(100vw - 40px) !important; height: auto !important; }
+.home-photo .home-scroll-header .home-scroll-navigation { position: absolute; top: 10px; left: 20px; right: 20px; display: flex !important; justify-content: center; pointer-events: auto; }
+.home-photo .home-scroll-header .home-scroll-navigation > ul.elementor-nav-menu { width: max-content; max-width: 100%; margin: 0 !important; padding: 0 !important; justify-content: center !important; flex-wrap: wrap; row-gap: 8px; transform: translateX(0); transition: transform .7s cubic-bezier(.22,1,.36,1); }
+.home-photo .home-scroll-header .home-scroll-navigation > ul::after,
+.home-photo .home-scroll-header .home-scroll-navigation > ul::before { content: none !important; display: none !important; }
+.home-photo .home-scroll-header .home-scroll-navigation > ul > li > a { padding-top: 16px; padding-bottom: 16px; }
+.home-photo .home-scroll-header.is-compact { background: rgba(255,255,255,.97); box-shadow: 0 2px 12px rgba(0,0,0,.07); }
+.home-photo .home-scroll-header.is-compact .home-scroll-logo { top: 35px; left: max(86.5px, calc((100vw - 1024px)/2 + 62.5px)); transform: translate(-50%,-50%) scale(.333333333); }
+.home-photo .home-scroll-header.is-compact .home-scroll-navigation > ul { transform: translateX(calc((100vw - 100%)/2 - max(24px, (100vw - 1024px)/2))); }
+.home-photo .home-scroll-header.is-compact img.yid-brand-logo { filter: none; }
+.home-photo .home-scroll-header.is-compact .elementor-nav-menu a.elementor-item,
+.home-photo .home-scroll-header.is-compact .elementor-nav-menu a.elementor-sub-item { color: #001F75 !important; text-shadow: none; }
+.home-photo .home-scroll-header.is-compact .elementor-nav-menu > .menu-item-has-children > a.elementor-item::after { border-top-color: #001F75; filter: none; }
+@media(max-width:700px) {
+  .home-photo .home-scroll-header .home-scroll-navigation > ul.elementor-nav-menu { column-gap: 16px !important; }
+  .home-photo .home-scroll-header .home-scroll-navigation > ul > li > a { font-size: 12px; padding-top: 10px; padding-bottom: 10px; }
+  .home-photo .home-scroll-header.is-compact { height: 106px; }
+  .home-photo .home-scroll-header.is-compact .home-scroll-navigation { left: 166px; right: 16px; }
+  .home-photo .home-scroll-header.is-compact .home-scroll-navigation > ul { transform: none; justify-content: flex-end !important; }
+}
+@media(prefers-reduced-motion:reduce) { .home-photo .home-scroll-header, .home-photo .home-scroll-header .home-scroll-logo, .home-photo .home-scroll-header .home-scroll-navigation > ul { transition: none; } }
+/* Feather the compact header into the content instead of an opaque white bar. */
+.home-photo .home-scroll-header.is-compact { background: transparent; box-shadow: none; }
+.home-photo .home-scroll-header::before {
+  content: ''; position: absolute; inset: -24px -24px auto; height: 190px;
+  background: linear-gradient(to bottom, rgba(255,255,255,.96) 0%, rgba(255,255,255,.88) 25%, rgba(255,255,255,.58) 48%, rgba(255,255,255,.22) 70%, rgba(255,255,255,0) 100%);
+  filter: blur(18px); opacity: 0; pointer-events: none;
+  transition: opacity .6s ease;
+}
+.home-photo .home-scroll-header.is-compact::before { opacity: 1; }
+@media(prefers-reduced-motion:reduce) { .home-photo .home-scroll-header::before { transition: none; } }
+.home-photo .home-scroll-header.is-compact .home-scroll-navigation > ul > li > a {
+  font-size: calc(var(--category-base-size, 16px) * .8) !important;
+}
+/* Size settles immediately; only the group position animates, keeping its destination stable. */
+.home-photo .home-scroll-header .home-scroll-navigation > ul > li > a {
+  transition: color .2s ease, background-color .2s ease !important;
+}

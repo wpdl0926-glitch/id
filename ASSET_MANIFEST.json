@@ -1,0 +1,2725 @@
+{
+  "date": "2026-10-02",
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 49,
+      "sha256": "0d01bdccf1017ebc7760f432c40f09f3e78eedbe095f3eade04806cad1ff2023"
+    },
+    {
+      "path": ".nojekyll",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3327,
+      "sha256": "5dfc2003dd8cc44a710961c1c9f965857aa13ddd938fc42bcf7fe057bb937d7a"
+    },
+    {
+      "path": "about-editorial.css",
+      "bytes": 8626,
+      "sha256": "dda53bd44dd8c0dd3dbcacddfa0ca6d117577cb6fb56bc354e7f47c32c3d59fe"
+    },
+    {
+      "path": "about-motion.js",
+      "bytes": 720,
+      "sha256": "03302c6bafb770b101deea4b94b40dd4016a4d94f097f12fcd3b03805802e9f4"
+    },
+    {
+      "path": "about.html",
+      "bytes": 61946,
+      "sha256": "eaa0ba30ba50496217186256091c72586ee31b73f56d2d3dc2eaf2b70454398e"
+    },
+    {
+      "path": "assets/brand/about-university-design-logo.svg",
+      "bytes": 15425,
+      "sha256": "49396227e9638f914c89e17ba502769c84b484c1056db1dd9f09dae50a21fbd0"
+    },
+    {
+      "path": "assets/brand/integrated-design-logo-white.svg",
+      "bytes": 16063,
+      "sha256": "2d968e987cc07ed711369eb5f1e7ddc6bdadac81199936f6e7b6a9585003b1b7"
+    },
+    {
+      "path": "assets/brand/integrated-design-logo.svg",
+      "bytes": 16063,
+      "sha256": "61779e3a7c2626f8f14219dd10ef19340febbbf319a68bc71f89d4642fc15b0e"
+    },
+    {
+      "path": "assets/brand/integrated-design-symbol-white.svg",
+      "bytes": 514,
+      "sha256": "cc583c23bf53578529e4b50bdc0d04ac9c3ec2d7be5222359028e044e29ec24b"
+    },
+    {
+      "path": "assets/fonts/pretendard/LICENSE",
+      "bytes": 4418,
+      "sha256": "d31ddd9f2bed32fd7e302a205cf2380ba0de6529152d239ef99cfb6f261bfc04"
+    },
+    {
+      "path": "assets/fonts/pretendard/Pretendard-Black.woff2",
+      "bytes": 800404,
+      "sha256": "c5fd0c3568fc1368a3edc0d0fbb36df029935954276e3573451b3bae09e27296"
+    },
+    {
+      "path": "assets/fonts/pretendard/Pretendard-Bold.woff2",
+      "bytes": 791156,
+      "sha256": "4609c3356e536fafe38f4add0daeceb3d8595d3057bce13c428c33ddbd43d362"
+    },
+    {
+      "path": "assets/fonts/pretendard/Pretendard-ExtraBold.woff2",
+      "bytes": 793540,
+      "sha256": "dd7c1e156f508eb962acc7a33a7a1896d1e0b71e11156fad96e731689ceb6dc3"
+    },
+    {
+      "path": "assets/fonts/pretendard/Pretendard-ExtraLight.woff2",
+      "bytes": 734392,
+      "sha256": "df43dc9165dff4542114674bcd8b79b7daae6dec004004586d5d076fec6fe2aa"
+    },
+    {
+      "path": "assets/fonts/pretendard/Pretendard-Light.woff2",
+      "bytes": 757000,
+      "sha256": "b7426635cce2ea2b95c9c802e43fba1c620e0dafaf25f737c069b8b4e09fa841"
+    },
+    {
+      "path": "assets/fonts/pretendard/Pretendard-Medium.woff2",
+      "bytes": 778432,
+      "sha256": "d03481330eeba0659ab5b87f25ceb504a35de377dd90a0d0aba2982eb2d05e2c"
+    },
+    {
+      "path": "assets/fonts/pretendard/Pretendard-Regular.woff2",
+      "bytes": 765892,
+      "sha256": "fad853f7f47c6c8b103171e7193fa095708cdcd70850a71d93aa5379e8a61d63"
+    },
+    {
+      "path": "assets/fonts/pretendard/Pretendard-SemiBold.woff2",
+      "bytes": 785856,
+      "sha256": "c863f76a7de5c1ddc1ed8b2fa794964530774592c4f31407a84e2a2ae93f17f0"
+    },
+    {
+      "path": "assets/fonts/pretendard/Pretendard-Thin.woff2",
+      "bytes": 694804,
+      "sha256": "1539755224a64719d5b18406762c476db74fcc299b9e4641ca1e9812fbc7a09b"
+    },
+    {
+      "path": "assets/fonts/pretendard/pretendard.css",
+      "bytes": 1427,
+      "sha256": "1f2aa316ce9abad2cf4a8e8064cb448223a9f1e2493c7b1a02e69cdc5023e22f"
+    },
+    {
+      "path": "assets/home/fashion.webp",
+      "bytes": 241708,
+      "sha256": "9156a0dc0ad9bb2907ccd03496dc1dc0a4361084e6cbb45129ec4323b4568db9"
+    },
+    {
+      "path": "assets/home/music-poster.webp",
+      "bytes": 165824,
+      "sha256": "16e16a663d7d56e2e46fecc9568062833703687d110dd648fb9210130a049a68"
+    },
+    {
+      "path": "assets/home/textile.webp",
+      "bytes": 571526,
+      "sha256": "c8504298860a657fcdb86f64d9dbb75e2ce875ccbc41db6ec8116d3dfe1e89d1"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/plugins/add-search-to-menu/public/css/ivory-search.min.css",
+      "bytes": 6641,
+      "sha256": "5e4d82463aa8389e0f15a7824efd4ff16c9c278bf79075a4b0b46fc156f59bec"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/plugins/add-search-to-menu/public/js/ivory-search.min.js",
+      "bytes": 4580,
+      "sha256": "66d0c8cbacc09ad8746e64ad28d887186d1f060f04c388c2f1102ee346120a8c"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/plugins/elementor/assets/css/conditionals/e-swiper.min.css",
+      "bytes": 5486,
+      "sha256": "196f351ce1a780302b50e7b2404023102d7f555aa518d62ec678829c4b7b1185"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/plugins/elementor/assets/css/frontend.min.css",
+      "bytes": 54666,
+      "sha256": "0a5d398672e25dc7f020f69df92a985481b248a60e301fee232d0c8afd648dc5"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/plugins/elementor/assets/css/widget-divider.min.css",
+      "bytes": 4258,
+      "sha256": "f042f3243af9c3e339447b3aa8acf5776c9c12bf03b67e87013750ca5ad7fb0a"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/plugins/elementor/assets/css/widget-heading.min.css",
+      "bytes": 560,
+      "sha256": "f68e889145cb0e47b7b190b2fdf087a9213a264ad33951512880c9f8bb6d0cd8"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/plugins/elementor/assets/css/widget-icon-list.min.css",
+      "bytes": 10255,
+      "sha256": "1b34d4c7324321e36db5d35f05bb011238a1326f89058a4399d028d1f6c47dd5"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/plugins/elementor/assets/css/widget-image.min.css",
+      "bytes": 214,
+      "sha256": "fb8690e594b2f9b841585895d811e8cb839667a1a63963d1a1cdea11e2aa2abb"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/plugins/elementor/assets/css/widget-nested-accordion.min.css",
+      "bytes": 5206,
+      "sha256": "4ada91f83b55c0318229073b7d8c1a5439d8bab52a6b7199003b5a0a759f416f"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/plugins/elementor/assets/css/widget-nested-tabs.min.css",
+      "bytes": 14818,
+      "sha256": "39f994a027202143ede7e722637e60901de7a07eb84ee84553dfac645406ea64"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/plugins/elementor/assets/js/chunks/accordion.min.js",
+      "bytes": 27640,
+      "sha256": "eed8b17c17ecfa215944acc5f7ce2cda252fae432a38790feb6958c0e706f26f"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/plugins/elementor/assets/js/chunks/alert.min.js",
+      "bytes": 19940,
+      "sha256": "fb38732542d09a63e009347e59387caf77b80747e383840cde9a52cee92393e7"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/plugins/elementor/assets/js/chunks/background-slideshow.min.js",
+      "bytes": 23186,
+      "sha256": "b988fa9f49a827ea9e370928141eea3bbc6de3bb8ba09be948ae80352c3a906d"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/plugins/elementor/assets/js/chunks/background-video.min.js",
+      "bytes": 24570,
+      "sha256": "4bafd11c752be817df7d0a1bf792465c6198e5d957700e64fb6263affb784f1f"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/plugins/elementor/assets/js/chunks/contact-buttons.min.js",
+      "bytes": 36520,
+      "sha256": "6dadb9c4bb9cf569be194cad4f6c4178914e7df1d993ff4d3e66d87132db8c3e"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/plugins/elementor/assets/js/chunks/container-grid-container.min.js",
+      "bytes": 34868,
+      "sha256": "e6e7d57ed85937fb0e7b163d1c0fc27da6123698dceaed743c558429295eaf11"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/plugins/elementor/assets/js/chunks/container-shapes.min.js",
+      "bytes": 21154,
+      "sha256": "68a9a4c480f30589de9826cfc8d68efa8aa8cf5d42485586b99bf55ef86c1108"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/plugins/elementor/assets/js/chunks/counter.min.js",
+      "bytes": 20228,
+      "sha256": "d0f15fb89f96c3f95b25c69c003187276c966cb4ec2fb060175667b752bdc51d"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/plugins/elementor/assets/js/chunks/floating-bars.min.js",
+      "bytes": 36167,
+      "sha256": "c4bb48030a77b22867663e3c6589de18752cc7036047c05c6849324070b2f6a6"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/plugins/elementor/assets/js/chunks/handles-position.min.js",
+      "bytes": 1992,
+      "sha256": "d7de925ceb55af02dd905b88098179eacf347898fa1ad514004d0512cabf10f2"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/plugins/elementor/assets/js/chunks/image-carousel.min.js",
+      "bytes": 1002,
+      "sha256": "ef7af3233638831fee4085f43f2c9f733f5fc9c505694f6d961ba57cab260891"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/plugins/elementor/assets/js/chunks/lightbox-lightbox.min.js",
+      "bytes": 78316,
+      "sha256": "b82b9b986c077b84504806a46d180c2fe65b29cf514ed5db27744c736714b00e"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/plugins/elementor/assets/js/chunks/nested-accordion.min.js",
+      "bytes": 38733,
+      "sha256": "20dc92c8d21341cab979f1b1a2ea249b7a05b0fa1bfa4a0f13c51e40f3b97c44"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/plugins/elementor/assets/js/chunks/nested-tabs.min.js",
+      "bytes": 43389,
+      "sha256": "6e93510a15f216e017fb8a71182a375e934a55f1fa9ba2420e1529d3162bec7c"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/plugins/elementor/assets/js/chunks/progress.min.js",
+      "bytes": 20450,
+      "sha256": "36ecbd5e72a39ee08cc7ec0ee6eae30419e49dfd72fc28b830df2e87b3ac158e"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/plugins/elementor/assets/js/chunks/section-shapes.min.js",
+      "bytes": 21062,
+      "sha256": "28bd7cf05d282e271224f21c922cc1adc1cc22318fff4abb101e326a1352823f"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/plugins/elementor/assets/js/chunks/section-stretched-section.min.js",
+      "bytes": 1057,
+      "sha256": "234201e19453b4a7ed9678ec3b2e8354f1d1c2a7b264c4f072b6a645b6d15499"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/plugins/elementor/assets/js/chunks/tabs.min.js",
+      "bytes": 27597,
+      "sha256": "16d38cf21ba84e3aefb0acbb46ef2dfaf85bbd25fd18813b28802278c18674aa"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/plugins/elementor/assets/js/chunks/text-editor.min.js",
+      "bytes": 20662,
+      "sha256": "a7b26ee1157dd6916bd9a82e218629d8f4fe8e818153289d7ede0286caaf543b"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/plugins/elementor/assets/js/chunks/text-path.min.js",
+      "bytes": 27058,
+      "sha256": "848e62947c7379ab840fd66b922ccad0531c2b5a5f40fed2052d54d95ba3fa6e"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/plugins/elementor/assets/js/chunks/toggle.min.js",
+      "bytes": 27667,
+      "sha256": "82f1aae5bec4881d5ffc737c9b79a75fcc916bac9e9e61e1009414a082fb3458"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/plugins/elementor/assets/js/chunks/video.min.js",
+      "bytes": 23550,
+      "sha256": "5202547ebbd8cab399e4ab5d8bbd389980c2b84b705f6e9fdb5c26e81adcff60"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/plugins/elementor/assets/js/chunks/wp-audio.min.js",
+      "bytes": 916,
+      "sha256": "58ccccc5c7a0546a36074d26db48ada3ffab0eff92580cf3752f5e278cf2ea0c"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/plugins/elementor/assets/js/frontend-modules.min.js",
+      "bytes": 53086,
+      "sha256": "2636846470306c226883fb4ede46a96d71a54454d6c8b1bd9e26e6baf72db965"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/plugins/elementor/assets/js/frontend.min.js",
+      "bytes": 60022,
+      "sha256": "bbfe6403b4ddba29284c72d20f000154d04588d60850fc39a6fd65861c6d83e6"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js",
+      "bytes": 103,
+      "sha256": "8d2011a2a7c0d96582f8495b69b6e5f56432ed8b5095cf7aac7e2f259ea2fbfb"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/plugins/elementor/assets/lib/animations/styles/fadeIn.min.css",
+      "bytes": 77,
+      "sha256": "d9c370831c74b1850d70f5b1c99453d6cda21e5099428a3f21c43bd96c3acb5d"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/plugins/elementor/assets/lib/animations/styles/fadeInLeft.min.css",
+      "bytes": 137,
+      "sha256": "26b6a7dd6f4bc210d8d1f180e5cc29393c02ada9e66e2b5e6ec5207035d8d7ea"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/plugins/elementor/assets/lib/animations/styles/fadeInRight.min.css",
+      "bytes": 139,
+      "sha256": "80a88126612557f5c61f6cc39ca0f8770127d55b477ed38933ebbb2f385ea214"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/plugins/elementor/assets/lib/animations/styles/fadeInUp.min.css",
+      "bytes": 130,
+      "sha256": "7263363f11b6184fe306b05a849db2de5a674258610578e594068bec72b4f2a9"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css",
+      "bytes": 22263,
+      "sha256": "94d234ca25fb17240b2f6dc209d697efaeb5101479a7c17a01b45ed218688c1b"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.eot",
+      "bytes": 241948,
+      "sha256": "370b9a40e0ede1998a6216a71aa1758aad364501e8d49e4d6a48fd045c60f56f"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.svg",
+      "bytes": 372813,
+      "sha256": "634665000157e91c48a30f38dd154f101a7e18667b975e990cf76be6926e48b3"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.ttf",
+      "bytes": 241788,
+      "sha256": "1885a4223aca0f98da9bee90da6f9e450680ede9c6e6c06863507d48499e6d45"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.woff",
+      "bytes": 133464,
+      "sha256": "37d6c42f4c2ba9b39cdb6235983e896e0429a956999416f82c7edb77d4f149ae"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.woff2",
+      "bytes": 108152,
+      "sha256": "1d7ab8c66c7fbbf2059cc927b4a2533de146e2cd05179763a55a00e85721b4bc"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/plugins/elementor/assets/lib/font-awesome/css/all.min.css",
+      "bytes": 59323,
+      "sha256": "d472869d88dcd1f306c16eed65ac375af04a185a35ac066cf81db42c6bfe8c91"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome.min.css",
+      "bytes": 58071,
+      "sha256": "fafc4160788beca657ec3e3041976281fb6d54a0e82bb4d22a433f7c6bb8b1d6"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/plugins/elementor/assets/lib/font-awesome/css/regular.min.css",
+      "bytes": 670,
+      "sha256": "a4090dc6f56c0a1f6811984fe16b6b6a6d9548a8f892eac930b9d6d795dd4555"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/plugins/elementor/assets/lib/font-awesome/css/solid.min.css",
+      "bytes": 662,
+      "sha256": "69e7f7c08eb85c32aa635318b0c7fb49c734faef5c76a05e6e32475f80b32a2b"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/plugins/elementor/assets/lib/font-awesome/css/v4-shims.min.css",
+      "bytes": 26702,
+      "sha256": "c55902832fb84522d02ea1a60a30747403a140d8651fa748f13ba398b0c0df3a"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/plugins/elementor/assets/lib/font-awesome/js/v4-shims.min.js",
+      "bytes": 15073,
+      "sha256": "6f35273b8502706ee06854d797337ab40bc1b3a7421960a2ceb5392ac85a0f54"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-brands-400.eot",
+      "bytes": 151556,
+      "sha256": "52633a4bd205e19c3cd09c8d2ee281557bc6242a99e7f69cad6c49a4d1fa9c06"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-brands-400.svg",
+      "bytes": 749223,
+      "sha256": "5accc59868cdb3e81386c2f325823e8a82ce3b553912e2d43fb9abb4cd5a1e94"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-brands-400.ttf",
+      "bytes": 151368,
+      "sha256": "7c6ce17d6e55fb2b5267880fd0939c7e2be6de99bb57fa56a7fe2f40146c0137"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-brands-400.woff",
+      "bytes": 97804,
+      "sha256": "284ec4299d1c93376385ef74c2aeaf7af4e1c6e63f5163a5e1e85ab4c5c79d76"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-brands-400.woff2",
+      "bytes": 81612,
+      "sha256": "6b2680fab784d245cbb23d3b51e8d18740e8fc1c7c1c8eadcf0b2b7612125ff8"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-regular-400.eot",
+      "bytes": 34034,
+      "sha256": "cf83ffb8cf0023bd439dfdd5d02f1954b6ee027e85897d6cfc5f90bbca9ec1d2"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-regular-400.svg",
+      "bytes": 144714,
+      "sha256": "2326849b6c3dfa217a0e9ecaec9553c910a4e2987c87315c85073d2b95a484f3"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-regular-400.ttf",
+      "bytes": 33736,
+      "sha256": "c651b8a67d3193206f622c3c3b0fbca4a2f2727108c4212b52c1e2a2e84c9b31"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-regular-400.woff",
+      "bytes": 16276,
+      "sha256": "14c9db4ff87fde08f67b0a69dd594bab6d87174812a0dbd34c59833bfed8cc0e"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-regular-400.woff2",
+      "bytes": 13276,
+      "sha256": "8afc6e5e842baab16010c2ce6fcf48ec4ded8e1579a37c1f1bc027e120d04951"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-solid-900.eot",
+      "bytes": 203030,
+      "sha256": "75a761159ae266c5332a4f266e07a5543712ffb76ee0260b07782195c04dc364"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-solid-900.svg",
+      "bytes": 918991,
+      "sha256": "fa498fb2596a5235c5c86d7b68a7fbe76e9855c01af4b0e5ab41c41047c648e0"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-solid-900.ttf",
+      "bytes": 202744,
+      "sha256": "3d06af1f31cd83ace7a265a014b8fb5dee15770ecac8f7a55555190e627e03c2"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-solid-900.woff",
+      "bytes": 101652,
+      "sha256": "74edc18b67c487e32f181719fdb347e2e77020744651f446e9acd7bd6821e2e7"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-solid-900.woff2",
+      "bytes": 78196,
+      "sha256": "d0b4256abed72481585662971262eabee345c19f837af00d7ce24239d3b40eef"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/plugins/elementor/assets/lib/swiper/v8/css/swiper.min.css",
+      "bytes": 16471,
+      "sha256": "fe720d9340c52a7e44bce8f36ce733f03b8f567be85baccf4fb495e3946aec59"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/plugins/elementor/assets/lib/swiper/v8/swiper.min.js",
+      "bytes": 143709,
+      "sha256": "2ac3af00c283c0b2ae6108fa83a2053e51274a2a812fb063916cbe19bc4f96b5"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/plugins/elementor-pro/assets/css/modules/motion-fx.min.css",
+      "bytes": 778,
+      "sha256": "830e206b42444c7bad7bf3ce729c00a11e0f4cb76b01f94f2d5d2c4578f7ee79"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/plugins/elementor-pro/assets/css/modules/sticky.min.css",
+      "bytes": 162,
+      "sha256": "6f0b2e96bd88c2d8512dfd204adaf2251376467a1f834a51c66ce85f0051979d"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/plugins/elementor-pro/assets/css/widget-loop-common.min.css",
+      "bytes": 207,
+      "sha256": "6aaf6a6c5fe4f649ce0dc34f941062b49ee4018c9f2284c1fca15c50aa246877"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/plugins/elementor-pro/assets/css/widget-loop-grid.min.css",
+      "bytes": 13218,
+      "sha256": "731b23c86dd64aae5799f075864c86fe74aba3e328e3b7b75261f28847751cd9"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/plugins/elementor-pro/assets/css/widget-nav-menu.min.css",
+      "bytes": 27363,
+      "sha256": "69061e12c6aa3e208878769bf08de7f55f88a0610f079a4978085d840d92620d"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/plugins/elementor-pro/assets/css/widget-post-info.min.css",
+      "bytes": 559,
+      "sha256": "5bd7d887af05323d3ca31f766517631b098ddd08fdecfc95336ebb362ba85039"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/plugins/elementor-pro/assets/css/widget-post-navigation.min.css",
+      "bytes": 2511,
+      "sha256": "21f8d75fc882da2c45196f770a1561eadbfc22e93482918602a84d6569f3bcd0"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/plugins/elementor-pro/assets/css/widget-posts.min.css",
+      "bytes": 17060,
+      "sha256": "b8007324234ad90768859716c75e8b7135ca7699b3a5f88900093133cf238d3c"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/plugins/elementor-pro/assets/js/elements-handlers.min.js",
+      "bytes": 291601,
+      "sha256": "eaa8df312cfc2eeba8b360c9170f79931697e81280d8c42945f064c68b09f393"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/plugins/elementor-pro/assets/js/frontend.min.js",
+      "bytes": 80170,
+      "sha256": "afae2c2ce9aeff27675236f128c7e2008ba76e1c456b6107e61235f08350ea51"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/plugins/elementor-pro/assets/lib/smartmenus/jquery.smartmenus.min.js",
+      "bytes": 24109,
+      "sha256": "f9b60ae2f2938c589960ef00d9b9a644f0847f7183f597cdc3fbf8cfe904c552"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/plugins/elementor-pro/assets/lib/sticky/jquery.sticky.min.js",
+      "bytes": 3721,
+      "sha256": "34bbd1c367ffc7d80fcff86c7e5f8777e70f4911bb324e8ecfc7dd3604a96e68"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/plugins/elementskit-lite/libs/framework/assets/js/frontend-script.js",
+      "bytes": 40,
+      "sha256": "b8166c5475df6a64ab2456e95f64564164ed697d258e8bfed8cebca40efd6fa5"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/plugins/elementskit-lite/modules/elementskit-icon-pack/assets/css/ekiticons.css",
+      "bytes": 82581,
+      "sha256": "e16129467cc9e031278de353166582d9f481cb93e91710a337a35afacb2688e6"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/plugins/elementskit-lite/modules/elementskit-icon-pack/assets/fonts/elementskit.woff",
+      "bytes": 460316,
+      "sha256": "cb469ac03c31f4220b11e359343b26471019b2eb9b86e1a8bbc5fddbe9ba6102"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/plugins/elementskit-lite/widgets/init/assets/css/responsive.css",
+      "bytes": 30347,
+      "sha256": "29fede6db8f45db8a6c7278f0619ef147264940890c4aa07968a69583b189dd7"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/plugins/elementskit-lite/widgets/init/assets/css/widget-styles.css",
+      "bytes": 466177,
+      "sha256": "d57c61ab1f56ae2b4aa790f991ab3320fbdebf8167d3b70dccb7b291b5686426"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/plugins/elementskit-lite/widgets/init/assets/img/arrow.png",
+      "bytes": 201,
+      "sha256": "3e016c23ae51417382b640ae2d19eb48047532c37ad53894bd185586559ccffb"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/plugins/elementskit-lite/widgets/init/assets/img/cross-out.svg",
+      "bytes": 257,
+      "sha256": "7b136998787dd550a20e08b10cce45536da4cc78298ae3049da101a47add15b4"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/plugins/elementskit-lite/widgets/init/assets/img/sort_asc.png",
+      "bytes": 160,
+      "sha256": "595704c3f3cf4cb65c7d9c8508a99e7480e150095473faed31a07c21b13389b8"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/plugins/elementskit-lite/widgets/init/assets/img/sort_asc_disabled.png",
+      "bytes": 148,
+      "sha256": "a65b8f4f84d6427a81c360282fc5394d51bf99dada5f159e6aa0fce3c396825c"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/plugins/elementskit-lite/widgets/init/assets/img/sort_desc.png",
+      "bytes": 158,
+      "sha256": "d08ed0e21f187dd309030d465224da8085119a15a17d616ba0e477bb50c6f10d"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/plugins/elementskit-lite/widgets/init/assets/js/animate-circle.min.js",
+      "bytes": 681,
+      "sha256": "a8642bcd147ba3528345f5bd17f788cd524931e093255b2c1c8344677a1ab505"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/plugins/elementskit-lite/widgets/init/assets/js/elementor.js",
+      "bytes": 20607,
+      "sha256": "3507bfa9a11f5509e107ccbd193a2153a8c294f22f6397e4fff00a0f738df163"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/plugins/elementskit-lite/widgets/init/assets/js/widget-scripts.js",
+      "bytes": 137522,
+      "sha256": "5d36a8c2ca17364f3d85cbae5d3f4866e3c4f8e27ae133a803d3276f6a47e0a5"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/plugins/essential-addons-for-elementor-lite/assets/admin/images/templately/logo-icon.svg",
+      "bytes": 699,
+      "sha256": "965143642974d94db23db88bc59a1b3d6c507bbec8bd319b56aa825bd8305fe4"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/plugins/essential-addons-for-elementor-lite/assets/front-end/css/view/general.min.css",
+      "bytes": 7746,
+      "sha256": "96102022182a1acb5f4755104dd3f246c5826140767d6da628271ba0e2b0068e"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/plugins/essential-addons-for-elementor-lite/assets/front-end/js/view/general.min.js",
+      "bytes": 11619,
+      "sha256": "585917c6ed03b50a253ade6bfd34bd68ce059c29366b188e0bce4de3936791dc"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/plugins/essential-blocks/assets/images/placeholder.png",
+      "bytes": 6473,
+      "sha256": "e7329177532cdcce031ac84880a6a01c725284d7cf49117146f39a06fd709ece"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/plugins/essential-blocks/assets/js/eb-blocks-localize.js",
+      "bytes": 54,
+      "sha256": "a9eb2252b8a56c72d4bf19d669f920f6ae1db4653c4b07bf7fbc4785cd82afa4"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/plugins/post-views-counter/css/frontend.min.css",
+      "bytes": 1058,
+      "sha256": "0d585aebb9cb31821fbcc6b030e0d882b5639e17bb403f8eb5ce7b3b19f4a1c9"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/plugins/the-plus-addons-for-block-editor/assets/css/extra/fontawesome.min.css",
+      "bytes": 58769,
+      "sha256": "3227c2b694746e26ae3a2ee0099b5663ced9ffb52c69816a4dc8086db1b1c1ca"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/plugins/the-plus-addons-for-block-editor/assets/fonts/fa-brands-400.eot",
+      "bytes": 134622,
+      "sha256": "1595911f7d7e3430945d3c823754aa30d254ad2ebaf216a117f7991196019029"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/plugins/the-plus-addons-for-block-editor/assets/fonts/fa-brands-400.svg",
+      "bytes": 733939,
+      "sha256": "d210d1fee6de9110164a28cadc3f46c7b4e4fa10cff1779ab7c47547f9a2777c"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/plugins/the-plus-addons-for-block-editor/assets/fonts/fa-brands-400.ttf",
+      "bytes": 134316,
+      "sha256": "e921ebaf9600a4f1479bbf9f81e88f07b4bec09bc20ee8a5ed626f3bd047819a"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/plugins/the-plus-addons-for-block-editor/assets/fonts/fa-brands-400.woff",
+      "bytes": 90672,
+      "sha256": "f25d0a6b737721ebdf8f21e0fb9d81418fe91578e5b81e3bd42e12538c9f3050"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/plugins/the-plus-addons-for-block-editor/assets/fonts/fa-brands-400.woff2",
+      "bytes": 77400,
+      "sha256": "c3803585039a364c639e5c9975bc6ae88529e19e3826133bda5867cecf52a0f7"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/plugins/the-plus-addons-for-block-editor/assets/fonts/fa-regular-400.eot",
+      "bytes": 34350,
+      "sha256": "c5683a17d723115d04012c720fd3a7883991f9b569296f61316c628c69bb6dff"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/plugins/the-plus-addons-for-block-editor/assets/fonts/fa-regular-400.svg",
+      "bytes": 145520,
+      "sha256": "945643e936b94ecc6c73ee94ca110f8f1a9b3c3f1f7437b3c8ba173138b670ad"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/plugins/the-plus-addons-for-block-editor/assets/fonts/fa-regular-400.ttf",
+      "bytes": 34052,
+      "sha256": "1769572028dc4d8fbc422414ca44947b4a156321f814eedefe4ec8d39173fb24"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/plugins/the-plus-addons-for-block-editor/assets/fonts/fa-regular-400.woff",
+      "bytes": 16780,
+      "sha256": "88e29634cb22a2ec9d7c5f56ab3b59e2d80b5179b58905cf6ac3ec1e107933b8"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/plugins/the-plus-addons-for-block-editor/assets/fonts/fa-regular-400.woff2",
+      "bytes": 13588,
+      "sha256": "2a0bfd94d11fa4c4d3e4d2e831e3a73e3b44eb3b897d1e954e64a793d1bb43b6"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/plugins/the-plus-addons-for-block-editor/assets/fonts/fa-solid-900.eot",
+      "bytes": 204266,
+      "sha256": "8be12b61c4b4cbf5a31a59a015b16049015ae0377c7887325f4026a5b2c674fa"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/plugins/the-plus-addons-for-block-editor/assets/fonts/fa-solid-900.svg",
+      "bytes": 919140,
+      "sha256": "163d4187fe140c99832145881bc4f9d279de498cd89d06dc306beb1516510fa9"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/plugins/the-plus-addons-for-block-editor/assets/fonts/fa-solid-900.ttf",
+      "bytes": 203980,
+      "sha256": "f9f0aa6a61411c7552959ab5b0bdc33ef1dedbfbed106b2bae6ad2924903b553"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/plugins/the-plus-addons-for-block-editor/assets/fonts/fa-solid-900.woff",
+      "bytes": 104004,
+      "sha256": "7c98014b448fce84f58e5268e51e1d48da7cbc2ae318930505edbfb5831fc7f1"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/plugins/the-plus-addons-for-block-editor/assets/fonts/fa-solid-900.woff2",
+      "bytes": 80148,
+      "sha256": "0478350058bfa93f94f373c6cde4fe9a4d72edd799e555996a2f6bfa63724b39"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/themes/hello-elementor/assets/js/hello-frontend.min.js",
+      "bytes": 3164,
+      "sha256": "7f161501494bc2f199eaf414c3104318a00e2072f272ebce45540eef58cfb08b"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/themes/hello-elementor/style.min.css",
+      "bytes": 6051,
+      "sha256": "bbdb1eb69c6b5cbffaf1be2df2bcbd4a97d2823de9f4b856aae722900a5e27c7"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/themes/hello-elementor/theme.min.css",
+      "bytes": 15672,
+      "sha256": "eee1ce2620eaf7f585a69794864001be0bde74b874d6a18b9f2d11f074229f2b"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/2023/03/B57A0987-1024x683.jpg",
+      "bytes": 135485,
+      "sha256": "d0f10805fbe545ded1ba9c8d42c7c4b03502532cc92d79ca8ada5396dab1e238"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/2023/03/B57A0987-1536x1024.jpg",
+      "bytes": 233480,
+      "sha256": "4fbb68485f2ce687c21df70152d8a94d77a12e0fa4d77264167ce936320f227d"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/2023/03/B57A0987-2048x1365.jpg",
+      "bytes": 358711,
+      "sha256": "e0fde8e558bca7a258d588607cea8266936570b8c94a7fca83e04ee4c83cf320"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/2023/03/B57A0987-300x200.jpg",
+      "bytes": 36469,
+      "sha256": "c288abce5954c7ef45befab97dc96c7ac8a76ee8e984de645ba8c8399495cab3"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/2023/03/B57A0987-768x512.jpg",
+      "bytes": 93393,
+      "sha256": "da5ad88a4c14dc82224125a5b9ace5b9f4da23fed31ab0c4f5cf8a8e65c506fd"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/2023/03/logo_kor-300x52.png",
+      "bytes": 10858,
+      "sha256": "d7953f4ffb68237fbc68875749e1553de9a483667fa1cde43e3181f38232bf18"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/2023/03/logo_kor.png",
+      "bytes": 8356,
+      "sha256": "995eaa30dd2b1186537fad5c9a2e130f195ed01511061c9946ffb357215341f8"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/2023/07/1656244617889-9_crop-1024x341.jpg",
+      "bytes": 77012,
+      "sha256": "478735d08cf9612bd06a2a4e176a16d02c8d36f17c2f30bcfd16e130700491f3"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/2023/07/1656244617889-9_crop-1536x512.jpg",
+      "bytes": 164011,
+      "sha256": "f6cf9ca5a73eda8c74df16721c953120a8849b879d06cf7836fdc0529820a434"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/2023/07/1656244617889-9_crop-2048x682.jpg",
+      "bytes": 282603,
+      "sha256": "656c2415968f6897045ef500c5366b44365844d86d54ecfc3a17b0759d8a292b"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/2023/07/1656244617889-9_crop-300x100.jpg",
+      "bytes": 10622,
+      "sha256": "510eff9e941520eedf4b9967704e0ce5efbd1d6c57701f4de08842e1ee9bea7c"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/2023/07/1656244617889-9_crop-768x256.jpg",
+      "bytes": 46511,
+      "sha256": "a147e9d428526b6ee3025bcb456f64f0abf5f28823b03b2cfb580773e445865e"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/2023/07/1656244617889-9_crop.jpg",
+      "bytes": 234490,
+      "sha256": "426108dc16ddc30f139e4f5cfb67c5965db66b96070304a1571fb70bb13c97cb"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/2023/07/Artboard-1-copy@2x-1024x590.png",
+      "bytes": 151433,
+      "sha256": "65341fd84b283f8774ca2fffdab536ced4c22beb6db17a9fd4bdb9211e66bffd"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/2023/07/Artboard-1-copy@2x-300x173.png",
+      "bytes": 33586,
+      "sha256": "472c53b44e5e45bb5a6aa5cda96e10729a73632ca6920e2c5956a58556112be2"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/2023/07/Artboard-1-copy@2x-768x442.png",
+      "bytes": 110439,
+      "sha256": "0b53cd8c350f3d8786a82b15dd16489a36f5cbeeee2a42d916021f9e5cd963e7"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/2023/07/Artboard-1-copy@2x.png",
+      "bytes": 70627,
+      "sha256": "64241ca6c3369f29661bc045c1a6bb1fe9748b11310721f7b77683c7732c9b4e"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/2023/07/Artboard-1@2x-1024x322.png",
+      "bytes": 46087,
+      "sha256": "329b80ddcc202fdb75c6c62c8dd85f00b8b8102f8423c5b65b085e3ba5fe0a92"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/2023/07/Artboard-1@2x-300x94.png",
+      "bytes": 10403,
+      "sha256": "8e26dbc6c496e0c0af793ab2b74021ab7227b12a2209565ba831a82b0d2ee28c"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/2023/07/Artboard-1@2x-768x241.png",
+      "bytes": 33711,
+      "sha256": "9ffafefe8889dc20182bd43e9e01534ee0096dc7b973c717df190ca9df17af91"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/2023/07/Artboard-1@2x.png",
+      "bytes": 26819,
+      "sha256": "e07ce231b1e9eef7642ffec14207db77c03a1b8122927006f68c3bffe711390e"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/2023/07/B57A0543-1024x683.jpg",
+      "bytes": 77353,
+      "sha256": "778bf98cb0f3f586faed9a5a8ee868793823a8848c00d9eb4f93a482121d30df"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/2023/07/B57A0543-300x200.jpg",
+      "bytes": 13954,
+      "sha256": "a8a196044aa61f8047adc2c64cc7cd01f0cedc57bb93c7274c1c16565d15e070"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/2023/07/B57A0543-768x512.jpg",
+      "bytes": 51025,
+      "sha256": "8dbeadfeff1c74e9a39e39127f4569ccd3f36326e716fea97c8a1ba47d47269a"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/2023/07/B57A0543.jpg",
+      "bytes": 51469,
+      "sha256": "aa2dcac7ccd540466c695650c9c3ea4f8a39976dbb45bae9f8ba7ee825b460e3"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/2023/07/B57A0888_crop-1024x341.jpg",
+      "bytes": 49176,
+      "sha256": "bf57d8e0c9d1153fb0227d70546106d01e86cd7938aeebbac0413be91e2be014"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/2023/07/B57A0888_crop-1536x512.jpg",
+      "bytes": 96047,
+      "sha256": "8e05d4612893381f1764c6c8a1dba8fe5dd66c4c7454d99f439ed736857a0d7f"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/2023/07/B57A0888_crop-2048x682.jpg",
+      "bytes": 154078,
+      "sha256": "ef2c965f262a4d8f4d85f298aae3a6886defff9051425f1ebcfef7eaa336049f"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/2023/07/B57A0888_crop-300x100.jpg",
+      "bytes": 7557,
+      "sha256": "f580199e79fa82fb9184a248be436019d424b76dbdbc333279fdab45469dc433"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/2023/07/B57A0888_crop-768x256.jpg",
+      "bytes": 30358,
+      "sha256": "2273d4aa93729ca37d36f7eecb60dfc1e22b8d690c57a734ed71333bd01bccf2"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/2023/07/B57A0888_crop.jpg",
+      "bytes": 117523,
+      "sha256": "a61aba516309cfdf51dfd6d87f016e522beb9b5dd9750f573ba23780743b0ae1"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/2023/07/B57A1141_maincrop-1024x598.jpg",
+      "bytes": 124544,
+      "sha256": "0ab89f45dd32cdf4b9590562e4ae9b3ab3fc1d7546232c5e22a0c6d05bcf0c34"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/2023/07/B57A1141_maincrop-1536x896.jpg",
+      "bytes": 248277,
+      "sha256": "78d91334e59b78e1d633164b7639fecda8c4d402b268985542ae270299a9e9fc"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/2023/07/B57A1141_maincrop-300x175.jpg",
+      "bytes": 13906,
+      "sha256": "604e22ee505a4000300a6dd254cd8b70ad0ce717ec32060f0358e9c2a90d02c9"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/2023/07/B57A1141_maincrop-768x448.jpg",
+      "bytes": 73153,
+      "sha256": "27d633e5b03d451fbab4a24fc5e98c47ba01277fcf94cdb6be1e4dfe99303c7b"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/2023/07/B57A1141_maincrop.jpg",
+      "bytes": 219631,
+      "sha256": "fa9015b88a5a4bc0cb06c50ce6851b7718b6ad64dac6ab323734379451611ed1"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/2023/07/B57A1781-1024x683.jpg",
+      "bytes": 107069,
+      "sha256": "fe861a42d9c64933d2a7d1f1b2b04e17655a6729158b92eb9bd31d245e1fca01"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/2023/07/B57A1781-300x200.jpg",
+      "bytes": 17211,
+      "sha256": "21c3f1e2efedb9be6f1857af143f1bed6c8c8207dbbc329c5febda27589de267"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/2023/07/B57A1781-768x512.jpg",
+      "bytes": 69338,
+      "sha256": "09025f786b36180aea2314d31a3451872b796c3a82377332aff0373f146edd72"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/2023/07/B57A1781.jpg",
+      "bytes": 73940,
+      "sha256": "4a93e4c027892d0eed6a9477e1be6484c66a99a1e6ac963d922aa78184d95784"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/2023/07/B57A2317_crop-1-1024x341.jpg",
+      "bytes": 87572,
+      "sha256": "7f4fb8afc308126647eee8e9db07a845546c7df1757dc8d92ab106ca414d3a56"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/2023/07/B57A2317_crop-1-1536x512.jpg",
+      "bytes": 175621,
+      "sha256": "97eb4f5ee33a0dd93eb7108f71673d7fe4e5948805d3e1ff63d20a41001e5173"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/2023/07/B57A2317_crop-1-2048x682.jpg",
+      "bytes": 286485,
+      "sha256": "1646921641613f4b1a83f6f8491123bdeeb4adfa2d252990dd268351a3577a89"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/2023/07/B57A2317_crop-1-300x100.jpg",
+      "bytes": 11058,
+      "sha256": "cb1d62ebf45619eb5f2559cd0d3131e4a4eb343265a0cefd6791f871da947201"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/2023/07/B57A2317_crop-1-768x256.jpg",
+      "bytes": 52527,
+      "sha256": "e58a174878f18fa5aab77ce90eefd0f28e577f0d66c3347e2b1a8c6a7756b3fe"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/2023/07/B57A2317_crop-1.jpg",
+      "bytes": 279781,
+      "sha256": "4ce85afcb3a6fa3b83c7f9f8134e7df18aeb2dd108619be1e0e7eafcab9c2a27"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/2023/07/B57A9592_crop-1024x393.jpg",
+      "bytes": 66627,
+      "sha256": "3173f6e11ecbae5c0c0ad856b786a203e07f29531bcdea410e381db3a867c6a4"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/2023/07/B57A9592_crop-1536x590.jpg",
+      "bytes": 130175,
+      "sha256": "fe6d14ff0e5c1ad2606a66aea067883ca5aa5526e2c8ce1337c8eab51d2f0994"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/2023/07/B57A9592_crop-2048x786.jpg",
+      "bytes": 206962,
+      "sha256": "da9af9f162f9e2b9383849d66a5952b77e2db5c459a54938d2e8626220f268d6"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/2023/07/B57A9592_crop-300x115.jpg",
+      "bytes": 10360,
+      "sha256": "66ad831dd8b84992864593d894a0ff3f1544f825c8311510264f1f290ea1e43a"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/2023/07/B57A9592_crop-768x295.jpg",
+      "bytes": 41764,
+      "sha256": "5f10382b68213238a353f8c67fd3eee311b61cd3bd46b80915255159a5201ae2"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/2023/07/B57A9592_crop.jpg",
+      "bytes": 165239,
+      "sha256": "10ff4e25372010166de3a6aefaa32c9d373e77d8dd67eec53babf9fe0ab97383"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/2023/07/B57A9761-1024x683.jpg",
+      "bytes": 135949,
+      "sha256": "45ee24e967be77f346d8dbeb701d6caab740222e62983389d5d72bcdb5998062"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/2023/07/B57A9761-300x200.jpg",
+      "bytes": 20934,
+      "sha256": "82ea948b67cdddf05012480513179aa8084d4e33c84f3e7f16a3131c21817831"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/2023/07/B57A9761-768x512.jpg",
+      "bytes": 87307,
+      "sha256": "8171d6ee310d313945058c492364ea892bdc1204e75b70ef57ac1bada4e8632f"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/2023/07/B57A9761.jpg",
+      "bytes": 90204,
+      "sha256": "25cd8f7e11ec140fc1edbf252880b37f62c08653dc38016635908c46d764b94c"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/2023/07/IMG_3236_crop-1024x393.jpg",
+      "bytes": 65677,
+      "sha256": "0eed0b3317ee9636a71be04f8fdd96f49e8a63b7ac52898d6ae96a424fa267bf"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/2023/07/IMG_3236_crop-1536x590.jpg",
+      "bytes": 125330,
+      "sha256": "d8c787f8068a90a878da23d2c83a0f4a9a0292cf6b947e68b82270bbefbf2235"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/2023/07/IMG_3236_crop-2048x786.jpg",
+      "bytes": 194828,
+      "sha256": "ef923090bebc69209c40e559f50a2342b499fa479431ca246c74f8410a30fbd2"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/2023/07/IMG_3236_crop-300x115.jpg",
+      "bytes": 10055,
+      "sha256": "947920da3a74a540dcef229be77a751d6f19a0700bc7f5f42ce941e59a84f2a3"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/2023/07/IMG_3236_crop-768x295.jpg",
+      "bytes": 41387,
+      "sha256": "09c35a3d881963671f36d45f2139809631438e8e0ff6e5744e715cd787f47d2d"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/2023/07/IMG_3236_crop.jpg",
+      "bytes": 149156,
+      "sha256": "d0fed70a7f0cc6cb1933d5eeaba2ccfee698c4da34273b341a9b236fd06a0193"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/2023/07/IMG_3396_resize_230730-1323x1536.jpg",
+      "bytes": 405414,
+      "sha256": "9e4c94403ea789b8ae0be8d99763e3c7618cbcbcced970ebc98b1cf32f159a63"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/2023/07/IMG_3396_resize_230730-258x300.jpg",
+      "bytes": 22475,
+      "sha256": "0f29feb1839631c201e5ebdc6ef09065630a46ba24fa0337c913dd04f9940305"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/2023/07/IMG_3396_resize_230730-768x892.jpg",
+      "bytes": 157105,
+      "sha256": "3b784eba9db532eaf31ecd339c7013a0304f9722979921728c7bb85eeb7c9115"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/2023/07/IMG_3396_resize_230730-882x1024.jpg",
+      "bytes": 202997,
+      "sha256": "31d03dd8a1b1e2c19da76761db586478b8d7917c336ed32b0557bb958810b99a"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/2023/07/IMG_3396_resize_230730.jpg",
+      "bytes": 331619,
+      "sha256": "6ce636c07a64dc0996804c73fbecf7d96e471f81c2e1a09783f1e6ea730c8438"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/2023/07/IMG_4341_crop-1024x341.jpg",
+      "bytes": 60844,
+      "sha256": "84c840082385655819ea96497a3df675b6f937582fffd19a2c6768c472695b51"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/2023/07/IMG_4341_crop-1536x512.jpg",
+      "bytes": 117725,
+      "sha256": "d0e8f04bb9d083be8d21c2de352ce923831994f17ef742bad5c5d3712fc6eadb"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/2023/07/IMG_4341_crop-2048x682.jpg",
+      "bytes": 184884,
+      "sha256": "a1489ca22d34fd42cf846816dbef068c3ea6ab75350f17bf7d418b1d93e5a262"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/2023/07/IMG_4341_crop-300x100.jpg",
+      "bytes": 9365,
+      "sha256": "2088f8e0d644b6304c183d657ae009f927202c3aae1ece3c11d0b6e9f0feffd8"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/2023/07/IMG_4341_crop-768x256.jpg",
+      "bytes": 38025,
+      "sha256": "c4c64d492d30c1da68ac526602c234111ffecdc0ac5497abc0a78dee2cc6fa2b"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/2023/07/IMG_4341_crop.jpg",
+      "bytes": 151257,
+      "sha256": "0fc44a27eb64e1df1423798df20c9eb75b541ba3f5de231d79cb906c2d64ea63"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/2023/07/IMG_7664_crop-1024x341.jpg",
+      "bytes": 77794,
+      "sha256": "d9d249315c2d20e339e6aaa0c3cde63bd9d9a2760635b0b885f7b3e773434b73"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/2023/07/IMG_7664_crop-1536x512.jpg",
+      "bytes": 153750,
+      "sha256": "db6f4f4ba96e477ed5a5a45ecf2470980480970964f2a2ee8897be52f578c8be"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/2023/07/IMG_7664_crop-2048x682.jpg",
+      "bytes": 246249,
+      "sha256": "c35310fa1d981124b0e9c6ed3ed0557c1edcb860bb140886df9366b10782db7a"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/2023/07/IMG_7664_crop-300x100.jpg",
+      "bytes": 10663,
+      "sha256": "e75b4a5d1c766d8dfc9c5a35acea0faee64c58d95ebd2239910a2f442bd23cd2"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/2023/07/IMG_7664_crop-768x256.jpg",
+      "bytes": 47401,
+      "sha256": "4849a09707eaa676132a46060648ebf978fd9e33fafc582074e82448c46f6959"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/2023/07/IMG_7664_crop.jpg",
+      "bytes": 206424,
+      "sha256": "b906347bb8c6a8c63528c8c3fd0397acdfce3c3e79d854d5663771a3bb5a35fb"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/2023/07/김소연교수님-1-300x200.jpg",
+      "bytes": 12537,
+      "sha256": "0f28153e720a37621511dfaea4699b8c59d1e9a575ceb28fe54683bc988a15eb"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/2023/07/김소연교수님-1-768x512.jpg",
+      "bytes": 51971,
+      "sha256": "35963959586186fa67f5df8b5a67ab5191500ca70c83fe33861de3f5a287014c"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/2023/07/김소연교수님-1.jpg",
+      "bytes": 37746,
+      "sha256": "6ba722b34586a24f52f3b84ba17d7764500163692ffdc24508ae3d3e1173e116"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/2023/07/대지-2-copy@3x-8-1024x315.png",
+      "bytes": 44084,
+      "sha256": "c61bdd7c434df90983f2b9bd17c5b2c93d312b3bccf510ecdd791407b9c85090"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/2023/07/대지-2-copy@3x-8-1536x473.png",
+      "bytes": 70164,
+      "sha256": "4317a14c2f877e207412e7c2d649eee6efaf8df368a1ab0f16b0ab5c61606b5b"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/2023/07/대지-2-copy@3x-8-300x92.png",
+      "bytes": 9770,
+      "sha256": "f3a570d11169cfb4b21598f605b4703f230c080f682e3c64fd1dcc985b100374"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/2023/07/대지-2-copy@3x-8-768x236.png",
+      "bytes": 31990,
+      "sha256": "2d15dab1bb2ddb71448dc1e8db48c5390c0edd9aa97d3e684053eef368012946"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/2023/07/대지-2-copy@3x-8.png",
+      "bytes": 18588,
+      "sha256": "2ca36535cc61993cea2c01cbfd1d48d56595f94783e6f213a33160dd68ca1cb7"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/2023/07/백준상교수님-300x200.jpg",
+      "bytes": 15547,
+      "sha256": "1e097de14483f70b057456d12e51390969f4a9916b971b01a185243e3f4e68f1"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/2023/07/백준상교수님-768x512.jpg",
+      "bytes": 72507,
+      "sha256": "f8d704068ce99774571f47aa9bc08a1ab1160d32efd69fe1b959c354c9b3ea34"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/2023/07/백준상교수님.jpg",
+      "bytes": 55137,
+      "sha256": "9946f9dbf37d47f44b6072f197d6d8078e189ec7f06d190efa6a7c19dd43286a"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/2023/07/신현재교수님-1-300x200.jpg",
+      "bytes": 16929,
+      "sha256": "0e914db218d0fc2ccf22ae9975d77575962ca64d8c9524ed4694c4a6cd06a7ff"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/2023/07/신현재교수님-1-768x512.jpg",
+      "bytes": 63925,
+      "sha256": "08d9ed6abd5af42aa845a232517290f9007954340d192cb9b7dc0f982b9d8534"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/2023/07/신현재교수님-1.jpg",
+      "bytes": 47325,
+      "sha256": "5f6d33ca20cdff43211dd5e3d488df95cb0e6f6056a044af2fcf5279560b860b"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/2023/07/앙은경교수님-300x200.jpg",
+      "bytes": 11773,
+      "sha256": "95ad71d00e43cb86e66da5416559d392ed464f1d0add42ceac28bb2ccc83728e"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/2023/07/앙은경교수님-768x512.jpg",
+      "bytes": 43444,
+      "sha256": "85d790b9061e53f08fc7f46b48a2f8fe5d8fb59cd5e69fee7d86e710f930d148"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/2023/07/앙은경교수님.jpg",
+      "bytes": 29481,
+      "sha256": "134b5e0abf339c1fa3c31702c19b69cd4669115c1e12895290d94e71123e5e63"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/2023/07/이상원교수님-1-300x200.jpg",
+      "bytes": 14137,
+      "sha256": "47b0c55563953e4c002d8d5e86645123044eaafac65750256543edbc7724225b"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/2023/07/이상원교수님-1-768x512.jpg",
+      "bytes": 63883,
+      "sha256": "86d0b1de8e2f9aca3c66d485a5acf43a2ec810e1b4cc2e7c773507ac7eeefc87"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/2023/07/이상원교수님-1.jpg",
+      "bytes": 48987,
+      "sha256": "0078c56e10a0fbdbc95378039aec9487ad5f5599055377faf19a6ab53c3d9419"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/2023/07/이지현교수님-1-300x200.jpg",
+      "bytes": 14269,
+      "sha256": "4ffc39ce2016879f7e621795883011fc30ce73ca81c2e4639934b2649f985025"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/2023/07/이지현교수님-1-768x512.jpg",
+      "bytes": 60814,
+      "sha256": "a69091d55341ce28475f48f45f2d7a02080aad5857c1f88191b44ed7683b3550"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/2023/07/이지현교수님-1.jpg",
+      "bytes": 48944,
+      "sha256": "22728ef705149175afe3f46a8fbd68dd8efdf265211565ee8688e1f024aae085"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/2024/05/백준상-1024x1024.jpg",
+      "bytes": 76912,
+      "sha256": "3d51259572d6f9da31c5e68312e7e6b20a5c0c2250c0d8862df2081a3b185122"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/2024/05/백준상-150x150.jpg",
+      "bytes": 4930,
+      "sha256": "8c07e7b60444b1ecb931f1bf84cec31741512f5c3fa61044bf4ef76aa7d31593"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/2024/05/백준상-1536x1536.jpg",
+      "bytes": 151504,
+      "sha256": "68f3e8d9c81ff9634951e3212a054fa51555ea1587a633dc691106eb4e380fc3"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/2024/05/백준상-2048x2048.jpg",
+      "bytes": 244851,
+      "sha256": "9ffc218780a7f5c3b8cddf6283d8b901e92824aecf7eafe09c784ffa8670ba49"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/2024/05/백준상-300x300.jpg",
+      "bytes": 11761,
+      "sha256": "929556005d3c7a37805eed7a390c227767383de99cbacc8ad367e090568d5d4f"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/2024/05/백준상-700x700.jpg",
+      "bytes": 41900,
+      "sha256": "86a981f86fa8f6e787b99ca741b4534f50974ae0b9f429563c13e269aef12d40"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/2024/05/백준상-768x768.jpg",
+      "bytes": 48064,
+      "sha256": "ce48f84acfc458694b2861d7a4e5ed4acacce1fbaebbff811a76bbe0bf0bc142"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/2024/05/백준상-scaled.jpg",
+      "bytes": 357802,
+      "sha256": "db0160790df6229352a489eae6681b16d6e664f0b46060313a9bcd2d73056e52"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/2024/05/신현재-1024x1024.jpg",
+      "bytes": 75891,
+      "sha256": "6556e9d323b8bcfa5aa5f8dcb588765b21cf5a4af3346cccc29c66684b7fd57a"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/2024/05/신현재-150x150.jpg",
+      "bytes": 4840,
+      "sha256": "9f8d32144ed38d23b3b3baad9f2796e977994dc3a96afb4325c9626f980768bf"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/2024/05/신현재-1536x1536.jpg",
+      "bytes": 156037,
+      "sha256": "2b8d9380c3ebf4c0d36ed32b6245855a5b0c1d5b76de0e8f5ffa3a3e8c0ce643"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/2024/05/신현재-2048x2048.jpg",
+      "bytes": 263637,
+      "sha256": "0dc30a37874aefe34e66a4e761b981f1b04ed14a9420f11cfecab0abc250f954"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/2024/05/신현재-300x300.jpg",
+      "bytes": 11176,
+      "sha256": "c2a5cfb33bc0bb1e51cde1895a292c5f03ecd804af654f811c1a700bc7d6aa9b"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/2024/05/신현재-700x700.jpg",
+      "bytes": 39609,
+      "sha256": "9d07401dcec655d3f1dcef11ec029979e1186260eb6380e8b3b5e65eb1dd7bf0"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/2024/05/신현재-768x768.jpg",
+      "bytes": 46160,
+      "sha256": "0ce4f095126348822ee69970cbfa1a5291b40dfac336186a0cad1859d50e79dd"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/2024/05/신현재-scaled.jpg",
+      "bytes": 397073,
+      "sha256": "d1491af29859593843b3a7f1561d9aeddd03d6e1567bc5f836537404ba54aba6"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/2024/05/양은경-1024x1024.jpg",
+      "bytes": 73593,
+      "sha256": "036f25cc054eb88e42ece12eb9b5064bef9ef7f1f994e0810ddc09188c6a1f95"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/2024/05/양은경-150x150.jpg",
+      "bytes": 4713,
+      "sha256": "7ee7ebe568c67cb3c9d78556cfcf5e3cc0b2646ad242f41e8e2fc025009b9f71"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/2024/05/양은경-1536x1536.jpg",
+      "bytes": 155185,
+      "sha256": "00540a8f52ba994a919550c980a5f3e2ad094c34b963e6c82cfe0c1ffb736907"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/2024/05/양은경-2048x2048.jpg",
+      "bytes": 264271,
+      "sha256": "a1262db1dd5eb4a66e239caa57a7222dc7c14eb79db97b1e2b7dd9169b7ab932"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/2024/05/양은경-300x300.jpg",
+      "bytes": 10671,
+      "sha256": "70713266270bb900758da7c6d4fbaf70c8526e9326c53e7c9bc1b466e85f3f66"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/2024/05/양은경-700x700.jpg",
+      "bytes": 38059,
+      "sha256": "f385066acf38545eef1d8770a04912790ed6f6ef5665fdbb5b3083d332312785"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/2024/05/양은경-768x768.jpg",
+      "bytes": 44504,
+      "sha256": "323088cf607f9b70741fae7e3794fd715e9736542e44d8c2cd0785077b735bb7"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/2024/05/양은경-scaled.jpg",
+      "bytes": 399562,
+      "sha256": "bddf37ec71406bd454eb54f074c0e30551a138d6df6707c7e7bdfd01f2b9dd70"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/2024/05/이상원-1024x1024.jpg",
+      "bytes": 84239,
+      "sha256": "07be4e415900aa06f993828dd6394ff68f0aa631b22d28f1cef0356416e6420c"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/2024/05/이상원-150x150.jpg",
+      "bytes": 4452,
+      "sha256": "b68d25a7f3aa4642f0443393e28f57e25a4d845d257d1b6a2ac63aa9dd8fb311"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/2024/05/이상원-1536x1536.jpg",
+      "bytes": 181642,
+      "sha256": "854d98401c26d1e2f7cb1973126f959aa41bc3d2c5b2c75a55c983e513d8e727"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/2024/05/이상원-2048x2048.jpg",
+      "bytes": 307673,
+      "sha256": "7246137b0a855fcf25a42e3d0bc9ceb42e8e162d90cdd56ef022d71ee180fc6a"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/2024/05/이상원-300x300.jpg",
+      "bytes": 10398,
+      "sha256": "dc2b34ed00e1eceda3f785b34468aecaff49234e92eaf5f66950c1716d9bff8d"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/2024/05/이상원-700x700.jpg",
+      "bytes": 41810,
+      "sha256": "dbae32c40e8baf0a6c86f3cc1f59769e144a3d273270635fc84ba4600ca71726"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/2024/05/이상원-768x768.jpg",
+      "bytes": 49032,
+      "sha256": "561057d003dfc4a45991eda63af110318d1199df4c8d439dd6039f4a6435aad4"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/2024/05/이상원-scaled.jpg",
+      "bytes": 455532,
+      "sha256": "5adbeaabc18b1a73cf6018b16caa281130b88f8a8270e6ee9dfe655c4e5762ac"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/2024/05/이지현-1024x1024.jpg",
+      "bytes": 77545,
+      "sha256": "ba14d5791c8134957f27bf4c404f4baed745c3bfc7f15d07cfad6126f216e5a0"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/2024/05/이지현-150x150.jpg",
+      "bytes": 4739,
+      "sha256": "a688f0a0ee8f564bcda4abe4bcd0e3fa494eaa3d1daff9e3a8423bb474b74113"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/2024/05/이지현-1536x1536.jpg",
+      "bytes": 159433,
+      "sha256": "9fd7b1c2d6548c6283b6938222af1dd6a8df17402ab032d22baedd55a8e6926e"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/2024/05/이지현-2048x2048.jpg",
+      "bytes": 267387,
+      "sha256": "918e90560ccb7c49e77e674bfb40e9576c1acdc36ba13b7026aeb820f5fbe72c"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/2024/05/이지현-300x300.jpg",
+      "bytes": 11218,
+      "sha256": "76b76de1e1e3829f52692071555510bdc8dd3808f9de4aa9ac7703f483f55e72"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/2024/05/이지현-700x700.jpg",
+      "bytes": 41155,
+      "sha256": "ac4fe1f144f2a0c97023af37122acb55602b87668903c7394ab3649067e1f36c"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/2024/05/이지현-768x768.jpg",
+      "bytes": 47580,
+      "sha256": "b64ce58ef6fd8e42ddfda68aa01d4c4daa62faf45e23c8118613f9dd905e5ed3"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/2024/05/이지현-scaled.jpg",
+      "bytes": 398586,
+      "sha256": "6b387f06a6f9d0591db8831278bee1df25ecf14f60360fdcb21701f354bd0cc9"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/2024/05/이현주-1024x1024.jpg",
+      "bytes": 77148,
+      "sha256": "91cf613d3cca1fa51e4b2ebfc0aaae90b5ef6341322b82b5250f56dcfbcab8cd"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/2024/05/이현주-150x150.jpg",
+      "bytes": 4790,
+      "sha256": "e1decd7908cfc8fa86d549de818e413b412d6d73cf4580dd64f6460b1334943d"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/2024/05/이현주-1536x1536.jpg",
+      "bytes": 155716,
+      "sha256": "71eb6050f558adb31f76318031d1cda1b5488e98e0aa1c9a4cd578a9d004dc08"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/2024/05/이현주-2048x2048.jpg",
+      "bytes": 259200,
+      "sha256": "42d719482affb2c15aa71c089ae51bd33c00269a66d2a51f8dd6b307b3a30918"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/2024/05/이현주-300x300.jpg",
+      "bytes": 11403,
+      "sha256": "31ab171fdc5b5e1623743fc0472626ab5e41eefab74613349ef3611078f66770"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/2024/05/이현주-700x700.jpg",
+      "bytes": 41040,
+      "sha256": "e573bcb82fa9b2fdc52b37965a597d70970398f0941a8e96b62e868fa0568e21"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/2024/05/이현주-768x768.jpg",
+      "bytes": 47349,
+      "sha256": "aad1688751d9d58280de68462bff305b324fff99781396a55f35dd76131e7846"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/2024/05/이현주-scaled.jpg",
+      "bytes": 386263,
+      "sha256": "f3b94c4813d932ac1d320362383bf31f3b8c463c421b0469dfea9fdc9170b775"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/2024/06/김영인교수님_crop-BW-150x150.jpg",
+      "bytes": 4175,
+      "sha256": "a0d96502e8e9f77ca2c4ff35ae091a505799059e9e1222033cd1d562a2672aac"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/2024/06/김영인교수님_crop-BW.jpg",
+      "bytes": 8092,
+      "sha256": "c8ba58aedc986172a4babb5935240e41e4f53d8057be8927f3ff111b9df83190"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/2024/06/박영순교수님_crop-BW-150x150.jpg",
+      "bytes": 4593,
+      "sha256": "555cffe5fe16614513ed6cc996d2b59f36a6951c37a986bb9f28fdd6728ba29d"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/2024/06/박영순교수님_crop-BW-300x300.jpg",
+      "bytes": 10988,
+      "sha256": "9d15f4f57b89e8133f416fe037119e5ac3e1ad90e96a2a6a250815159e32c076"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/2024/06/박영순교수님_crop-BW.jpg",
+      "bytes": 26744,
+      "sha256": "d61f6b7caaef954dea85d2f9135b14cdcd96aa01f6d7e41f2b1bf3f1845b8495"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/2024/08/BK21-인간생애와-혁신적-디자인-내규_Ver8.pdf",
+      "bytes": 107225,
+      "sha256": "0e98f44e15b9374bbfbe751112aa7967dd2a28babe18250129a5399be7cf6a5d"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/2024/11/연구윤리-이해충돌심의위원회-운영-규정.pdf",
+      "bytes": 77484,
+      "sha256": "05580da5e9e9e805bb24e717ce06bfbdb5ca7c913c8e6ba0e71af85becee26b2"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/2024/11/연구자-연구윤리-이해충돌-신고심의-절차-안내_페이지_1-vert-scaled.jpg",
+      "bytes": 274084,
+      "sha256": "1487775812ed29f9dcbfa04e721bae6dc2517e43fe8da0cffcf9ab1c6de73926"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/2024/11/연구자-이해충돌위원회-신고-양식.hwp",
+      "bytes": 105984,
+      "sha256": "b945963e23884856666192565a06138778501914a4dd9229cc1d631af57a9ad7"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/2025/03/lab-sj-300x200.png",
+      "bytes": 89646,
+      "sha256": "3c5b7ccae8af027d633492e3d68a761f5e4bb1ae0f79e67f0693d22082f4d029"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/2025/03/lab-sj-768x512.png",
+      "bytes": 524828,
+      "sha256": "12bda0a291fb76d865bb78b6f5639334f2c740ca8c09b3a6fbb852b0c0d25861"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/2025/03/lab-sj.png",
+      "bytes": 565755,
+      "sha256": "8e994ca007083321d668acd39782b9cbbff1f0474e2647bc4a8c788d42bada57"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/2025/05/김소연_프로필1-1-1-1024x1024.jpg",
+      "bytes": 93075,
+      "sha256": "b8ce069c603e4f985a1860b725c02567f2bab9cb1ce469db7afc4e25891dc7e8"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/2025/05/김소연_프로필1-1-1-150x150.jpg",
+      "bytes": 22211,
+      "sha256": "364edf86ede03f6a0a6d1f031d1a0be5e56b4e3600bae6ab4a3667960e0b4f5d"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/2025/05/김소연_프로필1-1-1-1536x1536.jpg",
+      "bytes": 181281,
+      "sha256": "07ef02a59900b593e94d00d850460ffc3412c78df40e40d893e8973bf4255e0d"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/2025/05/김소연_프로필1-1-1-2048x2048.jpg",
+      "bytes": 347522,
+      "sha256": "2b0d8139571b9865af58baf595e219fa4e0621b57b413fd6e2516fd76ee3ae19"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/2025/05/김소연_프로필1-1-1-300x300.jpg",
+      "bytes": 28623,
+      "sha256": "2382cc526022db3eaeb572fb9e332ebcbfc753024f8244fcf4adaf44c2cc6fc8"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/2025/05/김소연_프로필1-1-1-700x700.jpg",
+      "bytes": 55838,
+      "sha256": "944274d7fe048965c5d5106fdfbdeb8f0546938f86c89ad29f6a71807d6dd706"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/2025/05/김소연_프로필1-1-1-768x768.jpg",
+      "bytes": 62298,
+      "sha256": "739c9c4030c5e12a1208c23c1c12e46949508f71406a57c81481b1f09fd47bf2"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/2025/05/김소연_프로필1-1-1-scaled.jpg",
+      "bytes": 635983,
+      "sha256": "df014497242793d3751f7fe5ce4573bf0aadcbfab388fb7337aca2f7243bf0c1"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/2025/05/정승진-_프로필_2025-1-150x150.jpg",
+      "bytes": 7014,
+      "sha256": "32f8e553e3b9968398783ba74f3cc61d12e5610e4cebd5e7c8e5ac722e49cf10"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/2025/05/정승진-_프로필_2025-1-300x300.jpg",
+      "bytes": 13276,
+      "sha256": "6c05aaa602f1313a2a9e2672b8afa1a20f925fa3aa7f15037575df5287691c52"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/2025/05/정승진-_프로필_2025-1-700x700.jpg",
+      "bytes": 40858,
+      "sha256": "6cdd289a8530666c937488e51abd7db6ccbab31f44b4b97ac58f82c7530b21e0"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/2025/05/정승진-_프로필_2025-1-768x768.jpg",
+      "bytes": 46829,
+      "sha256": "161eb5e75c3ab30fb40d88ef344e158ec946df5beb25e9ed22b2430f8679f9c3"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/2025/05/정승진-_프로필_2025-1.jpg",
+      "bytes": 280952,
+      "sha256": "bb5acff0d173b11522f380cde4f95ece4f3d008943faa678b1e06b50f4c3fc71"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/2025/06/2025-전통누리-참가신청서-양식배포용.hwp",
+      "bytes": 46080,
+      "sha256": "ff93b69563e16e96b7c4a0e21b8c6c7c17c2cf15194472294599e5b6943de249"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/2025/12/unnamed-4.pdf",
+      "bytes": 273944,
+      "sha256": "ec35241488707fe0ef7bc551ea603345297eab8318eda86ac5c25da863a20e76"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/2025/12/메일발송용-제3회-연세-PPT-템플릿-공모전.pdf",
+      "bytes": 3428216,
+      "sha256": "3ff3bf6e2ddddbbaecff81cf9c9857cc21eac62326c6a62bd426bcb5f46a33c9"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/2026/02/10학번-이후-졸업요건표_통합디자인학과_202602_v3.pdf",
+      "bytes": 839644,
+      "sha256": "d5439923c7df93a1bc2b7bb953176d4fa0a464ca1618cdab7c6f91a081348e80"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/2026/02/2026-02-02_19h48_50-1-1024x404.png",
+      "bytes": 172380,
+      "sha256": "448e7ad191a873e91421afc12231e39ef0576728e106e7919d44e10a8f0088d5"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/2026/02/image-6.png",
+      "bytes": 35809,
+      "sha256": "5188685749df5ce582d4b1aa1b76ace72130fe24e912367086353ff7bda59444"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/2026/02/통합디자인-대학원내규33차_첨부결합.pdf",
+      "bytes": 431179,
+      "sha256": "1d2f647b19f6e31ec465a12b96233b4af2e4d30c7e727a6cbc05f3e31232cde8"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/2026/04/web-app-manifest-512x512-1-150x150.png",
+      "bytes": 2553,
+      "sha256": "9bdd8dbb3e1fd7a3cc65149634a505ff0d2962a2eb8c3dbeaa2334c52747170d"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/2026/04/web-app-manifest-512x512-1-300x300.png",
+      "bytes": 4983,
+      "sha256": "b6a74aa2ec4bbbb38c17f2de787fc63727165033d925964691845e77b38e2608"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/2026/05/AIorK4wRzUYXoyJpNF2P9xcDWDJBOJ4AaQwG6vnFu-4fCEJ5c5VAc8HjxJNijzl_apDQ74fOUSIFYQbc8n0X.png",
+      "bytes": 12802,
+      "sha256": "db98cb5e7a766c41579617a1b1a27fbb3cbffb46ffcbf42d7e2c357a2e1e2e20"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/2026/06/69251_3414483_1780025617846563208-1024x883.png",
+      "bytes": 200918,
+      "sha256": "27a0c48389cc7bd03f18bd9c2b6fa806aea064213fc92a9d5cc652e6af4457c0"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/2026/06/Samsung_Design_Meet-Up_Poster-724x1024.png",
+      "bytes": 127302,
+      "sha256": "4649cbd7e952d274e4085d161f08488402640d2106c572c57f9a50e0b00306a8"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/2026/06/Screenshot-2026-06-18-at-9.41.53-AM-1024x414.png",
+      "bytes": 168888,
+      "sha256": "6a49975640065da35a6457e756e074ea4f0cbc65130850f70ae2cfaeab744f0b"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/2026/06/image-1.png",
+      "bytes": 15201,
+      "sha256": "9332911aeb34dbc651827dbe74949bed46e5aa4187b262e771b50d7b7440a3ce"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/2026/06/image-5-1024x656.png",
+      "bytes": 775253,
+      "sha256": "0bd275150eba0bfb15806389d6aa0c65f7ec5eaa5e8c723b31f52e0ffd2bc19b"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/elementor/css/post-10.css",
+      "bytes": 15519,
+      "sha256": "d51a82a3c67f24d945682fb6d2b23b3c3498723c896caf8674a52e9d9db8849f"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/elementor/css/post-1312.css",
+      "bytes": 12014,
+      "sha256": "6bb23dada23c8ef6bed8800612451a39d8e403c8b209bca13e797b582f413dbf"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/elementor/css/post-156.css",
+      "bytes": 12906,
+      "sha256": "f331b9ba42ea564f27f532f8c0c147c6c21da5475fe9acee6647f99d99d1dcca"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/elementor/css/post-3181.css",
+      "bytes": 7652,
+      "sha256": "4fc92fe1711324f2004b7554642195a97ad581ffb9fd1dcad505f14d1928b0b5"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/elementor/css/post-3763.css",
+      "bytes": 34660,
+      "sha256": "67a99079a2a966ede828ab89f5b5961af5f93f5f38d3aef75895adcbcfc7c096"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/elementor/css/post-3793.css",
+      "bytes": 105999,
+      "sha256": "3ba0ef48aac31e8db6d4a69d4802c8cb35b325a651099754888b52724ae7c784"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/elementor/css/post-441.css",
+      "bytes": 11698,
+      "sha256": "f390cfd0b9712a36ab720e712c61beb2a8d426a374cfb8912a452014b30cb971"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/elementor/css/post-83.css",
+      "bytes": 10305,
+      "sha256": "a4abb2779c795d5a7e54c46ad729001216a9c1fc28516709342b9348b15606d0"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/elementor/css/post-88.css",
+      "bytes": 30817,
+      "sha256": "616db83cbb2bbbd678bebcc52eb33933dd8645ec0fab2b1b89a371edc513b5c1"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/elementor/css/post-90.css",
+      "bytes": 11987,
+      "sha256": "7f5e6b83bfafeee20eb19fd766a016cd3d58c44833a7add1d86d6b85ac4b237a"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/elementor/css/post-92.css",
+      "bytes": 7142,
+      "sha256": "5485129b113e2e0e1b7df967839d008a803541cf45a77fae3150d3655644ecba"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/elementor/google-fonts/css/notosanskr.css",
+      "bytes": 838179,
+      "sha256": "36d55614a15cfecabfa9c847510659c2d725e4d703fb173720d35b2f91d79f8b"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/elementor/google-fonts/fonts/notosanskr-pbykfmxiebpt4itbgna5cgm20xz64px_1hvwr0wupngmlqnmefd4.0.woff2",
+      "bytes": 34328,
+      "sha256": "1ebf084aef997eb55c18cf3bb75ff59b2e1c0b2e0613d7e5aaf68e52910d9179"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/elementor/google-fonts/fonts/notosanskr-pbykfmxiebpt4itbgna5cgm20xz64px_1hvwr0wupngmlqnmefd4.1.woff2",
+      "bytes": 56220,
+      "sha256": "339d22f0ab80dd1382c003fae9e222dc0b76f20bc5116406ea31d358951095d6"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/elementor/google-fonts/fonts/notosanskr-pbykfmxiebpt4itbgna5cgm20xz64px_1hvwr0wupngmlqnmefd4.10.woff2",
+      "bytes": 20648,
+      "sha256": "550e3a37526e887a57ac2b5fc0fdf3e5e42e42959af2e5508e8a9e863c90fcd4"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/elementor/google-fonts/fonts/notosanskr-pbykfmxiebpt4itbgna5cgm20xz64px_1hvwr0wupngmlqnmefd4.100.woff2",
+      "bytes": 26448,
+      "sha256": "cc21f8e213d7a04722000d179f9540752c9d20049f94157db0cc05e64a26c4f7"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/elementor/google-fonts/fonts/notosanskr-pbykfmxiebpt4itbgna5cgm20xz64px_1hvwr0wupngmlqnmefd4.101.woff2",
+      "bytes": 26144,
+      "sha256": "0d1e7cc14b50b6e02feca864a56c70c536166d22ba22e7b1c53aee68a8887b97"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/elementor/google-fonts/fonts/notosanskr-pbykfmxiebpt4itbgna5cgm20xz64px_1hvwr0wupngmlqnmefd4.102.woff2",
+      "bytes": 25552,
+      "sha256": "7857ad865d9a20dda699faef43d31d1db5d857336d09f9e3bb4a3a5e6dbfb0b9"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/elementor/google-fonts/fonts/notosanskr-pbykfmxiebpt4itbgna5cgm20xz64px_1hvwr0wupngmlqnmefd4.103.woff2",
+      "bytes": 24516,
+      "sha256": "da8091ed6e8f3d3e5ee43a692e145a5dc6a15d4d11bf93bedb3737fd4123cf38"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/elementor/google-fonts/fonts/notosanskr-pbykfmxiebpt4itbgna5cgm20xz64px_1hvwr0wupngmlqnmefd4.104.woff2",
+      "bytes": 28828,
+      "sha256": "736eaf4558e1ebcdfe91becd97cbec4ee6152c96ab377564e11eb8fb1a05267d"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/elementor/google-fonts/fonts/notosanskr-pbykfmxiebpt4itbgna5cgm20xz64px_1hvwr0wupngmlqnmefd4.105.woff2",
+      "bytes": 25284,
+      "sha256": "49ebeea9c5fe843747f99a757528a3e10b03a727b5029f54e56ebb6582828d2c"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/elementor/google-fonts/fonts/notosanskr-pbykfmxiebpt4itbgna5cgm20xz64px_1hvwr0wupngmlqnmefd4.106.woff2",
+      "bytes": 24736,
+      "sha256": "8484bb547fd7923933fce51229ace9711d9a75641d7e7b6e73e813f092a07027"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/elementor/google-fonts/fonts/notosanskr-pbykfmxiebpt4itbgna5cgm20xz64px_1hvwr0wupngmlqnmefd4.107.woff2",
+      "bytes": 18528,
+      "sha256": "650d47593198bae6dd315c94e837be92842999246ade7d34c76db904b1e3c7b4"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/elementor/google-fonts/fonts/notosanskr-pbykfmxiebpt4itbgna5cgm20xz64px_1hvwr0wupngmlqnmefd4.108.woff2",
+      "bytes": 19816,
+      "sha256": "34a8e9d5da002a85149941721daa91bbd79367d7f3e73e6030ecb7938a5b1d57"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/elementor/google-fonts/fonts/notosanskr-pbykfmxiebpt4itbgna5cgm20xz64px_1hvwr0wupngmlqnmefd4.109.woff2",
+      "bytes": 18164,
+      "sha256": "21ea57bdeb270cc6238208e6e749e630d5d7cd1feed33f94f2e88ebca42143c0"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/elementor/google-fonts/fonts/notosanskr-pbykfmxiebpt4itbgna5cgm20xz64px_1hvwr0wupngmlqnmefd4.11.woff2",
+      "bytes": 20344,
+      "sha256": "852746cf6f688a0a219891bda4c1383700a075fa05a7f622059c8aee606754d4"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/elementor/google-fonts/fonts/notosanskr-pbykfmxiebpt4itbgna5cgm20xz64px_1hvwr0wupngmlqnmefd4.110.woff2",
+      "bytes": 17628,
+      "sha256": "0178b135cfa69a63d43ca51da6ff4828a1a6742370585887dd2f1d12bda7fc31"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/elementor/google-fonts/fonts/notosanskr-pbykfmxiebpt4itbgna5cgm20xz64px_1hvwr0wupngmlqnmefd4.111.woff2",
+      "bytes": 17572,
+      "sha256": "4805f70be360d31f5c9b6082c88d3a2358b6d4114001d1a13fe8f934dcd55e08"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/elementor/google-fonts/fonts/notosanskr-pbykfmxiebpt4itbgna5cgm20xz64px_1hvwr0wupngmlqnmefd4.112.woff2",
+      "bytes": 16584,
+      "sha256": "2922efe22dd5a158595e72225f26451d9519151c370798d57beb5ed35e16d812"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/elementor/google-fonts/fonts/notosanskr-pbykfmxiebpt4itbgna5cgm20xz64px_1hvwr0wupngmlqnmefd4.113.woff2",
+      "bytes": 16500,
+      "sha256": "2e9317bf78c710da23081047f4a9000da0edb7c15b3ca8430fe1178a44c7e1f8"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/elementor/google-fonts/fonts/notosanskr-pbykfmxiebpt4itbgna5cgm20xz64px_1hvwr0wupngmlqnmefd4.114.woff2",
+      "bytes": 16328,
+      "sha256": "23569379cafa8528a268cc153cd55ba63a26df6f4590825b63c48379d20e14b4"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/elementor/google-fonts/fonts/notosanskr-pbykfmxiebpt4itbgna5cgm20xz64px_1hvwr0wupngmlqnmefd4.115.woff2",
+      "bytes": 16352,
+      "sha256": "18814fb355896b9a2a70913d2c46fd9a37177b2e116f1713d3ed37e35407e198"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/elementor/google-fonts/fonts/notosanskr-pbykfmxiebpt4itbgna5cgm20xz64px_1hvwr0wupngmlqnmefd4.116.woff2",
+      "bytes": 16276,
+      "sha256": "fcec4dbaead0d33d803ab1b43aa64270e95a307dcc0428cee566f68481f1263c"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/elementor/google-fonts/fonts/notosanskr-pbykfmxiebpt4itbgna5cgm20xz64px_1hvwr0wupngmlqnmefd4.117.woff2",
+      "bytes": 14520,
+      "sha256": "4c979df5250f4c8247ba044652963ab15851b3fca7920ce80f1500efe1a005a7"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/elementor/google-fonts/fonts/notosanskr-pbykfmxiebpt4itbgna5cgm20xz64px_1hvwr0wupngmlqnmefd4.118.woff2",
+      "bytes": 14796,
+      "sha256": "eebab820e7ee707843b0f3e7eca5e887a99143a46ffd6d51734d332ec851cb89"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/elementor/google-fonts/fonts/notosanskr-pbykfmxiebpt4itbgna5cgm20xz64px_1hvwr0wupngmlqnmefd4.119.woff2",
+      "bytes": 17048,
+      "sha256": "aee7c4b4bbb4363b028e05eedc1a5fb4d0315c77aff7bc29932061d232904cda"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/elementor/google-fonts/fonts/notosanskr-pbykfmxiebpt4itbgna5cgm20xz64px_1hvwr0wupngmlqnmefd4.12.woff2",
+      "bytes": 22824,
+      "sha256": "a077c64c148017f84343ebf43d3cf6288ffd9576c99ad5135c64b64f2df9b290"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/elementor/google-fonts/fonts/notosanskr-pbykfmxiebpt4itbgna5cgm20xz64px_1hvwr0wupngmlqnmefd4.13.woff2",
+      "bytes": 22720,
+      "sha256": "0215ecd8d365d8e565fdec4f87be479db1ed76ecf4e7689b5bcccbb3da0778f4"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/elementor/google-fonts/fonts/notosanskr-pbykfmxiebpt4itbgna5cgm20xz64px_1hvwr0wupngmlqnmefd4.14.woff2",
+      "bytes": 22164,
+      "sha256": "7d5d294403ff3ac8777b993bfba8390c56ece2a2b2cbbdcb9d799502465c5385"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/elementor/google-fonts/fonts/notosanskr-pbykfmxiebpt4itbgna5cgm20xz64px_1hvwr0wupngmlqnmefd4.15.woff2",
+      "bytes": 22844,
+      "sha256": "ede082ad78ea60ac22d112c5a0ff43be03b7d047c158f4c4a24ebf5b3181ea7f"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/elementor/google-fonts/fonts/notosanskr-pbykfmxiebpt4itbgna5cgm20xz64px_1hvwr0wupngmlqnmefd4.16.woff2",
+      "bytes": 21652,
+      "sha256": "015cbd0be2edb21fbd9a8c2816d86658ae7f93e09fa4a4900b916d5a528c2014"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/elementor/google-fonts/fonts/notosanskr-pbykfmxiebpt4itbgna5cgm20xz64px_1hvwr0wupngmlqnmefd4.17.woff2",
+      "bytes": 23680,
+      "sha256": "84cf1368a8eaf39efe7b58f6b27f6e843dba39ec9c93547d20245b2e14d20f53"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/elementor/google-fonts/fonts/notosanskr-pbykfmxiebpt4itbgna5cgm20xz64px_1hvwr0wupngmlqnmefd4.18.woff2",
+      "bytes": 21804,
+      "sha256": "880226705ae7dba14e5b869236d1d248f70dfa0e635f266faefab27240fcdf2b"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/elementor/google-fonts/fonts/notosanskr-pbykfmxiebpt4itbgna5cgm20xz64px_1hvwr0wupngmlqnmefd4.19.woff2",
+      "bytes": 25212,
+      "sha256": "faacecef966ca9ef8de34fca9d7d20f81a33d277d40bf27b3d5e30e1814c3162"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/elementor/google-fonts/fonts/notosanskr-pbykfmxiebpt4itbgna5cgm20xz64px_1hvwr0wupngmlqnmefd4.2.woff2",
+      "bytes": 36084,
+      "sha256": "3d7c9ae5219acde5d2371b846173f79524bdf48cc1bbdfc291b33f9ff8146259"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/elementor/google-fonts/fonts/notosanskr-pbykfmxiebpt4itbgna5cgm20xz64px_1hvwr0wupngmlqnmefd4.20.woff2",
+      "bytes": 26072,
+      "sha256": "20932cb6aa8b36cda460631cdc0a3cd353cd42c6d81ae35928f9e27c6763176c"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/elementor/google-fonts/fonts/notosanskr-pbykfmxiebpt4itbgna5cgm20xz64px_1hvwr0wupngmlqnmefd4.21.woff2",
+      "bytes": 22368,
+      "sha256": "5cd6f394a155103eecb5e05066c4cf0dd5fd5edde43061fac79c2f402ec6ad4e"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/elementor/google-fonts/fonts/notosanskr-pbykfmxiebpt4itbgna5cgm20xz64px_1hvwr0wupngmlqnmefd4.22.woff2",
+      "bytes": 23628,
+      "sha256": "774c50d821c3bb1f7c253c83a32b9e6a4ba9adf5eff367ba1cea82c04f575298"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/elementor/google-fonts/fonts/notosanskr-pbykfmxiebpt4itbgna5cgm20xz64px_1hvwr0wupngmlqnmefd4.23.woff2",
+      "bytes": 24120,
+      "sha256": "8967cc77038ad0f1fdfa1499f0b18c838c56c3971a444d6160d99c94e6d7c490"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/elementor/google-fonts/fonts/notosanskr-pbykfmxiebpt4itbgna5cgm20xz64px_1hvwr0wupngmlqnmefd4.24.woff2",
+      "bytes": 25568,
+      "sha256": "f09404f293334fa723820799098bf53bed63fadeb762329b463de63393efbee7"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/elementor/google-fonts/fonts/notosanskr-pbykfmxiebpt4itbgna5cgm20xz64px_1hvwr0wupngmlqnmefd4.25.woff2",
+      "bytes": 19984,
+      "sha256": "bd98c7f8739fdb9f05de643a43f74ef7a524a9d880b6dfa5eff59ad4b3289124"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/elementor/google-fonts/fonts/notosanskr-pbykfmxiebpt4itbgna5cgm20xz64px_1hvwr0wupngmlqnmefd4.26.woff2",
+      "bytes": 25744,
+      "sha256": "60b4043f8277011a081caa8526714ac08df3ade29c19014f1c7a6347e9946d5a"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/elementor/google-fonts/fonts/notosanskr-pbykfmxiebpt4itbgna5cgm20xz64px_1hvwr0wupngmlqnmefd4.27.woff2",
+      "bytes": 24600,
+      "sha256": "3bd396b6a9717b1909fb4cf9e640eb4fe136e1dcc145d25835c4a9e2dfff6538"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/elementor/google-fonts/fonts/notosanskr-pbykfmxiebpt4itbgna5cgm20xz64px_1hvwr0wupngmlqnmefd4.28.woff2",
+      "bytes": 22028,
+      "sha256": "99ad60bca4c36314572b7b2a1e9fbb2f2e231c07f4ddcd2b008b17c2a006e196"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/elementor/google-fonts/fonts/notosanskr-pbykfmxiebpt4itbgna5cgm20xz64px_1hvwr0wupngmlqnmefd4.29.woff2",
+      "bytes": 23276,
+      "sha256": "dbfaf5d8bf858032298643cdc043a9495a8f1ab1cb5e3e8092e8f31827b6e2ae"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/elementor/google-fonts/fonts/notosanskr-pbykfmxiebpt4itbgna5cgm20xz64px_1hvwr0wupngmlqnmefd4.3.woff2",
+      "bytes": 24888,
+      "sha256": "b41566414999c1b95fca83a4cad7b31e964f5de416b0ec68bf0b5b5172c03f29"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/elementor/google-fonts/fonts/notosanskr-pbykfmxiebpt4itbgna5cgm20xz64px_1hvwr0wupngmlqnmefd4.30.woff2",
+      "bytes": 23568,
+      "sha256": "2f6403cb63c09a37821e03a5f8e2a96307f57745d6124a581c5afcb2e320989c"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/elementor/google-fonts/fonts/notosanskr-pbykfmxiebpt4itbgna5cgm20xz64px_1hvwr0wupngmlqnmefd4.31.woff2",
+      "bytes": 23692,
+      "sha256": "3900e176541d48d8183d3482527522025b5f4e48f9694ddfaddf8413adf7a059"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/elementor/google-fonts/fonts/notosanskr-pbykfmxiebpt4itbgna5cgm20xz64px_1hvwr0wupngmlqnmefd4.32.woff2",
+      "bytes": 26368,
+      "sha256": "3d4d1d592534370b4bec3212e4a9b959e80a1a649a2cab2ffcc2a4f8405442a7"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/elementor/google-fonts/fonts/notosanskr-pbykfmxiebpt4itbgna5cgm20xz64px_1hvwr0wupngmlqnmefd4.33.woff2",
+      "bytes": 25288,
+      "sha256": "6275a1d388fb7a841c594aee83b879e2518c7a77d7786f8a8f041ffcf5a90676"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/elementor/google-fonts/fonts/notosanskr-pbykfmxiebpt4itbgna5cgm20xz64px_1hvwr0wupngmlqnmefd4.34.woff2",
+      "bytes": 21628,
+      "sha256": "3c7e109af7cd40f43f09e0e91329361197fd02a73423e6269a5104201f949b40"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/elementor/google-fonts/fonts/notosanskr-pbykfmxiebpt4itbgna5cgm20xz64px_1hvwr0wupngmlqnmefd4.35.woff2",
+      "bytes": 21456,
+      "sha256": "fe140e6d1612a86a3d127d253ead67d7d79c77670b4d5ed6e38f6c1fb92d2249"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/elementor/google-fonts/fonts/notosanskr-pbykfmxiebpt4itbgna5cgm20xz64px_1hvwr0wupngmlqnmefd4.36.woff2",
+      "bytes": 21500,
+      "sha256": "beefb8865a545e8ebe9c816c3cb82e52050fa628f7ca4bd29c5020d7dcd8f525"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/elementor/google-fonts/fonts/notosanskr-pbykfmxiebpt4itbgna5cgm20xz64px_1hvwr0wupngmlqnmefd4.37.woff2",
+      "bytes": 21400,
+      "sha256": "76ab1b2fe87b78d409c9379d3cdc847ad89b97ed43674155d5d8f1526959fc55"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/elementor/google-fonts/fonts/notosanskr-pbykfmxiebpt4itbgna5cgm20xz64px_1hvwr0wupngmlqnmefd4.38.woff2",
+      "bytes": 16800,
+      "sha256": "0b05b8b5df781b79820c737d4fb6457eea1fd6aeb3bea66222b74e62c4d364d3"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/elementor/google-fonts/fonts/notosanskr-pbykfmxiebpt4itbgna5cgm20xz64px_1hvwr0wupngmlqnmefd4.39.woff2",
+      "bytes": 21500,
+      "sha256": "95eebcf4150a4b29d15a907417ba7868b122a309150213e6385b49e80de428a0"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/elementor/google-fonts/fonts/notosanskr-pbykfmxiebpt4itbgna5cgm20xz64px_1hvwr0wupngmlqnmefd4.4.woff2",
+      "bytes": 23436,
+      "sha256": "3d6db0d11505df3fdb827add6c2cfaf0d67e301ae1be42ca9508fb9a83b46aad"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/elementor/google-fonts/fonts/notosanskr-pbykfmxiebpt4itbgna5cgm20xz64px_1hvwr0wupngmlqnmefd4.40.woff2",
+      "bytes": 21012,
+      "sha256": "d9f589ae097a3c4c8a5171bb3bafe4f86d910b6cfb7a88643428b2bd3053434f"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/elementor/google-fonts/fonts/notosanskr-pbykfmxiebpt4itbgna5cgm20xz64px_1hvwr0wupngmlqnmefd4.41.woff2",
+      "bytes": 18216,
+      "sha256": "6fed2017e0fbdbab2eea07701e21545957d059dcea6aeebed3f1f52cfa1e622f"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/elementor/google-fonts/fonts/notosanskr-pbykfmxiebpt4itbgna5cgm20xz64px_1hvwr0wupngmlqnmefd4.42.woff2",
+      "bytes": 20296,
+      "sha256": "78438628613a1f7f46873aab2a1a3d7d2ebb582c3ce0962610e2064fecc2d441"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/elementor/google-fonts/fonts/notosanskr-pbykfmxiebpt4itbgna5cgm20xz64px_1hvwr0wupngmlqnmefd4.43.woff2",
+      "bytes": 21608,
+      "sha256": "159021ea196add679c16d668ebbdd827d45c7265303a5d3e6aeeaff66f6a0dda"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/elementor/google-fonts/fonts/notosanskr-pbykfmxiebpt4itbgna5cgm20xz64px_1hvwr0wupngmlqnmefd4.44.woff2",
+      "bytes": 18584,
+      "sha256": "812c11876f674a51cbd1f36e9246ddb1bafbed3e9669abef584877cecc3bf686"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/elementor/google-fonts/fonts/notosanskr-pbykfmxiebpt4itbgna5cgm20xz64px_1hvwr0wupngmlqnmefd4.45.woff2",
+      "bytes": 19772,
+      "sha256": "6716deadfdcf4b9320c8db28596d68fdb0761cb3a508a7b6690e3d26e755335b"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/elementor/google-fonts/fonts/notosanskr-pbykfmxiebpt4itbgna5cgm20xz64px_1hvwr0wupngmlqnmefd4.46.woff2",
+      "bytes": 21076,
+      "sha256": "3ef690c3d4917ee7b4222f6b17285b45502f88094da1dda3040558901f3b12e7"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/elementor/google-fonts/fonts/notosanskr-pbykfmxiebpt4itbgna5cgm20xz64px_1hvwr0wupngmlqnmefd4.47.woff2",
+      "bytes": 22280,
+      "sha256": "575d3e479a75d6a3ad32010a5fe60b1f60ee459e9de2c36bb1a5024025825bb1"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/elementor/google-fonts/fonts/notosanskr-pbykfmxiebpt4itbgna5cgm20xz64px_1hvwr0wupngmlqnmefd4.48.woff2",
+      "bytes": 21524,
+      "sha256": "b094546524ed2563a028f2d97f378e4b2061ac811aabdba250a018b8b4829ade"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/elementor/google-fonts/fonts/notosanskr-pbykfmxiebpt4itbgna5cgm20xz64px_1hvwr0wupngmlqnmefd4.49.woff2",
+      "bytes": 22932,
+      "sha256": "3100c1300e06c911d4a24742b505f0f5fdb1c6ff7d3a8468a495648a1c38f5aa"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/elementor/google-fonts/fonts/notosanskr-pbykfmxiebpt4itbgna5cgm20xz64px_1hvwr0wupngmlqnmefd4.5.woff2",
+      "bytes": 20944,
+      "sha256": "fc6e54f3c2f82e3c6d05b16542fba5d2c8d13c260c56e50b13f993bf739ad194"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/elementor/google-fonts/fonts/notosanskr-pbykfmxiebpt4itbgna5cgm20xz64px_1hvwr0wupngmlqnmefd4.50.woff2",
+      "bytes": 21584,
+      "sha256": "8cd14213bfd298293406800fda56f8704dc6c11f516fafd0602bdb4167594eba"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/elementor/google-fonts/fonts/notosanskr-pbykfmxiebpt4itbgna5cgm20xz64px_1hvwr0wupngmlqnmefd4.51.woff2",
+      "bytes": 19820,
+      "sha256": "5985ac0b9110269a4d19d1ad05446ad05f969b3d7f831a320d32becc5da375bf"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/elementor/google-fonts/fonts/notosanskr-pbykfmxiebpt4itbgna5cgm20xz64px_1hvwr0wupngmlqnmefd4.52.woff2",
+      "bytes": 22364,
+      "sha256": "bd37867d9d5219c3935b77d57f87ea70511a7164c4ae2c28fa8ad7c15a22951f"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/elementor/google-fonts/fonts/notosanskr-pbykfmxiebpt4itbgna5cgm20xz64px_1hvwr0wupngmlqnmefd4.53.woff2",
+      "bytes": 21216,
+      "sha256": "cb4644184aceb525a37d3882f7d401d46f96f50ee6e747b5597458bdf4d7b0c2"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/elementor/google-fonts/fonts/notosanskr-pbykfmxiebpt4itbgna5cgm20xz64px_1hvwr0wupngmlqnmefd4.54.woff2",
+      "bytes": 21188,
+      "sha256": "541f9d1f1945faa7ae9307c210c00bb05fe2b9976ffd3bb544a28012f6c28e1d"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/elementor/google-fonts/fonts/notosanskr-pbykfmxiebpt4itbgna5cgm20xz64px_1hvwr0wupngmlqnmefd4.55.woff2",
+      "bytes": 20844,
+      "sha256": "5b0f1e2d894d65eb7ee16a0b257c7224b3da11d6b4c1b86f1169b22a9d8f81bc"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/elementor/google-fonts/fonts/notosanskr-pbykfmxiebpt4itbgna5cgm20xz64px_1hvwr0wupngmlqnmefd4.56.woff2",
+      "bytes": 21460,
+      "sha256": "c813709103cd8ec9e84d863dcfa43a8bdb5df1532e21e2ce9c16636e8b10407b"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/elementor/google-fonts/fonts/notosanskr-pbykfmxiebpt4itbgna5cgm20xz64px_1hvwr0wupngmlqnmefd4.57.woff2",
+      "bytes": 21344,
+      "sha256": "b7d47987070c8d8dd9180655d6332c924faa9313f615db0163d8bfa60b6f4215"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/elementor/google-fonts/fonts/notosanskr-pbykfmxiebpt4itbgna5cgm20xz64px_1hvwr0wupngmlqnmefd4.58.woff2",
+      "bytes": 22164,
+      "sha256": "e5c6a13f1f09be1a0f4fc52a6a6a37efde73508d2df8e924f086aeb5c1e1d537"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/elementor/google-fonts/fonts/notosanskr-pbykfmxiebpt4itbgna5cgm20xz64px_1hvwr0wupngmlqnmefd4.59.woff2",
+      "bytes": 25372,
+      "sha256": "0af5b299780c314d3df5ec2067ac1134ed7f51621b68ef6f7dfc4606d639684b"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/elementor/google-fonts/fonts/notosanskr-pbykfmxiebpt4itbgna5cgm20xz64px_1hvwr0wupngmlqnmefd4.6.woff2",
+      "bytes": 20700,
+      "sha256": "d1d0a7ba561109587f9ad5abd85dce11d49a8325f2b73ecd7b7582ac382d223c"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/elementor/google-fonts/fonts/notosanskr-pbykfmxiebpt4itbgna5cgm20xz64px_1hvwr0wupngmlqnmefd4.60.woff2",
+      "bytes": 24576,
+      "sha256": "5ae4c6edb00cd272be4633083c7f8c9fbb996d938f04890f04a548859e5efb32"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/elementor/google-fonts/fonts/notosanskr-pbykfmxiebpt4itbgna5cgm20xz64px_1hvwr0wupngmlqnmefd4.61.woff2",
+      "bytes": 23928,
+      "sha256": "34a5df35a57dbb61116ddc4109e90a6235dcd06f6654534642bd47910d80370a"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/elementor/google-fonts/fonts/notosanskr-pbykfmxiebpt4itbgna5cgm20xz64px_1hvwr0wupngmlqnmefd4.62.woff2",
+      "bytes": 22036,
+      "sha256": "3bedcfb6a7388a31dc7622e9e0e2fec0923df2a0f85bfe7ccd6f9ab6eda83b85"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/elementor/google-fonts/fonts/notosanskr-pbykfmxiebpt4itbgna5cgm20xz64px_1hvwr0wupngmlqnmefd4.63.woff2",
+      "bytes": 21212,
+      "sha256": "2e75eb7ee71b504e212cbe33c28091a8f99cd33877b27eb0e215a952b7d53acf"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/elementor/google-fonts/fonts/notosanskr-pbykfmxiebpt4itbgna5cgm20xz64px_1hvwr0wupngmlqnmefd4.64.woff2",
+      "bytes": 18692,
+      "sha256": "0d8fe60b5e397e16738f4b666d166231df9c6920a90ebe268da7c593b0d3a527"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/elementor/google-fonts/fonts/notosanskr-pbykfmxiebpt4itbgna5cgm20xz64px_1hvwr0wupngmlqnmefd4.65.woff2",
+      "bytes": 64708,
+      "sha256": "ee01ce4abc116b69b326879a83456404613c4e4dc11db7c0c4b953629a3f66db"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/elementor/google-fonts/fonts/notosanskr-pbykfmxiebpt4itbgna5cgm20xz64px_1hvwr0wupngmlqnmefd4.66.woff2",
+      "bytes": 56112,
+      "sha256": "15cc44329cd434671116787702b8fc421384e224edebef3aa1300fc225e7f86e"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/elementor/google-fonts/fonts/notosanskr-pbykfmxiebpt4itbgna5cgm20xz64px_1hvwr0wupngmlqnmefd4.67.woff2",
+      "bytes": 48436,
+      "sha256": "67a16e1d57bb2c5b7d357af0a08c6baf458ddf8927bc833d0392bccbc786aaa1"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/elementor/google-fonts/fonts/notosanskr-pbykfmxiebpt4itbgna5cgm20xz64px_1hvwr0wupngmlqnmefd4.68.woff2",
+      "bytes": 51760,
+      "sha256": "75f7e3a01b104935bb1cf226c20a57e9fc2beb6b437dc554659ed4949d6e5b80"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/elementor/google-fonts/fonts/notosanskr-pbykfmxiebpt4itbgna5cgm20xz64px_1hvwr0wupngmlqnmefd4.69.woff2",
+      "bytes": 48496,
+      "sha256": "ba181558faba2e4e3d633f865a01b283a05e1d7893173df2f4911c84f993db0c"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/elementor/google-fonts/fonts/notosanskr-pbykfmxiebpt4itbgna5cgm20xz64px_1hvwr0wupngmlqnmefd4.7.woff2",
+      "bytes": 21124,
+      "sha256": "1c7c3d9d5a7ebc225959c272ddb3483cde10fe29a4ff6219db63d835feea29b5"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/elementor/google-fonts/fonts/notosanskr-pbykfmxiebpt4itbgna5cgm20xz64px_1hvwr0wupngmlqnmefd4.70.woff2",
+      "bytes": 47324,
+      "sha256": "c46725bf44a18465bd57a0dd676e85d77b3d91c93959d6e5de6aee81e1fd4953"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/elementor/google-fonts/fonts/notosanskr-pbykfmxiebpt4itbgna5cgm20xz64px_1hvwr0wupngmlqnmefd4.71.woff2",
+      "bytes": 56976,
+      "sha256": "81d7cce15b67b7325f1cfbd7923afb7a5eb65025248a8422c93a7c0d679c0373"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/elementor/google-fonts/fonts/notosanskr-pbykfmxiebpt4itbgna5cgm20xz64px_1hvwr0wupngmlqnmefd4.72.woff2",
+      "bytes": 45560,
+      "sha256": "1379801c22995fed0407bec3686ea21b2c5e3a46f37d3b899ed51a41c3c8ea5d"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/elementor/google-fonts/fonts/notosanskr-pbykfmxiebpt4itbgna5cgm20xz64px_1hvwr0wupngmlqnmefd4.73.woff2",
+      "bytes": 50256,
+      "sha256": "b868510fdaae4cc26082a161556ecacb82ad8977f786d59783dcfe45f0f0f68d"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/elementor/google-fonts/fonts/notosanskr-pbykfmxiebpt4itbgna5cgm20xz64px_1hvwr0wupngmlqnmefd4.74.woff2",
+      "bytes": 54512,
+      "sha256": "6cefd78327e6a9cbdac3d7ccaa26946ead26203125568bd2c4072dde2478cc45"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/elementor/google-fonts/fonts/notosanskr-pbykfmxiebpt4itbgna5cgm20xz64px_1hvwr0wupngmlqnmefd4.75.woff2",
+      "bytes": 56872,
+      "sha256": "4a9ea4a79bfde00d25e0c888513e8281f7eff7d4116ad2ba862c2c5470358878"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/elementor/google-fonts/fonts/notosanskr-pbykfmxiebpt4itbgna5cgm20xz64px_1hvwr0wupngmlqnmefd4.76.woff2",
+      "bytes": 48616,
+      "sha256": "fe5c8e3387144fa8c19c99776c72e9643da1ecf7c7faab80eb321dbc316d7dba"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/elementor/google-fonts/fonts/notosanskr-pbykfmxiebpt4itbgna5cgm20xz64px_1hvwr0wupngmlqnmefd4.77.woff2",
+      "bytes": 52692,
+      "sha256": "90123262e3748ed8f8417fcdd35015fa708aaea27cfbc2b823897ef0ff506bb1"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/elementor/google-fonts/fonts/notosanskr-pbykfmxiebpt4itbgna5cgm20xz64px_1hvwr0wupngmlqnmefd4.78.woff2",
+      "bytes": 48468,
+      "sha256": "ca5f439ce8b4d8e4a929b8330fdb8a2d89c8ad7769e8024485c0616c000cc0fc"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/elementor/google-fonts/fonts/notosanskr-pbykfmxiebpt4itbgna5cgm20xz64px_1hvwr0wupngmlqnmefd4.79.woff2",
+      "bytes": 60940,
+      "sha256": "5a00fdb9caa739374f7a3ccd53075d7376145adba3f16245cd3b487b1cbfafee"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/elementor/google-fonts/fonts/notosanskr-pbykfmxiebpt4itbgna5cgm20xz64px_1hvwr0wupngmlqnmefd4.8.woff2",
+      "bytes": 19840,
+      "sha256": "6909c44faa58af01b6648a49ccda17a55419c7299a52e47273d62d8620773764"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/elementor/google-fonts/fonts/notosanskr-pbykfmxiebpt4itbgna5cgm20xz64px_1hvwr0wupngmlqnmefd4.80.woff2",
+      "bytes": 51008,
+      "sha256": "68758a08d0d464600a725d4805a767fe8189f6cee11873d5351219bbdeca02c8"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/elementor/google-fonts/fonts/notosanskr-pbykfmxiebpt4itbgna5cgm20xz64px_1hvwr0wupngmlqnmefd4.81.woff2",
+      "bytes": 48088,
+      "sha256": "e1ea3b7d4ee5d8071c7ca765ff183ee2cbdc264f45e01d23133055617849da2e"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/elementor/google-fonts/fonts/notosanskr-pbykfmxiebpt4itbgna5cgm20xz64px_1hvwr0wupngmlqnmefd4.82.woff2",
+      "bytes": 50664,
+      "sha256": "676899a320eef4951175034c35fecb22227f32333f68ca2cb68b36afcd6537d3"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/elementor/google-fonts/fonts/notosanskr-pbykfmxiebpt4itbgna5cgm20xz64px_1hvwr0wupngmlqnmefd4.83.woff2",
+      "bytes": 41216,
+      "sha256": "c44503b497a90731484e9c82db68d67da7bcfdfe7a29b9ee943698ab413d1e34"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/elementor/google-fonts/fonts/notosanskr-pbykfmxiebpt4itbgna5cgm20xz64px_1hvwr0wupngmlqnmefd4.84.woff2",
+      "bytes": 54484,
+      "sha256": "3f6271a3e6a8579f1635a944148232d832f192f1d2fb2250d9f2c72c058ac1cc"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/elementor/google-fonts/fonts/notosanskr-pbykfmxiebpt4itbgna5cgm20xz64px_1hvwr0wupngmlqnmefd4.85.woff2",
+      "bytes": 52592,
+      "sha256": "8e30b003cf15d103b18812eb754540d835361c1c69df7f83cb54bf080d74cc7a"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/elementor/google-fonts/fonts/notosanskr-pbykfmxiebpt4itbgna5cgm20xz64px_1hvwr0wupngmlqnmefd4.86.woff2",
+      "bytes": 51736,
+      "sha256": "7f71e48f83e4468a1b9f9bff27186ec3d47dfc87e2738aef70c2ab477b6bf2ae"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/elementor/google-fonts/fonts/notosanskr-pbykfmxiebpt4itbgna5cgm20xz64px_1hvwr0wupngmlqnmefd4.87.woff2",
+      "bytes": 44956,
+      "sha256": "d0b4d450f66cd5cf1bdeb0acbfd3711c773f4bf84091f7ad8c028622bb61f63c"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/elementor/google-fonts/fonts/notosanskr-pbykfmxiebpt4itbgna5cgm20xz64px_1hvwr0wupngmlqnmefd4.88.woff2",
+      "bytes": 46496,
+      "sha256": "ddad9c9bdbbf3b92bf6f158e7cf5f6b41a4c651eec7dc0661f5913fa98abbb54"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/elementor/google-fonts/fonts/notosanskr-pbykfmxiebpt4itbgna5cgm20xz64px_1hvwr0wupngmlqnmefd4.89.woff2",
+      "bytes": 45564,
+      "sha256": "2f819124c988a2e20dad39f84768b66a29ad7ffbe13b718e8b844d7c34ec515a"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/elementor/google-fonts/fonts/notosanskr-pbykfmxiebpt4itbgna5cgm20xz64px_1hvwr0wupngmlqnmefd4.9.woff2",
+      "bytes": 22512,
+      "sha256": "f83803920257a9691afa492ca8881c1067ffa7f1f83db24e8901209f43ba3bb6"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/elementor/google-fonts/fonts/notosanskr-pbykfmxiebpt4itbgna5cgm20xz64px_1hvwr0wupngmlqnmefd4.90.woff2",
+      "bytes": 42008,
+      "sha256": "0a873c176883d7fdafeab10aa0197dac767873aa4614ff8693572ba5cbf6ec1e"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/elementor/google-fonts/fonts/notosanskr-pbykfmxiebpt4itbgna5cgm20xz64px_1hvwr0wupngmlqnmefd4.91.woff2",
+      "bytes": 44960,
+      "sha256": "8862e1e42b96413c4f9218230b1125fe9427c6fe725c72bd5481b4e87779b99c"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/elementor/google-fonts/fonts/notosanskr-pbykfmxiebpt4itbgna5cgm20xz64px_1hvwr0wupngmlqnmefd4.92.woff2",
+      "bytes": 42692,
+      "sha256": "fc386f491dbc6650b003332ce62bd57a7abcc12026a1243895944edc4b62bc32"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/elementor/google-fonts/fonts/notosanskr-pbykfmxiebpt4itbgna5cgm20xz64px_1hvwr0wupngmlqnmefd4.93.woff2",
+      "bytes": 29208,
+      "sha256": "95fed77c72fc4d5ebb5411eeef40227c74e072762b0f452b7a9c1903cf4b4326"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/elementor/google-fonts/fonts/notosanskr-pbykfmxiebpt4itbgna5cgm20xz64px_1hvwr0wupngmlqnmefd4.94.woff2",
+      "bytes": 19464,
+      "sha256": "8de10643928278bcf072b6347f01eb1303f11a6fa64b5aa8838a403288c2f386"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/elementor/google-fonts/fonts/notosanskr-pbykfmxiebpt4itbgna5cgm20xz64px_1hvwr0wupngmlqnmefd4.95.woff2",
+      "bytes": 53472,
+      "sha256": "0993998a911079a29bc11df2f6f8c0c9260f57877cdf6103e813c1f1e23b10de"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/elementor/google-fonts/fonts/notosanskr-pbykfmxiebpt4itbgna5cgm20xz64px_1hvwr0wupngmlqnmefd4.96.woff2",
+      "bytes": 21376,
+      "sha256": "3efe181101a0d581994e22deebf79b990dede39171459df59aca457889416ee2"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/elementor/google-fonts/fonts/notosanskr-pbykfmxiebpt4itbgna5cgm20xz64px_1hvwr0wupngmlqnmefd4.97.woff2",
+      "bytes": 14276,
+      "sha256": "e8a3b674b801fb16233c37672c038bcd9a103c57966108093cd41b6401bf03c1"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/elementor/google-fonts/fonts/notosanskr-pbykfmxiebpt4itbgna5cgm20xz64px_1hvwr0wupngmlqnmefd4.98.woff2",
+      "bytes": 12372,
+      "sha256": "848f36b9113517fecb2a3df84a20345346a8c46b91a1c4f79cbe1512a5141458"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/elementor/google-fonts/fonts/notosanskr-pbykfmxiebpt4itbgna5cgm20xz64px_1hvwr0wupngmlqnmefd4.99.woff2",
+      "bytes": 17204,
+      "sha256": "ed414c9fd5654dcfcd23611c13c887a2c7c1059912f60db46d241dd8e82babce"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/elementor/google-fonts/fonts/notosanskr-pbykfmxiebpt4itbgna5cgmg0x7t.woff2",
+      "bytes": 26232,
+      "sha256": "3e5d03005dc6749af69746fdfef48aea86e5dd8e5922dbdd9a570b6fbf4cebfa"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/elementor/google-fonts/fonts/notosanskr-pbykfmxiebpt4itbgna5cgmg1x7t0jm.woff2",
+      "bytes": 10088,
+      "sha256": "3339ccedd6aabe0afbc4de88aedd82171b99f90f3c6264f9f897cedcffcec71e"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/elementor/google-fonts/fonts/notosanskr-pbykfmxiebpt4itbgna5cgmg337t0jm.woff2",
+      "bytes": 8388,
+      "sha256": "c1455b7f7ced7ed0f58603730c2ed038fdc06bd220204667a96e2ec7c1ca8ec9"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/elementor/google-fonts/fonts/notosanskr-pbykfmxiebpt4itbgna5cgmg3n7t0jm.woff2",
+      "bytes": 9216,
+      "sha256": "ba6b4f4087f2c4dd27359864109f435b531d8a13e6e9d3c317c2ca9cbcfd93c9"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/essential-addons-elementor/eael-3793.css",
+      "bytes": 10304,
+      "sha256": "f5a6d83e6ac5d190abcbb6278e7f7fe06344f73702874658f90094cf65cd593e"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/essential-addons-elementor/eael-3793.js",
+      "bytes": 2747,
+      "sha256": "62ab80426dd935cab9b1a903bfc447c4babb89672459abe3d2723952b418b702"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/theplus_gutenberg/plus-css-5099.css",
+      "bytes": 626,
+      "sha256": "5193ad5813729a462ea74c603ce158440beb770add101d944b6d4bfcda6f7aef"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/theplus_gutenberg/plus-global.css",
+      "bytes": 1502,
+      "sha256": "55f14519ea467e2cb78871c5b230bd3cc9296a37a82418d375082fbcdebf50f0"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/uploads/theplus_gutenberg/theplus-post-5099.min.css",
+      "bytes": 9203,
+      "sha256": "ab7cecd2821aeef25ba9940214289e28f453f3aa48a973a3f4c528e4463d9756"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-includes/css/dashicons.min.css",
+      "bytes": 58899,
+      "sha256": "ddf68aecb3b54621f2f2028e1b6132662e29aa960aee588f4bdb8a390d762c11"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-includes/css/dist/block-library/style.min.css",
+      "bytes": 140829,
+      "sha256": "222ca4216c4f17530a03bf9701410b689d7d9c953c8ddcc9d4e8722d69c348aa"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-includes/fonts/dashicons.eot",
+      "bytes": 56564,
+      "sha256": "c04a6545ea1a3860f6c8eb4b9eed8191d857dbf2716b812c816cae8e40bbea7a"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-includes/fonts/dashicons.ttf",
+      "bytes": 56392,
+      "sha256": "cacd900a2587c234c53e9d0108fc51ff6c61420c4f89a1731014b673a7b9a1a8"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-includes/js/dist/hooks.min.js",
+      "bytes": 5107,
+      "sha256": "fc774906082b59dedcfc55b8ef127783b6d056578ff4586a8ebbdb81bbe286f1"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-includes/js/dist/i18n.min.js",
+      "bytes": 5791,
+      "sha256": "5083905862c2b7aa8a84c4f2313d359d2288fb25fbe1ff577fa7325eff2ed2d9"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-includes/js/dist/script-modules/block-library/file/view.min.js",
+      "bytes": 543,
+      "sha256": "998ac0fa94a222c8b6627986a9991f0ee00191b85511390a424f3b8ac896ea89"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-includes/js/imagesloaded.min.js",
+      "bytes": 5520,
+      "sha256": "b65b3de1bc923b9355248a0d941a0eaee15dfb9a6b8eadb51323a8df6189dcd1"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-includes/js/jquery/jquery-migrate.min.js",
+      "bytes": 13577,
+      "sha256": "5274f11e6fb32ae0cf2dfb9f8043272865c397a7c4223b4cfa7d50ea52fbde89"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-includes/js/jquery/jquery.min.js",
+      "bytes": 87553,
+      "sha256": "cb6f2d32c49d1c2b25e9ffc9aaafa3f83075346c01bcd4ae6eb187392a4292cf"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-includes/js/jquery/jquery.ui.touch-punch.js",
+      "bytes": 1179,
+      "sha256": "196bed4faf0fe38b89a496b1f41319b2a8077263f85819f8ad42933e0a2e2e52"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-includes/js/jquery/ui/core.min.js",
+      "bytes": 18674,
+      "sha256": "b7a27a4b4abfc300eaf7d9151afeef8df2663d98586e38f59f91bbe98ef30af7"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-includes/js/jquery/ui/draggable.min.js",
+      "bytes": 18374,
+      "sha256": "56295f994aa474e8d12f8eb679de17457a46c5b52b568c9461d5f1188a9c8c78"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-includes/js/jquery/ui/mouse.min.js",
+      "bytes": 3297,
+      "sha256": "7719ed89b8e03dc6cad563107c6ce580cd366bd8f43e6dc0ce45d16c3b6ba315"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-includes/js/jquery/ui/slider.min.js",
+      "bytes": 10759,
+      "sha256": "b250c7e6edacf2090b7ca2202fe4504254312671112fcb5fcce9eff32bbe41c1"
+    },
+    {
+      "path": "assets/yonseiidesign.cafe24.com/wp-content/uploads/2023/10/B57A9698.jpg",
+      "bytes": 339177,
+      "sha256": "e56f0acfc3cf8e742679f21f5ab7282613c3c3ecf2fdec35cfcebfd463155080"
+    },
+    {
+      "path": "assets/yonseiidesign.cafe24.com/wp-content/uploads/2023/10/B57A9781.jpg",
+      "bytes": 181914,
+      "sha256": "0256161961696cae148c819d9c3ac6b356c370e8328af337f2189f1613d65136"
+    },
+    {
+      "path": "assets/yonseiidesign.cafe24.com/wp-content/uploads/2023/10/B57A9925.jpg",
+      "bytes": 194735,
+      "sha256": "580302622b293b8df00fb8eabf7418f58aa3ac1f6159bc8ea74d5d5e29422a96"
+    },
+    {
+      "path": "assets/yonseiidesign.cafe24.com/wp-content/uploads/2023/10/B57A9926.jpg",
+      "bytes": 242386,
+      "sha256": "e32f59dcf41f14762d3331c2dc36d1563a571f089a58b2a3a6bec254a92bc733"
+    },
+    {
+      "path": "assets/yonseiidesign.cafe24.com/wp-content/uploads/2023/11/subarrow.gif",
+      "bytes": 1276,
+      "sha256": "c5b6cf8f98776d0f4f1eec963fc6edaddd5d917530235bcbacacc909904ae769"
+    },
+    {
+      "path": "assets/yonseiidesign.cafe24.com/wp-content/uploads/2023/11/subarrow_hover.gif",
+      "bytes": 1276,
+      "sha256": "0945b46e1ca928aec5eae863ebf837ced97fb1ac564f472799fc1c1ebb18fc60"
+    },
+    {
+      "path": "assets/zm901.mailplug.com/download/915d52ea2880a47b.png",
+      "bytes": 157517,
+      "sha256": "419a5fbbd0ba333a50ee991c64576bbdc45ec29d47db8d14c7257983bcb12f46"
+    },
+    {
+      "path": "board.html",
+      "bytes": 62145,
+      "sha256": "59f75342ad8c7d1d098a55b5681a05dc74201b8e77ba2f3c141b3621b2d6a06e"
+    },
+    {
+      "path": "complementary-colors.js",
+      "bytes": 3667,
+      "sha256": "30e76597ab3131dbfda18a53e414209186edb5a03d92524765b044fdd560e1f3"
+    },
+    {
+      "path": "education-editorial.css",
+      "bytes": 10365,
+      "sha256": "161692871fd92fe489eea90e79b63993ee29c2b00bce25858a348d9adb640db6"
+    },
+    {
+      "path": "education.html",
+      "bytes": 109720,
+      "sha256": "f455a4891b4b2d1f6ae95c92e7a4e4a9259492b2fa4bb96d93a3e193701c77e1"
+    },
+    {
+      "path": "geometry.js",
+      "bytes": 6227,
+      "sha256": "5accefda7972b9384cd9b5a66456dca668dea5f49a8fc77ff7c5ea7040d68fd8"
+    },
+    {
+      "path": "home-flow.css",
+      "bytes": 5837,
+      "sha256": "243c31dc75098d9c4147171a2c7b691198717ca47ef208f0798cf798b5697543"
+    },
+    {
+      "path": "home-flow.js",
+      "bytes": 825,
+      "sha256": "61c6a676396654d89ba9f5a39d9ca6b1b0da6c1d47e5c9243e65c23f18f64d29"
+    },
+    {
+      "path": "home-header.js",
+      "bytes": 3847,
+      "sha256": "c1d08c7f67cc61f1b649c1197331ae61871d40636d6d95578798bed4912df63b"
+    },
+    {
+      "path": "home-photo.css",
+      "bytes": 14712,
+      "sha256": "4f0b5ecc0ae45f3c21f8261782e0d671d205ce87392452e80b7a11ea8265144c"
+    },
+    {
+      "path": "home-slides.js",
+      "bytes": 837,
+      "sha256": "1617b9d24ba1e64414c44dd29b5eae2497fd403972b7dc4745f279675f8ccb12"
+    },
+    {
+      "path": "index.html",
+      "bytes": 64382,
+      "sha256": "61ce68364832a8f84232b89acfeefd007b8b7f89901e4a442a7fafa061edb984"
+    },
+    {
+      "path": "interior-editorial.css",
+      "bytes": 3301,
+      "sha256": "93caf505dfd484fe0ecb0671b921733588ec63bcdd7e0ec7360dc0946f9a79b0"
+    },
+    {
+      "path": "intro.css",
+      "bytes": 1320,
+      "sha256": "b14b6701d98412e0ea40194ad5afaf4dd325ec1a5d2e06911c135bc66e9e0979"
+    },
+    {
+      "path": "intro.js",
+      "bytes": 1151,
+      "sha256": "89ddd7891ffb0dcd20bb82d6aba338755175f3553bc81862f88c2970e17e7652"
+    },
+    {
+      "path": "local.js",
+      "bytes": 916,
+      "sha256": "85f85573ab028ce50cd1ce0a915835effec3651d7b444a2beb19ba0897861225"
+    },
+    {
+      "path": "motion-hierarchy.css",
+      "bytes": 652,
+      "sha256": "c11a88fd6086ce24953c12996ba541121d04effbc7ed3f8fd37ea9d58ef57f02"
+    },
+    {
+      "path": "notice-filter.js",
+      "bytes": 486,
+      "sha256": "ef3d09c0f885828b1dc0eb3a7fcee845aca4e3b969ed34ed50cc9494f1d63472"
+    },
+    {
+      "path": "notice-titles.js",
+      "bytes": 1277,
+      "sha256": "ff5a1c28d0ab3377831cbec90704bdf3a160c385e8f4863011b468e365e94d71"
+    },
+    {
+      "path": "offline.json",
+      "bytes": 3,
+      "sha256": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+    },
+    {
+      "path": "people.html",
+      "bytes": 63227,
+      "sha256": "2eedca374a8427effe21faaed8e74994a476beda0d57285db43f80e6140ec2a0"
+    },
+    {
+      "path": "post-156'.html",
+      "bytes": 347,
+      "sha256": "1a8d3af55a22ac48ed7ad50cbb28349f86d3296a895bb0d2d36b356a5d8e61a3"
+    },
+    {
+      "path": "post-3181'.html",
+      "bytes": 347,
+      "sha256": "975b02fa94802aa5504b8d77ec5b66934a1ab5192e30a286f3f9d46fdbffd58e"
+    },
+    {
+      "path": "post-3763'.html",
+      "bytes": 350,
+      "sha256": "9c98d7b88728646849227054f4987e9030d459ef21581bfd57011eefc28e14e5"
+    },
+    {
+      "path": "post-3793'.html",
+      "bytes": 359,
+      "sha256": "41f7b56301467bfa6ff51fce94658f730470543ed6073270dfd84405fc3e2551"
+    },
+    {
+      "path": "post-4231.html",
+      "bytes": 61638,
+      "sha256": "d1b11c131b3e8e5d52eaa93990bc80cce7aa536033fa11cb873cb24791c0a1f0"
+    },
+    {
+      "path": "post-4327.html",
+      "bytes": 62952,
+      "sha256": "32ad551d5fb4ec12e9d7748aeefbbcd1731b63e2a8fa831365021c1b27647ffe"
+    },
+    {
+      "path": "post-441'.html",
+      "bytes": 347,
+      "sha256": "e8f880ebd9ee3cf15962e9cfc945b33a02f6b26a3a6b56dd297b33d94f8a8338"
+    },
+    {
+      "path": "post-4661.html",
+      "bytes": 62914,
+      "sha256": "cb77a7fc20e9bdb73b4e9b543558c2d57e353edf549a7cad544b7809ecb32aab"
+    },
+    {
+      "path": "post-4957.html",
+      "bytes": 62078,
+      "sha256": "c369228fd3e2a7d7d84896163b3b0d406e6c67612bc1e3940ab2499158bcae42"
+    },
+    {
+      "path": "post-4961.html",
+      "bytes": 62219,
+      "sha256": "5370b5fe9573b39457346c04a3af44c8f74e2a3a07095963fe282bfbd5136356"
+    },
+    {
+      "path": "post-4967.html",
+      "bytes": 63329,
+      "sha256": "e29db8f098733f104aad975f6d69a6838adad0c3ede5088e0d9e120ed7939596"
+    },
+    {
+      "path": "post-4982.html",
+      "bytes": 62155,
+      "sha256": "d27bbbccf0f158317c3137d311e2ae0e76e55f71db194f45bd9119c616064244"
+    },
+    {
+      "path": "post-5095.html",
+      "bytes": 63928,
+      "sha256": "e8f8d1d08d62c376b413921aafb9830459c53c97fdb2c050f3836e2a85ebc4a2"
+    },
+    {
+      "path": "post-5099.html",
+      "bytes": 61795,
+      "sha256": "6c56c9e13abfccc9e7e1b43f40cf45c8bf0fb36965a170cbf5abcc96a9d730df"
+    },
+    {
+      "path": "post-5110.html",
+      "bytes": 62036,
+      "sha256": "e68f10b5cc67d6e53d29eb3362d289cff540dd2521f8561cdca79ea3d47c6416"
+    },
+    {
+      "path": "post-5115.html",
+      "bytes": 63963,
+      "sha256": "e551c3f272bfb218f55f88eca2299ced8ac141c2e30c33991cef529509d77502"
+    },
+    {
+      "path": "post-5163.html",
+      "bytes": 60204,
+      "sha256": "794bfadb20352aa56263a1b254c79d67b632ac61d04dd976930d98f4efcb528c"
+    },
+    {
+      "path": "redesign.css",
+      "bytes": 12038,
+      "sha256": "fa1ab4afbd1551bcd67362401af3a90aaf09038a225502e9e2add45823c83300"
+    },
+    {
+      "path": "works.html",
+      "bytes": 59844,
+      "sha256": "87ea8965d42df6385457e4517e80a673746364d2dfa7089af1ee21cafec4cbe8"
+    }
+  ],
+  "downloaded_assets": {
+    "https://yid.yonsei.ac.kr/wp-content/plugins/elementor-pro/assets/js/elements-handlers.min.js?ver=4.3.1": "assets/yid.yonsei.ac.kr/wp-content/plugins/elementor-pro/assets/js/elements-handlers.min.js",
+    "https://yid.yonsei.ac.kr/wp-content/plugins/elementor-pro/assets/js/frontend.min.js?ver=4.3.1": "assets/yid.yonsei.ac.kr/wp-content/plugins/elementor-pro/assets/js/frontend.min.js",
+    "https://yid.yonsei.ac.kr/wp-content/uploads//theplus_gutenberg/theplus-post-5099.min.css?ver=1780273422": "assets/yid.yonsei.ac.kr/wp-content/uploads/theplus_gutenberg/theplus-post-5099.min.css",
+    "https://yid.yonsei.ac.kr/wp-content/plugins/elementor-pro/assets/css/widget-post-info.min.css?ver=4.3.1": "assets/yid.yonsei.ac.kr/wp-content/plugins/elementor-pro/assets/css/widget-post-info.min.css",
+    "https://yid.yonsei.ac.kr/wp-content/uploads/2024/08/BK21-%EC%9D%B8%EA%B0%84%EC%83%9D%EC%95%A0%EC%99%80-%ED%98%81%EC%8B%A0%EC%A0%81-%EB%94%94%EC%9E%90%EC%9D%B8-%EB%82%B4%EA%B7%9C_Ver8.pdf": "assets/yid.yonsei.ac.kr/wp-content/uploads/2024/08/BK21-인간생애와-혁신적-디자인-내규_Ver8.pdf",
+    "https://yid.yonsei.ac.kr/wp-content/plugins/elementor-pro/assets/css/modules/sticky.min.css?ver=4.3.1": "assets/yid.yonsei.ac.kr/wp-content/plugins/elementor-pro/assets/css/modules/sticky.min.css",
+    "https://yid.yonsei.ac.kr/wp-content/plugins/elementor/assets/css/widget-divider.min.css?ver=4.3.3": "assets/yid.yonsei.ac.kr/wp-content/plugins/elementor/assets/css/widget-divider.min.css",
+    "https://yid.yonsei.ac.kr/wp-content/plugins/elementor-pro/assets/css/modules/motion-fx.min.css?ver=4.3.1": "assets/yid.yonsei.ac.kr/wp-content/plugins/elementor-pro/assets/css/modules/motion-fx.min.css",
+    "https://yid.yonsei.ac.kr/wp-content/plugins/elementor-pro/assets/lib/sticky/jquery.sticky.min.js?ver=4.3.1": "assets/yid.yonsei.ac.kr/wp-content/plugins/elementor-pro/assets/lib/sticky/jquery.sticky.min.js",
+    "https://yid.yonsei.ac.kr/wp-content/plugins/elementor-pro/assets/css/widget-nav-menu.min.css?ver=4.3.1": "assets/yid.yonsei.ac.kr/wp-content/plugins/elementor-pro/assets/css/widget-nav-menu.min.css",
+    "https://yid.yonsei.ac.kr/wp-content/plugins/elementor-pro/assets/css/widget-post-navigation.min.css?ver=4.3.1": "assets/yid.yonsei.ac.kr/wp-content/plugins/elementor-pro/assets/css/widget-post-navigation.min.css",
+    "https://yid.yonsei.ac.kr/wp-content/plugins/the-plus-addons-for-block-editor/assets/css/extra/fontawesome.min.css?ver=4.6.2": "assets/yid.yonsei.ac.kr/wp-content/plugins/the-plus-addons-for-block-editor/assets/css/extra/fontawesome.min.css",
+    "https://yid.yonsei.ac.kr/wp-content/uploads/2024/11/%EC%97%B0%EA%B5%AC%EC%9C%A4%EB%A6%AC-%EC%9D%B4%ED%95%B4%EC%B6%A9%EB%8F%8C%EC%8B%AC%EC%9D%98%EC%9C%84%EC%9B%90%ED%9A%8C-%EC%9A%B4%EC%98%81-%EA%B7%9C%EC%A0%95.pdf": "assets/yid.yonsei.ac.kr/wp-content/uploads/2024/11/연구윤리-이해충돌심의위원회-운영-규정.pdf",
+    "https://yid.yonsei.ac.kr/wp-content/uploads/2024/11/%EC%97%B0%EA%B5%AC%EC%9E%90-%EC%97%B0%EA%B5%AC%EC%9C%A4%EB%A6%AC-%EC%9D%B4%ED%95%B4%EC%B6%A9%EB%8F%8C-%EC%8B%A0%EA%B3%A0%EC%8B%AC%EC%9D%98-%EC%A0%88%EC%B0%A8-%EC%95%88%EB%82%B4_%ED%8E%98%EC%9D%B4%EC%A7%80_1-vert-scaled.jpg": "assets/yid.yonsei.ac.kr/wp-content/uploads/2024/11/연구자-연구윤리-이해충돌-신고심의-절차-안내_페이지_1-vert-scaled.jpg",
+    "https://yid.yonsei.ac.kr/wp-content/uploads/2024/11/%EC%97%B0%EA%B5%AC%EC%9E%90-%EC%9D%B4%ED%95%B4%EC%B6%A9%EB%8F%8C%EC%9C%84%EC%9B%90%ED%9A%8C-%EC%8B%A0%EA%B3%A0-%EC%96%91%EC%8B%9D.hwp": "assets/yid.yonsei.ac.kr/wp-content/uploads/2024/11/연구자-이해충돌위원회-신고-양식.hwp",
+    "https://yid.yonsei.ac.kr/wp-content/uploads/2025/06/2025-%EC%A0%84%ED%86%B5%EB%88%84%EB%A6%AC-%EC%B0%B8%EA%B0%80%EC%8B%A0%EC%B2%AD%EC%84%9C-%EC%96%91%EC%8B%9D%EB%B0%B0%ED%8F%AC%EC%9A%A9.hwp": "assets/yid.yonsei.ac.kr/wp-content/uploads/2025/06/2025-전통누리-참가신청서-양식배포용.hwp",
+    "https://yid.yonsei.ac.kr/wp-content/uploads/2025/12/%EB%A9%94%EC%9D%BC%EB%B0%9C%EC%86%A1%EC%9A%A9-%EC%A0%9C3%ED%9A%8C-%EC%97%B0%EC%84%B8-PPT-%ED%85%9C%ED%94%8C%EB%A6%BF-%EA%B3%B5%EB%AA%A8%EC%A0%84.pdf": "assets/yid.yonsei.ac.kr/wp-content/uploads/2025/12/메일발송용-제3회-연세-PPT-템플릿-공모전.pdf",
+    "https://yid.yonsei.ac.kr/wp-content/uploads/2025/12/unnamed-4.pdf": "assets/yid.yonsei.ac.kr/wp-content/uploads/2025/12/unnamed-4.pdf",
+    "https://yid.yonsei.ac.kr/wp-content/uploads/2026/02/10%ED%95%99%EB%B2%88-%EC%9D%B4%ED%9B%84-%EC%A1%B8%EC%97%85%EC%9A%94%EA%B1%B4%ED%91%9C_%ED%86%B5%ED%95%A9%EB%94%94%EC%9E%90%EC%9D%B8%ED%95%99%EA%B3%BC_202602_v3.pdf": "assets/yid.yonsei.ac.kr/wp-content/uploads/2026/02/10학번-이후-졸업요건표_통합디자인학과_202602_v3.pdf",
+    "https://yid.yonsei.ac.kr/wp-content/uploads/2026/06/Samsung_Design_Meet-Up_Poster-724x1024.png": "assets/yid.yonsei.ac.kr/wp-content/uploads/2026/06/Samsung_Design_Meet-Up_Poster-724x1024.png",
+    "https://yid.yonsei.ac.kr/wp-content/uploads/2026/06/Screenshot-2026-06-18-at-9.41.53-AM-1024x414.png": "assets/yid.yonsei.ac.kr/wp-content/uploads/2026/06/Screenshot-2026-06-18-at-9.41.53-AM-1024x414.png",
+    "https://yid.yonsei.ac.kr/wp-content/uploads/2026/02/image-6.png": "assets/yid.yonsei.ac.kr/wp-content/uploads/2026/02/image-6.png",
+    "https://yid.yonsei.ac.kr/wp-content/uploads/2026/02/%ED%86%B5%ED%95%A9%EB%94%94%EC%9E%90%EC%9D%B8-%EB%8C%80%ED%95%99%EC%9B%90%EB%82%B4%EA%B7%9C33%EC%B0%A8_%EC%B2%A8%EB%B6%80%EA%B2%B0%ED%95%A9.pdf": "assets/yid.yonsei.ac.kr/wp-content/uploads/2026/02/통합디자인-대학원내규33차_첨부결합.pdf",
+    "https://yid.yonsei.ac.kr/wp-content/uploads/2026/05/AIorK4wRzUYXoyJpNF2P9xcDWDJBOJ4AaQwG6vnFu-4fCEJ5c5VAc8HjxJNijzl_apDQ74fOUSIFYQbc8n0X.png": "assets/yid.yonsei.ac.kr/wp-content/uploads/2026/05/AIorK4wRzUYXoyJpNF2P9xcDWDJBOJ4AaQwG6vnFu-4fCEJ5c5VAc8HjxJNijzl_apDQ74fOUSIFYQbc8n0X.png",
+    "https://yid.yonsei.ac.kr/wp-content/uploads/2026/06/69251_3414483_1780025617846563208-1024x883.png": "assets/yid.yonsei.ac.kr/wp-content/uploads/2026/06/69251_3414483_1780025617846563208-1024x883.png",
+    "https://yid.yonsei.ac.kr/wp-content/uploads/2026/02/2026-02-02_19h48_50-1-1024x404.png": "assets/yid.yonsei.ac.kr/wp-content/uploads/2026/02/2026-02-02_19h48_50-1-1024x404.png",
+    "https://yid.yonsei.ac.kr/wp-content/uploads/2026/06/image-1.png": "assets/yid.yonsei.ac.kr/wp-content/uploads/2026/06/image-1.png",
+    "https://yid.yonsei.ac.kr/wp-content/uploads/2026/06/image-5-1024x656.png": "assets/yid.yonsei.ac.kr/wp-content/uploads/2026/06/image-5-1024x656.png",
+    "https://yid.yonsei.ac.kr/wp-content/uploads/theplus_gutenberg/plus-global.css?ver=1780273422": "assets/yid.yonsei.ac.kr/wp-content/uploads/theplus_gutenberg/plus-global.css",
+    "https://yid.yonsei.ac.kr/wp-content/uploads/elementor/css/post-1312.css?v=accent-508aff": "assets/yid.yonsei.ac.kr/wp-content/uploads/elementor/css/post-1312.css",
+    "https://yid.yonsei.ac.kr/wp-content/uploads/elementor/css/post-83.css?ver=1790839442": "assets/yid.yonsei.ac.kr/wp-content/uploads/elementor/css/post-83.css",
+    "https://yid.yonsei.ac.kr/wp-content/uploads/elementor/css/post-88.css?ver=1790837252": "assets/yid.yonsei.ac.kr/wp-content/uploads/elementor/css/post-88.css",
+    "https://yid.yonsei.ac.kr/wp-content/uploads/theplus_gutenberg/plus-css-5099.css?ver=1780273422": "assets/yid.yonsei.ac.kr/wp-content/uploads/theplus_gutenberg/plus-css-5099.css",
+    "https://yid.yonsei.ac.kr/wp-includes/js/jquery/ui/slider.min.js?ver=1.14.2": "assets/yid.yonsei.ac.kr/wp-includes/js/jquery/ui/slider.min.js",
+    "https://yid.yonsei.ac.kr/wp-includes/js/dist/script-modules/block-library/file/view.min.js?ver=a9114a756e418400594c": "assets/yid.yonsei.ac.kr/wp-includes/js/dist/script-modules/block-library/file/view.min.js",
+    "https://yid.yonsei.ac.kr/wp-includes/js/jquery/jquery.ui.touch-punch.js?ver=0.2.2": "assets/yid.yonsei.ac.kr/wp-includes/js/jquery/jquery.ui.touch-punch.js",
+    "https://yid.yonsei.ac.kr/wp-includes/js/jquery/ui/draggable.min.js?ver=1.14.2": "assets/yid.yonsei.ac.kr/wp-includes/js/jquery/ui/draggable.min.js",
+    "https://yid.yonsei.ac.kr/wp-includes/js/jquery/ui/mouse.min.js?ver=1.14.2": "assets/yid.yonsei.ac.kr/wp-includes/js/jquery/ui/mouse.min.js",
+    "https://yid.yonsei.ac.kr/wp-content/uploads/elementor/css/post-10.css?v=accent-508aff": "assets/yid.yonsei.ac.kr/wp-content/uploads/elementor/css/post-10.css",
+    "https://zm901.mailplug.com/api/showImage.php?host_domain=yonsei.ac.kr&image=Njk3ZWYxODQ4M2U5MDgwMWQwNjNkMTBiM2NjNjQxNzYwNGNiMTVhMg==": "assets/zm901.mailplug.com/download/915d52ea2880a47b.png",
+    "https://yid.yonsei.ac.kr/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-solid-900.svg#fontawesome": "assets/yid.yonsei.ac.kr/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-solid-900.svg",
+    "https://yid.yonsei.ac.kr/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-regular-400.svg#fontawesome": "assets/yid.yonsei.ac.kr/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-regular-400.svg",
+    "https://yid.yonsei.ac.kr/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-brands-400.svg#fontawesome": "assets/yid.yonsei.ac.kr/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-brands-400.svg"
+  }
+}
