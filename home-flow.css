@@ -1,6 +1,6 @@
 .home-content { width:100%; margin:0; padding:0; }
 .home-photo .home-hero-brand { position:absolute; z-index:3; left:50%; top:50svh; transform:translate(-50%,-50%); display:block; width:375px; max-width:calc(100% - 48px); }
-.home-photo .home-hero-brand img { display:block; width:100%!important; height:auto; filter:brightness(0) invert(1) drop-shadow(0 2px 5px #0005); }
+.home-photo .home-hero-brand img { display:block; width:100%!important; height:auto; filter:brightness(0) invert(1) drop-shadow(0 1px 3px rgba(0,0,0,.14)) drop-shadow(0 3px 10px rgba(0,0,0,.0875)); }
 .home-photo .home-scroll-header { transition:background .18s ease!important; }
 .home-photo .home-scroll-header .home-scroll-logo { position:absolute; left:max(24px,calc((100vw - 1024px)/2)); top:24px; transform:none!important; opacity:0; visibility:hidden; transition:opacity .18s ease!important; }
 .home-photo .home-scroll-header .home-scroll-logo img { width:125px!important; }
