@@ -87,15 +87,15 @@ body.home-photo {
 /* Portrait photos keep their central region; navigation shadows at half strength. */
 .home-photo .yid-photo-layer { object-position: 50% 50% !important; }
 .home-photo .elementor img.yid-brand-logo {
-  filter: brightness(0) invert(1) drop-shadow(0 1px 3px rgba(0,0,0,.14)) drop-shadow(0 3px 10px rgba(0,0,0,.0875));
+  filter: brightness(0) invert(1) drop-shadow(0 1px 3px rgba(0,0,0,.042)) drop-shadow(0 3px 10px rgba(0,0,0,.02625));
 }
 .home-photo .elementor .elementor-nav-menu a.elementor-item,
 .home-photo .elementor .elementor-nav-menu a.elementor-sub-item,
 .home-photo .elementor .elementor-menu-toggle {
-  text-shadow: 0 1px 3px rgba(0,0,0,.14), 0 3px 10px rgba(0,0,0,.0875);
+  text-shadow: 0 1px 3px rgba(0,0,0,.042), 0 3px 10px rgba(0,0,0,.02625);
 }
 .home-photo .elementor .elementor-nav-menu > .menu-item-has-children > a.elementor-item::after {
-  filter: drop-shadow(0 1px 2px rgba(0,0,0,.105));
+  filter: drop-shadow(0 1px 2px rgba(0,0,0,.0315));
 }
 /* Restore the original notice surface and typography below the photo hero. */
 body.home-photo { background: #fff !important; }
@@ -209,7 +209,7 @@ body.home-photo { background: #fff !important; }
 .home-photo .home-scroll-header .home-scroll-navigation > ul::after,
 .home-photo .home-scroll-header .home-scroll-navigation > ul::before { content: none !important; display: none !important; }
 .home-photo .home-scroll-header .home-scroll-navigation > ul > li > a { padding-top: 16px; padding-bottom: 16px; }
-.home-photo .home-scroll-header.is-compact { background: rgba(255,255,255,.97); box-shadow: 0 2px 12px rgba(0,0,0,.07); }
+.home-photo .home-scroll-header.is-compact { background: rgba(255,255,255,.97); box-shadow: 0 2px 12px rgba(0,0,0,.042); }
 .home-photo .home-scroll-header.is-compact .home-scroll-logo { top: 35px; left: max(86.5px, calc((100vw - 1024px)/2 + 62.5px)); transform: translate(-50%,-50%) scale(.333333333); }
 .home-photo .home-scroll-header.is-compact .home-scroll-navigation > ul { transform: translateX(calc((100vw - 100%)/2 - max(24px, (100vw - 1024px)/2))); }
 .home-photo .home-scroll-header.is-compact img.yid-brand-logo { filter: none; }
