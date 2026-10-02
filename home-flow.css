@@ -22,8 +22,7 @@
 .home-photo .home-scroll-header.is-compact { background:rgba(255,255,255,.97); }
 .home-photo .home-scroll-header.is-about { background:rgba(0,31,117,.97); }
 .home-photo .home-scroll-header.is-about img.yid-brand-logo { filter:brightness(0) invert(1); }
-.home-photo .home-scroll-header.is-about .elementor-nav-menu a.elementor-item,
-.home-photo .home-scroll-header.is-about .elementor-nav-menu a.elementor-sub-item { color:white!important; }
+.home-photo .home-scroll-header.is-about .elementor-nav-menu a.elementor-item { color:white!important; }
 .home-photo .home-scroll-header.is-about .elementor-nav-menu > .menu-item-has-children > a.elementor-item::after { border-top-color:white; }
 .floating-notice { position:fixed; z-index:110; right:24px; bottom:24px; width:260px; box-sizing:border-box; padding:10px 14px 12px; border-radius:6px; color:#001f75; background:rgba(255,255,255,.96); font-family:'Pretendard',sans-serif; box-shadow:0 4px 20px #0002; }
 .floating-notice a { color:inherit; text-decoration:none; }
