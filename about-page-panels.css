@@ -18,16 +18,16 @@
   text-decoration: none;
   transition: background .2s ease, border-color .2s ease, transform .2s ease;
 }
-.about-editorial .about-page-panels strong { font-size: 16px; font-weight: 700; }
-.about-editorial .about-page-panels span { font-size: 14px; opacity: .75; }
+.about-editorial .about-page-panels strong { font-size: 12.8px; font-weight: 700; }
+.about-editorial .about-page-panels span { font-size: 11.2px; opacity: .75; }
 .about-editorial .about-page-panels a:hover,
 .about-editorial .about-page-panels a:focus-visible { background: rgba(255,255,255,.16); border-color: #fff; transform: translateY(-3px); }
 .about-editorial .about-page-panels a:focus-visible { outline: 2px solid #fff; outline-offset: 4px; }
 @media(max-width:600px) {
   .about-editorial .about-page-panels { gap: 8px; margin-top: 40px; }
   .about-editorial .about-page-panels a { padding: 16px 8px; min-height: 90px; }
-  .about-editorial .about-page-panels strong { font-size: clamp(10px,2.6vw,14px); }
-  .about-editorial .about-page-panels span { font-size: 12px; }
+  .about-editorial .about-page-panels strong { font-size: clamp(8px,2.08vw,11.2px); }
+  .about-editorial .about-page-panels span { font-size: 9.6px; }
 }
 @media(prefers-reduced-motion:reduce) { .about-editorial .about-page-panels a { transition: none; transform: none; } }
 /* Compact pill links at the end of ABOUT. */
@@ -50,12 +50,12 @@
   background: #fff;
   color: #001F75 !important;
 }
-.about-editorial .about-page-panels strong { font-size: 14px; line-height: 1.4; }
+.about-editorial .about-page-panels strong { font-size: 11.2px; line-height: 1.4; }
 .about-editorial .about-page-panels span { display: none; }
 .about-editorial .about-page-panels a:hover,
 .about-editorial .about-page-panels a:focus-visible { background: #eef3ff; border-color: #eef3ff; transform: translateY(-2px); }
 @media(max-width:600px) {
   .about-editorial .about-page-panels { gap: 8px; }
   .about-editorial .about-page-panels a { padding: 10px 14px; }
-  .about-editorial .about-page-panels strong { font-size: 12px; }
+  .about-editorial .about-page-panels strong { font-size: 9.6px; }
 }
