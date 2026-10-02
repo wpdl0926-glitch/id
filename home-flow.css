@@ -52,3 +52,10 @@
   .home-scroll-cue { bottom:122px; }
   .home-photo .home-scroll-header.is-compact .home-scroll-logo { top:28px; }
 }
+/* More prominent ABOUT scroll cue. */
+.home-photo .home-scroll-cue { font-weight: 700 !important; }
+/* Notice silhouette: semicircular left cap, square right corners. */
+.home-photo .floating-notice {
+  border-radius: 999px 0 0 999px;
+  padding-left: 38px;
+}
