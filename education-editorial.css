@@ -302,3 +302,16 @@ html.education-white body .education-course-popup-close:focus-visible{color:#001
 /* 대학원 교과 구분 제목 130% */
 .education-grad-band-label h3{font-size:13px}
 .education-grad-band-label h3>span{font-size:13px}
+
+/* 닫기 아이콘의 포커스 박스와 테마의 버튼 반전 스타일 방지 */
+html.education-white body .education-course-popup-close,
+html.education-white body .education-course-popup-close:focus,
+html.education-white body .education-course-popup-close:focus-visible,
+html.education-white body .education-course-popup-close:active{outline:none!important;border:0!important;background:transparent!important;box-shadow:none!important}
+html.education-white body .education-course-choice,
+html.education-white body .education-course-choice:hover,
+html.education-white body .education-course-choice:focus,
+html.education-white body .education-course-choice:focus-visible,
+html.education-white body .education-course-choice:active{background:transparent!important;color:#001f75!important;box-shadow:none!important;text-decoration:none!important}
+html.education-white body .education-course-choice[aria-pressed="true"]{color:#888!important}
+html.education-white body .education-course-popup-close:focus-visible svg{stroke-width:2.2}

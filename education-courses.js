@@ -94,6 +94,8 @@
         close.setAttribute('aria-label', '닫기');
         close.addEventListener('click', () => {
           popup.hidePopover();
+          button.setAttribute('aria-expanded', 'false');
+          button.setAttribute('aria-pressed', 'false');
           button.focus({preventScroll:true});
         });
         const header = document.createElement('div');
