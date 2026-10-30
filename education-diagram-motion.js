@@ -29,8 +29,8 @@
     svg.querySelector('defs').append(clip);
     const shapes = svg.querySelectorAll('[data-flow]');
     shapes.forEach(node => node.setAttribute('clip-path', 'url(#education-flow-clip)'));
-    const duration = 3000;
-    const labelDuration = 700;
+    const duration = 2000;
+    const labelDuration = 460;
     // Group each label without changing the source lettering or transforms.
     // Identical year positions produce identical reveal times.
     const labels = [...svg.querySelectorAll('[data-label-x]')].map(source => {
