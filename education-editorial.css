@@ -315,3 +315,24 @@ html.education-white body .education-course-choice:focus-visible,
 html.education-white body .education-course-choice:active{background:transparent!important;color:#001f75!important;box-shadow:none!important;text-decoration:none!important}
 html.education-white body .education-course-choice[aria-pressed="true"]{color:#888!important}
 html.education-white body .education-course-popup-close:focus-visible svg{stroke-width:2.2}
+
+/* 지정된 페이지 제목과 Education 본문·카드·팝업 글자 크기 */
+.education-introduction h1{font-size:50px}
+#academics_under>p[lang="ko"],#academics_grad>p[lang="ko"],#academics_grad li{font-size:12px}
+.education-course-popup-header h3{font-size:12px}
+.education-course-popup .education-course-description p,
+.education-course-popup-body>p{font-size:10px}
+.education-course-popup .education-course-description .translation-heading{font-size:12px!important}
+.education-course-popup .education-course-description .translation-en{font-size:10px!important}
+.education-editorial .education-lab-grid .education-lab h3{font-size:12px}
+.education-editorial .education-lab-grid .education-lab p{font-size:10px}
+
+/* Education 본문: 번역은 가까이, 다음 내용은 넓게 */
+.education-editorial #academics_under>p.translation-en,
+.education-editorial #academics_grad>p.translation-en{font-size:12px}
+.education-editorial #academics_under>p[lang="ko"]:has(+p.translation-en),
+.education-editorial #academics_grad>p[lang="ko"]:has(+p.translation-en){margin-bottom:15px}
+.education-editorial #academics_under>p[lang="ko"]+p.translation-en,
+.education-editorial #academics_grad>p[lang="ko"]+p.translation-en{margin-top:0}
+.education-editorial #academics_under>p.translation-en:has(+p[lang="ko"]),
+.education-editorial #academics_grad>p.translation-en:has(+p[lang="ko"]){margin-bottom:50px}
