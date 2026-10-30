@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-02",
+  "date": "2026-10-31",
   "files": [
     {
       "path": ".DS_Store",
@@ -60,6 +60,11 @@
       "path": "assets/brand/integrated-design-symbol-white.svg",
       "bytes": 514,
       "sha256": "cc583c23bf53578529e4b50bdc0d04ac9c3ec2d7be5222359028e044e29ec24b"
+    },
+    {
+      "path": "assets/education/undergraduate-diagram.svg",
+      "bytes": 119452,
+      "sha256": "8e731ea4402b95e828e23929a9b08864b28a23d9b0a282a04eaca9d9ddff7a3b"
     },
     {
       "path": "assets/fonts/pretendard/LICENSE",
@@ -150,6 +155,66 @@
       "path": "assets/yid.yonsei.ac.kr/wp-content/plugins/add-search-to-menu/public/js/ivory-search.min.js",
       "bytes": 4580,
       "sha256": "66d0c8cbacc09ad8746e64ad28d887186d1f060f04c388c2f1102ee346120a8c"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/plugins/elementor-pro/assets/css/modules/motion-fx.min.css",
+      "bytes": 778,
+      "sha256": "830e206b42444c7bad7bf3ce729c00a11e0f4cb76b01f94f2d5d2c4578f7ee79"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/plugins/elementor-pro/assets/css/modules/sticky.min.css",
+      "bytes": 162,
+      "sha256": "6f0b2e96bd88c2d8512dfd204adaf2251376467a1f834a51c66ce85f0051979d"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/plugins/elementor-pro/assets/css/widget-loop-common.min.css",
+      "bytes": 207,
+      "sha256": "6aaf6a6c5fe4f649ce0dc34f941062b49ee4018c9f2284c1fca15c50aa246877"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/plugins/elementor-pro/assets/css/widget-loop-grid.min.css",
+      "bytes": 13218,
+      "sha256": "731b23c86dd64aae5799f075864c86fe74aba3e328e3b7b75261f28847751cd9"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/plugins/elementor-pro/assets/css/widget-nav-menu.min.css",
+      "bytes": 27363,
+      "sha256": "69061e12c6aa3e208878769bf08de7f55f88a0610f079a4978085d840d92620d"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/plugins/elementor-pro/assets/css/widget-post-info.min.css",
+      "bytes": 559,
+      "sha256": "5bd7d887af05323d3ca31f766517631b098ddd08fdecfc95336ebb362ba85039"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/plugins/elementor-pro/assets/css/widget-post-navigation.min.css",
+      "bytes": 2511,
+      "sha256": "21f8d75fc882da2c45196f770a1561eadbfc22e93482918602a84d6569f3bcd0"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/plugins/elementor-pro/assets/css/widget-posts.min.css",
+      "bytes": 17060,
+      "sha256": "b8007324234ad90768859716c75e8b7135ca7699b3a5f88900093133cf238d3c"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/plugins/elementor-pro/assets/js/elements-handlers.min.js",
+      "bytes": 291601,
+      "sha256": "eaa8df312cfc2eeba8b360c9170f79931697e81280d8c42945f064c68b09f393"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/plugins/elementor-pro/assets/js/frontend.min.js",
+      "bytes": 80170,
+      "sha256": "afae2c2ce9aeff27675236f128c7e2008ba76e1c456b6107e61235f08350ea51"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/plugins/elementor-pro/assets/lib/smartmenus/jquery.smartmenus.min.js",
+      "bytes": 24109,
+      "sha256": "f9b60ae2f2938c589960ef00d9b9a644f0847f7183f597cdc3fbf8cfe904c552"
+    },
+    {
+      "path": "assets/yid.yonsei.ac.kr/wp-content/plugins/elementor-pro/assets/lib/sticky/jquery.sticky.min.js",
+      "bytes": 3721,
+      "sha256": "34bbd1c367ffc7d80fcff86c7e5f8777e70f4911bb324e8ecfc7dd3604a96e68"
     },
     {
       "path": "assets/yid.yonsei.ac.kr/wp-content/plugins/elementor/assets/css/conditionals/e-swiper.min.css",
@@ -485,66 +550,6 @@
       "path": "assets/yid.yonsei.ac.kr/wp-content/plugins/elementor/assets/lib/swiper/v8/swiper.min.js",
       "bytes": 143709,
       "sha256": "2ac3af00c283c0b2ae6108fa83a2053e51274a2a812fb063916cbe19bc4f96b5"
-    },
-    {
-      "path": "assets/yid.yonsei.ac.kr/wp-content/plugins/elementor-pro/assets/css/modules/motion-fx.min.css",
-      "bytes": 778,
-      "sha256": "830e206b42444c7bad7bf3ce729c00a11e0f4cb76b01f94f2d5d2c4578f7ee79"
-    },
-    {
-      "path": "assets/yid.yonsei.ac.kr/wp-content/plugins/elementor-pro/assets/css/modules/sticky.min.css",
-      "bytes": 162,
-      "sha256": "6f0b2e96bd88c2d8512dfd204adaf2251376467a1f834a51c66ce85f0051979d"
-    },
-    {
-      "path": "assets/yid.yonsei.ac.kr/wp-content/plugins/elementor-pro/assets/css/widget-loop-common.min.css",
-      "bytes": 207,
-      "sha256": "6aaf6a6c5fe4f649ce0dc34f941062b49ee4018c9f2284c1fca15c50aa246877"
-    },
-    {
-      "path": "assets/yid.yonsei.ac.kr/wp-content/plugins/elementor-pro/assets/css/widget-loop-grid.min.css",
-      "bytes": 13218,
-      "sha256": "731b23c86dd64aae5799f075864c86fe74aba3e328e3b7b75261f28847751cd9"
-    },
-    {
-      "path": "assets/yid.yonsei.ac.kr/wp-content/plugins/elementor-pro/assets/css/widget-nav-menu.min.css",
-      "bytes": 27363,
-      "sha256": "69061e12c6aa3e208878769bf08de7f55f88a0610f079a4978085d840d92620d"
-    },
-    {
-      "path": "assets/yid.yonsei.ac.kr/wp-content/plugins/elementor-pro/assets/css/widget-post-info.min.css",
-      "bytes": 559,
-      "sha256": "5bd7d887af05323d3ca31f766517631b098ddd08fdecfc95336ebb362ba85039"
-    },
-    {
-      "path": "assets/yid.yonsei.ac.kr/wp-content/plugins/elementor-pro/assets/css/widget-post-navigation.min.css",
-      "bytes": 2511,
-      "sha256": "21f8d75fc882da2c45196f770a1561eadbfc22e93482918602a84d6569f3bcd0"
-    },
-    {
-      "path": "assets/yid.yonsei.ac.kr/wp-content/plugins/elementor-pro/assets/css/widget-posts.min.css",
-      "bytes": 17060,
-      "sha256": "b8007324234ad90768859716c75e8b7135ca7699b3a5f88900093133cf238d3c"
-    },
-    {
-      "path": "assets/yid.yonsei.ac.kr/wp-content/plugins/elementor-pro/assets/js/elements-handlers.min.js",
-      "bytes": 291601,
-      "sha256": "eaa8df312cfc2eeba8b360c9170f79931697e81280d8c42945f064c68b09f393"
-    },
-    {
-      "path": "assets/yid.yonsei.ac.kr/wp-content/plugins/elementor-pro/assets/js/frontend.min.js",
-      "bytes": 80170,
-      "sha256": "afae2c2ce9aeff27675236f128c7e2008ba76e1c456b6107e61235f08350ea51"
-    },
-    {
-      "path": "assets/yid.yonsei.ac.kr/wp-content/plugins/elementor-pro/assets/lib/smartmenus/jquery.smartmenus.min.js",
-      "bytes": 24109,
-      "sha256": "f9b60ae2f2938c589960ef00d9b9a644f0847f7183f597cdc3fbf8cfe904c552"
-    },
-    {
-      "path": "assets/yid.yonsei.ac.kr/wp-content/plugins/elementor-pro/assets/lib/sticky/jquery.sticky.min.js",
-      "bytes": 3721,
-      "sha256": "34bbd1c367ffc7d80fcff86c7e5f8777e70f4911bb324e8ecfc7dd3604a96e68"
     },
     {
       "path": "assets/yid.yonsei.ac.kr/wp-content/plugins/elementskit-lite/libs/framework/assets/js/frontend-script.js",
@@ -2502,6 +2507,11 @@
       "sha256": "419a5fbbd0ba333a50ee991c64576bbdc45ec29d47db8d14c7257983bcb12f46"
     },
     {
+      "path": "bilingual.css",
+      "bytes": 2965,
+      "sha256": "1d65ae28b29f7df504a3b89496037d9832acf3f181b5f3f0d8bbb8dde7f1b41b"
+    },
+    {
       "path": "board.html",
       "bytes": 62145,
       "sha256": "59f75342ad8c7d1d098a55b5681a05dc74201b8e77ba2f3c141b3621b2d6a06e"
@@ -2512,14 +2522,24 @@
       "sha256": "30e76597ab3131dbfda18a53e414209186edb5a03d92524765b044fdd560e1f3"
     },
     {
+      "path": "education-courses.js",
+      "bytes": 8091,
+      "sha256": "1436885d4d97d9cc273bc2163a505630d8f2ebc73a396535c95c22046ca7ce55"
+    },
+    {
+      "path": "education-diagram-motion.js",
+      "bytes": 4192,
+      "sha256": "f6a665cecc4f5f6fc97a4b6bd1641cc79fb7e919338c2886a966895842fc9985"
+    },
+    {
       "path": "education-editorial.css",
-      "bytes": 10365,
-      "sha256": "161692871fd92fe489eea90e79b63993ee29c2b00bce25858a348d9adb640db6"
+      "bytes": 27777,
+      "sha256": "20451f0d18e13c9bcc0f176a6fc5cba4ce62e5caf44d7e54f8eec52feac26e3b"
     },
     {
       "path": "education.html",
-      "bytes": 109720,
-      "sha256": "f455a4891b4b2d1f6ae95c92e7a4e4a9259492b2fa4bb96d93a3e193701c77e1"
+      "bytes": 158648,
+      "sha256": "add5cfc9cc231e12a70dcfdebe34154485baab3e7c26609a724386755ded772f"
     },
     {
       "path": "geometry.js",

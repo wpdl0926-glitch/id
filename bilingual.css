@@ -1,0 +1,70 @@
+/* Korean paragraphs lead; English follows each paragraph or ABOUT number. */
+.bilingual-en { margin:28px 0 32px; }
+:is(.about-editorial,.education-editorial) .translation-en,
+:is(.about-editorial,.education-editorial) .bilingual-en p {
+  font-family:'Pretendard',sans-serif;
+  font-size:clamp(13px,1.15vw,16px);
+  font-weight:400;
+  line-height:1.8;
+  letter-spacing:0;
+  word-break:normal;
+  overflow-wrap:break-word;
+  text-wrap:pretty;
+  color:inherit;
+  opacity:.78;
+  margin:12px 0 28px;
+}
+:is(.about-editorial,.education-editorial) .bilingual-en p:last-child { margin-bottom:0; }
+:is(.about-editorial,.education-editorial) .translation-heading {
+  font:600 clamp(14px,1.25vw,18px)/1.5 'Pretendard',sans-serif;
+  color:inherit;
+  letter-spacing:0;
+  margin:0 0 16px;
+}
+:is(.about-editorial,.education-editorial) p.about-lead + .bilingual-en {
+  max-width:1000px;
+  margin-top:32px;
+}
+:is(.about-editorial,.education-editorial) p.about-lead + .bilingual-en p {
+  font-size:clamp(14px,1.3vw,19px);
+}
+.translation-inline {
+  display:block;
+  margin-top:6px;
+  font-family:'Pretendard',sans-serif;
+  font-size:.85em;
+  font-weight:400;
+  line-height:1.6;
+  letter-spacing:0;
+  word-break:normal;
+  overflow-wrap:break-word;
+  opacity:.78;
+}
+:is(.about-link,.education-link) > .bilingual-label { font-size:inherit; flex:1; }
+:is(.about-link,.education-link) .translation-inline { font-size:12px; }
+.education-course-description .bilingual-en { margin:20px 0 0; }
+.education-editorial .education-course-description .translation-heading { font-size:13px; margin-bottom:8px; }
+.education-editorial .education-course-description .translation-en { font-size:12px; line-height:1.8; margin:0 0 12px; }
+.education-editorial .education-lab-meta .translation-en,
+.editorial-page .faculty-copy .translation-en { font-size:12px; margin:2px 0 12px; }
+.education-editorial .education-sections li > .translation-en { margin:8px 0 24px; }
+.education-editorial .post-meta + .translation-en { font-size:12px; margin-top:-16px; }
+.floating-notice-item { min-height:70px; }
+.home-photo .floating-notice-item > span { display:block; -webkit-line-clamp:unset; overflow:visible; }
+.floating-notice-item .translation-inline { font-size:10px; line-height:1.4; }
+.elementor-location-footer .translation-inline { font-size:10px; max-width:400px; }
+@media(max-width:600px) {
+  .bilingual-en { margin-top:24px; }
+  :is(.about-editorial,.education-editorial) .translation-en { font-size:13px; }
+  .editorial-page .notice-list .translation-inline { font-size:12px; }
+  .education-course-group .translation-inline { font-size:11px; }
+}
+.education-editorial .education-lab-grid .education-link > .bilingual-label { font-size:inherit; }
+.education-editorial .education-lab-grid .education-link .translation-inline { font-size:11px; }
+.education-editorial .education-sections h2 .translation-inline {
+  font-size:16px;
+  line-height:1.65;
+  font-weight:400;
+  letter-spacing:0;
+  margin:16px 0 0;
+}

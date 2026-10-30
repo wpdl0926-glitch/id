@@ -102,3 +102,203 @@ html.education-white body a:hover *,html.education-white body a:focus-visible *{
 
 /* 제목의 수동 자간을 제거하고 서체의 커닝 적용 */
 .education-introduction h1{letter-spacing:normal;font-kerning:normal;font-feature-settings:"kern" 1;text-rendering:optimizeLegibility}
+
+/* 과목 목록과 공통 설명 패널 */
+.education-courses-enhanced .education-course-items{align-items:stretch;grid-auto-rows:minmax(60px,auto)}
+.education-under-grid .education-course-items{gap:0}
+.education-courses-enhanced .education-course-choice{display:block;box-sizing:border-box;width:100%;min-height:60px;padding:14px 8px;text-align:left;background:transparent;border:0;border-radius:4px;color:#001f75;font:500 13px/1.65 'Pretendard',sans-serif;letter-spacing:0;word-break:keep-all;overflow-wrap:anywhere;cursor:pointer;transition:background-color .18s,color .18s}
+.education-courses-enhanced .education-course-choice:hover{background:#001f7506;color:#508aff}
+.education-courses-enhanced .education-course-choice[aria-pressed="true"]{background:#001f750b;color:#001f75;font-weight:700}
+.education-course-panel{margin-top:40px;padding:28px 0 0;border-top:1px solid #001f7528;scroll-margin-top:100px;min-width:0}
+.education-course-panel-top{display:flex;align-items:center;justify-content:space-between;gap:20px;margin-bottom:18px}
+.education-sections .education-course-panel-category{font:600 11px/1.6 'Pretendard',sans-serif;letter-spacing:.06em;margin:0}
+.education-course-panel .education-course-return{flex-shrink:0;border:0;background:none;padding:4px 0;color:#001f75;font:500 12px/1.5 'Pretendard',sans-serif;cursor:pointer}
+.education-course-panel .education-course-return[hidden]{display:none}
+.education-course-panel h3{font-size:22px;font-weight:600;line-height:1.5;letter-spacing:-.025em;margin:0 0 18px;text-transform:none}
+.education-course-panel h3:focus{outline:none}
+.education-sections .education-course-preview{font-size:14.4px;line-height:1.9;margin:0;max-width:64ch}
+.education-course-full{margin-top:22px}
+.education-course-full[hidden]{display:none}
+.education-course-full>summary{display:inline-block;color:#001f75;font-size:12px;line-height:1.8;cursor:pointer;list-style:none;text-decoration:underline;text-underline-offset:4px}
+.education-course-full>summary::-webkit-details-marker{display:none}
+.education-course-full-body{padding-top:24px;max-width:68ch}
+.education-course-panel .education-course-description{padding:0}
+.education-course-panel .education-course-description p{font-size:14.4px;line-height:1.9;margin:0 0 18px;word-break:keep-all}
+.education-course-panel .education-course-description .translation-heading{font-size:15px;line-height:1.5;margin:0 0 12px}
+.education-course-panel .education-course-description .translation-en{font-size:13px;line-height:1.85;word-break:normal;margin-bottom:0}
+@media(max-width:700px){.education-course-panel{padding-top:24px;scroll-margin-top:90px}.education-course-panel h3{font-size:20px}.education-course-panel-top{gap:12px;align-items:flex-start}}
+@media(prefers-reduced-motion:reduce){.education-course-choice{transition:none!important}}
+
+/* 과목 로드맵: 학년 축과 분야별 흐름, 색상 코드·표 테두리 없이 */
+.education-sections .education-roadmap-hint{font-size:12px;line-height:1.7;margin:0 0 28px;opacity:.65}
+.education-under-grid.education-roadmap{display:block;overflow-x:auto;overscroll-behavior-x:contain;padding-bottom:12px;scrollbar-width:thin;scrollbar-color:#001f7530 transparent}
+.education-roadmap-inner{min-width:760px}
+.education-roadmap-header{display:grid;grid-template-columns:52px repeat(5,minmax(0,1fr));gap:0 18px;align-items:end;padding:0 0 24px}
+.education-roadmap-axis{font-size:9px;font-weight:500;letter-spacing:.1em;opacity:.55}
+.education-roadmap-field{font-size:10px;font-weight:600;letter-spacing:.025em;white-space:nowrap}
+.education-roadmap .is-integrated{grid-column:span 2}
+.education-roadmap-year{display:grid;grid-template-columns:52px minmax(0,1fr);gap:18px;position:relative;padding:22px 0}
+.education-roadmap-year::before{content:'';position:absolute;left:4px;top:32px;bottom:-32px;width:1px;background:#001f751c}
+.education-roadmap-year:last-child::before{bottom:calc(100% - 32px)}
+.education-roadmap-year-label{position:relative;align-self:start;display:flex;align-items:center;gap:10px;font-size:13px;font-weight:500;line-height:20px;letter-spacing:.04em}
+.education-roadmap-year-dot{width:9px;height:9px;border-radius:50%;background:#001f75;flex-shrink:0;box-shadow:0 0 0 4px #fff}
+.education-roadmap-semesters{min-width:0;border-top:1px solid #001f7518;padding-top:14px;margin-top:-14px}
+.education-roadmap-semester{position:relative;display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:0 18px;padding:0 0 18px}
+.education-roadmap-semester+.education-roadmap-semester{padding-top:14px;padding-bottom:0}
+.education-roadmap-semester-label{position:absolute;left:-38px;top:26px;font-size:9px;line-height:1.5;opacity:.5}
+.education-roadmap-semester+.education-roadmap-semester>.education-roadmap-semester-label{top:29px}
+.education-roadmap .education-course-category{min-width:0}
+.education-roadmap .education-course-items{display:flex;flex-direction:column;gap:0;align-items:stretch}
+.education-roadmap .is-integrated .education-course-items{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 18px}
+.education-roadmap .education-course-choice{font-size:11.5px;line-height:1.65;min-height:40px;padding:8px 0;border-radius:0}
+.education-roadmap .education-course-choice[aria-pressed="true"]{background:transparent;color:#001f75;box-shadow:inset 0 -1px #001f75}
+.education-roadmap .education-course-choice:hover{background:transparent}
+.education-roadmap-sr-only{position:absolute!important;width:1px!important;height:1px!important;padding:0!important;margin:-1px!important;overflow:hidden!important;clip:rect(0,0,0,0)!important;white-space:nowrap!important;border:0!important}
+@media(max-width:850px){.education-roadmap-inner{min-width:760px}}
+.education-roadmap .education-course-items{grid-auto-rows:auto}
+.education-roadmap .education-course-choice{white-space:normal;max-width:100%;overflow-wrap:anywhere}
+.education-sections{min-width:0}
+.education-under-grid.education-roadmap{width:100%;max-width:100%;min-width:0}
+
+/* 분야 사이 여백, 과목명 의미 단위 줄바꿈과 시작점 정렬 */
+.education-roadmap-header{grid-template-columns:52px repeat(2,minmax(0,1fr)) 12px repeat(3,minmax(0,1fr))}
+.education-roadmap-semester{grid-template-columns:repeat(2,minmax(0,1fr)) 12px repeat(3,minmax(0,1fr))}
+.education-roadmap-header>.education-roadmap-field:nth-child(3),
+.education-roadmap-semester>.education-course-category:nth-child(3){grid-column:4}
+.education-roadmap .education-course-choice{display:flex;flex-direction:column;justify-content:flex-start;align-items:flex-start;text-align:left;min-height:54px;padding:8px 0;word-break:keep-all;overflow-wrap:normal}
+.education-course-name-line{display:block;white-space:nowrap;text-align:left}
+.education-roadmap .education-course-items{align-items:stretch}
+.education-roadmap-header>.education-roadmap-field:nth-child(3){grid-column:5}
+
+/* 학기 안의 과목은 촘촘하게, 학기 사이에는 여유 있게 */
+.education-roadmap-semesters{display:flex;flex-direction:column;gap:32px}
+.education-roadmap-semester,
+.education-roadmap-semester+.education-roadmap-semester{padding-top:0;padding-bottom:0}
+.education-roadmap .education-course-items{row-gap:4px}
+.education-roadmap .is-integrated .education-course-items{column-gap:8px;row-gap:4px}
+.education-roadmap .education-course-choice{min-height:0;padding-top:6px;padding-bottom:6px}
+.education-roadmap-year-label{flex-direction:column;align-items:flex-start;gap:10px;line-height:20px;padding-top:6px}
+.education-roadmap-year-label>span:last-child{position:relative;left:-3px}
+.education-roadmap-semester>.education-roadmap-semester-label,
+.education-roadmap-semester+.education-roadmap-semester>.education-roadmap-semester-label{top:9px}
+.education-roadmap-year-label{width:18px;align-items:center}
+.education-roadmap-year-label>span:last-child{left:0;background:#fff;z-index:1;padding:2px 0}
+.education-roadmap-year::before{left:9px}
+
+/* 로드맵 간격을 줄이고 학년 숫자 아래에서 연결선 시작 */
+.education-roadmap-inner{width:100%;min-width:710px;max-width:710px}
+.education-roadmap-header{grid-template-columns:44px repeat(2,minmax(0,1fr)) 8px repeat(3,minmax(0,1fr));column-gap:10px;padding-bottom:20px}
+.education-roadmap-year{grid-template-columns:44px minmax(0,1fr);column-gap:10px;padding-top:18px;padding-bottom:18px}
+.education-roadmap-semester{grid-template-columns:repeat(2,minmax(0,1fr)) 8px repeat(3,minmax(0,1fr));column-gap:10px}
+.education-roadmap-semesters{gap:20px}
+.education-roadmap .education-course-items{row-gap:2px}
+.education-roadmap .is-integrated .education-course-items{column-gap:4px;row-gap:2px}
+.education-roadmap .education-course-choice{padding-top:3px;padding-bottom:3px}
+.education-roadmap-year-label{gap:18px;padding-top:3px}
+.education-roadmap-semester>.education-roadmap-semester-label,
+.education-roadmap-semester+.education-roadmap-semester>.education-roadmap-semester-label{top:6px;left:-28px}
+.education-roadmap-year::before{top:74px;bottom:-25px}
+.education-roadmap-year:last-child::before{display:none}
+
+/* 학년·학기 축 여백과 통합분야 두 컬럼 정돈 */
+.education-roadmap-header{grid-template-columns:68px repeat(2,minmax(0,1fr)) 8px repeat(3,minmax(0,1fr))}
+.education-roadmap-year{grid-template-columns:68px minmax(0,1fr)}
+.education-roadmap-year-label{gap:8px}
+.education-roadmap-year::before{top:64px}
+.education-roadmap-semester>.education-roadmap-semester-label,
+.education-roadmap-semester+.education-roadmap-semester>.education-roadmap-semester-label{left:-36px}
+.education-roadmap .is-integrated .education-course-items{grid-template-columns:repeat(2,108px);column-gap:2px;justify-content:start}
+
+/* 통합분야 시작점과 과목명 행간 */
+.education-roadmap-header>.education-roadmap-field.is-integrated,
+.education-roadmap-semester>.education-course-category.is-integrated{position:relative;left:12px}
+.education-roadmap .education-course-choice{line-height:1.3}
+
+/* 각 통합분야 컬럼의 높이와 간격을 독립적으로 유지 */
+.education-roadmap .is-integrated .education-course-items{align-items:start}
+.education-course-column{display:flex;flex-direction:column;gap:2px;min-width:0}
+
+/* 모든 학기의 영역 높이를 통일 */
+.education-roadmap-semester{min-height:76px;box-sizing:border-box;align-items:start}
+
+/* 1·2학기 사이 간격 */
+.education-roadmap-semesters{gap:5px}
+
+/* 1·2학년은 기존 1학년 밀도, 3·4학년은 긴 과목명에 맞춘 높이 */
+.education-roadmap-year:nth-of-type(2) .education-roadmap-semester,
+.education-roadmap-year:nth-of-type(3) .education-roadmap-semester{min-height:44px}
+.education-roadmap-year:nth-of-type(4) .education-roadmap-semester,
+.education-roadmap-year:nth-of-type(5) .education-roadmap-semester{min-height:60px}
+
+/* 과목명만 보여주는 클릭 팝업 */
+.education-course-popup{position:fixed;inset:auto;margin:0;max-width:calc(100vw - 24px);box-sizing:border-box;padding:14px 18px;background:#fff;color:#001f75;border:1px solid #001f7520;border-radius:6px;box-shadow:0 6px 24px #001f7514;font:500 15px/1.5 'Pretendard',sans-serif;word-break:keep-all;overflow-wrap:anywhere}
+.education-course-popup::backdrop{background:transparent}
+
+/* 클릭한 과목의 설명을 읽는 팝업 */
+.education-course-popup{width:420px;max-width:calc(100vw - 24px);max-height:min(70vh,560px);overflow-y:auto;padding:22px;overscroll-behavior:contain;scrollbar-width:thin}
+.education-course-popup-header{display:flex;align-items:flex-start;justify-content:space-between;gap:20px;margin-bottom:18px}
+.education-course-popup-header h3{margin:0;font:600 18px/1.4 'Pretendard',sans-serif;text-transform:none;word-break:keep-all}
+.education-course-popup-close{flex-shrink:0;padding:2px 0;border:0;background:none;color:#001f75;font:500 12px/1.5 'Pretendard',sans-serif;cursor:pointer}
+.education-course-popup .education-course-description{padding:0}
+.education-course-popup .education-course-description p,.education-course-popup-body>p{font:400 14px/1.8 'Pretendard',sans-serif;margin:0 0 16px;color:#001f75;word-break:keep-all}
+.education-course-popup .education-course-description .translation-heading{font-size:14px;font-weight:600;margin-bottom:10px}
+.education-course-popup .education-course-description .translation-en{font-size:13px;word-break:normal;margin-bottom:0}
+
+/* 과목 설명 글자 크기를 기존의 60%로 축소 */
+.education-course-popup .education-course-description p,
+.education-course-popup-body>p{font-size:8.4px}
+.education-course-popup .education-course-description .translation-heading{font-size:8.4px}
+.education-course-popup .education-course-description .translation-en{font-size:7.2px}
+.education-course-popup .education-course-description .translation-heading{font-size:8.4px!important}
+.education-course-popup .education-course-description .translation-en{font-size:7.2px!important}
+
+/* 팝업 제목·설명 비율과 선택된 과목 표시 */
+.education-course-popup-header h3{font-size:9px}
+.education-course-popup .education-course-description p,
+.education-course-popup-body>p{font-size:16.8px}
+.education-course-popup .education-course-description .translation-heading{font-size:16.8px!important}
+.education-course-popup .education-course-description .translation-en{font-size:14.4px!important}
+.education-courses-enhanced .education-course-choice[aria-pressed="true"],
+.education-roadmap .education-course-choice[aria-pressed="true"]{color:#888!important;background:transparent;box-shadow:none;text-decoration:none;font-weight:500}
+.education-course-popup-close{font-size:20px;line-height:1;min-width:24px;min-height:24px;display:flex;align-items:center;justify-content:center;padding:0}
+
+/* 팝업의 제목·설명 크기 및 화살표 닫기 */
+.education-course-popup-header h3{font-size:11.7px}
+.education-course-popup .education-course-description p,
+.education-course-popup-body>p{font-size:11.76px}
+.education-course-popup .education-course-description .translation-heading{font-size:11.76px!important}
+.education-course-popup .education-course-description .translation-en{font-size:10.08px!important}
+html.education-white body .education-course-popup-close,
+html.education-white body .education-course-popup-close:hover,
+html.education-white body .education-course-popup-close:focus-visible{color:#001f75!important;background:transparent!important;border:0!important;box-shadow:none!important;border-radius:0;padding:0}
+.education-course-popup-close svg{display:block;width:20px;height:20px;fill:none;stroke:currentColor;stroke-width:1.5}
+
+/* 마우스로 팝업을 닫은 뒤 남는 기본 포커스 박스 제거 */
+.education-courses-enhanced .education-course-choice:focus:not(:focus-visible){outline:none}
+.education-courses-enhanced .education-course-choice:focus-visible{outline:2px solid #508aff;outline-offset:4px}
+
+/* 대학원: 학년 축 없이 필수·통합·전공선택으로 구성 */
+.education-course-grid.education-grad-roadmap{display:block;width:100%;min-width:0;max-width:710px}
+.education-grad-band{position:relative;padding:24px 0 32px 18px;margin-bottom:20px;border-top:1px solid #001f751c}
+.education-grad-band::before{content:'';position:absolute;left:0;top:28px;width:6px;height:6px;border-radius:50%;background:#001f75}
+.education-grad-band-label{margin-bottom:24px}
+.education-grad-band-label h3{font:600 10px/1.5 'Pretendard',sans-serif;letter-spacing:.04em;margin:0}
+.education-grad-band-label h3>span{display:block;font-size:10px;font-weight:400;letter-spacing:0;opacity:.6;margin-top:5px}
+.education-grad-required{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px}
+.education-grad-roadmap .education-course-category .education-course-group{font-size:10px;font-weight:600;line-height:1.5;letter-spacing:0;min-height:34px;margin:0 0 14px!important;word-break:normal}
+.education-grad-field-ko{display:block;font:400 9px/1.5 'Pretendard',sans-serif;opacity:.6;margin-top:5px;word-break:keep-all}
+.education-grad-roadmap .education-course-items{display:flex;flex-direction:column;gap:4px;align-items:stretch}
+.education-grad-roadmap .education-course-choice{display:flex;flex-direction:column;align-items:flex-start;justify-content:flex-start;text-align:left;min-height:0;padding:5px 0;font-size:11.5px;line-height:1.3;white-space:normal;overflow-wrap:normal}
+.education-grad-integrated>.education-course-category>h3{display:none}
+.education-grad-roadmap .education-grad-integrated .education-course-items{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:4px 18px;align-items:start}
+.education-grad-specializations{min-width:0;max-width:100%;overflow-x:auto;padding-bottom:8px;scrollbar-width:thin;scrollbar-color:#001f7530 transparent}
+.education-grad-fields{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:18px;min-width:692px}
+@media(max-width:700px){.education-grad-roadmap .education-grad-integrated .education-course-items{grid-template-columns:repeat(2,minmax(0,1fr))}.education-grad-required{gap:16px}}
+
+.education-grad-roadmap .education-grad-integrated .education-course-items{grid-auto-rows:auto;align-items:start}
+.education-grad-roadmap .education-course-column{gap:4px}
+.education-grad-fields .education-course-category .education-course-group{min-height:58px}
+
+/* 대학원 교과 구분 제목 130% */
+.education-grad-band-label h3{font-size:13px}
+.education-grad-band-label h3>span{font-size:13px}
