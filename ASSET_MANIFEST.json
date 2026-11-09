@@ -2523,8 +2523,8 @@
     },
     {
       "path": "education-courses.js",
-      "bytes": 8204,
-      "sha256": "0193322b701a41ff86285a921f75f204da24c14d4296e6cc661212cd4a4be170"
+      "bytes": 8798,
+      "sha256": "b4e2996820d1adc27a2c0bec233cc188493dfd5e82ce651bc0ff366f0a9dbca1"
     },
     {
       "path": "education-diagram-motion.js",
@@ -2533,13 +2533,18 @@
     },
     {
       "path": "education-editorial.css",
-      "bytes": 30217,
-      "sha256": "2381e11f506c1fa18c01fdfdff9b895babf3a0798e98817a5781cd8ed0a38a88"
+      "bytes": 30934,
+      "sha256": "386a6ffa7be6735c4ce4b61ae68fe70f52ed6b7b0db56007aaa1a2a056d0e3af"
+    },
+    {
+      "path": "education-language.js",
+      "bytes": 1280,
+      "sha256": "0b1b01fbea62b749bbaec359c0aaa49947beb16ddf237f6305531da0ba1d2d26"
     },
     {
       "path": "education.html",
-      "bytes": 158648,
-      "sha256": "f366711277d242879dbf472dd6e48741d42d1d9e00933e18129903642fc1a0a3"
+      "bytes": 168633,
+      "sha256": "0eb9956803453f83929066397a5e00c99d256b46d7aa97e02249e3019e0e6c6c"
     },
     {
       "path": "geometry.js",

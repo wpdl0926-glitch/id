@@ -16,10 +16,11 @@ html.education-white body .education-editorial{box-sizing:border-box;width:calc(
 .education-sections section{scroll-margin-top:45px;margin-bottom:140px}
 .education-sections section:last-child{margin-bottom:0}
 .education-sections h2{font-size:clamp(27px,2.7vw,40px);font-weight:600;line-height:1.35;letter-spacing:-.025em;margin-bottom:36px}
-.education-sections h2>span{display:block;font-size:13px;font-weight:600;letter-spacing:.06em;margin-bottom:22px}
+.education-sections h2>span:not([data-ed-lang]){display:block;font-size:13px;font-weight:600;letter-spacing:.06em;margin-bottom:22px}
 .education-sections p,.education-sections li{font-size:14.4px;font-weight:500;line-height:1.9;letter-spacing:-.015em;text-wrap:pretty;margin-bottom:26px}
 .education-sections ul{padding-left:1.2em;margin:36px 0}
 .education-diagram{margin:44px 0 0}
+#academics_under > .education-diagram{margin-top:clamp(90px,9vw,114px)}
 .education-diagram img{display:block;width:100%;height:auto}
 .education-course-group{font-size:18px;font-weight:600;line-height:1.6;margin:48px 0 20px!important}
 .education-course{border-bottom:1px solid #001f7530}
@@ -37,6 +38,7 @@ html.education-white body .education-editorial{box-sizing:border-box;width:calc(
 .education-lab p{font-size:12.8px;line-height:1.9;margin-bottom:10px}
 .education-link{display:flex;justify-content:space-between;gap:24px;align-items:center;border-bottom:1px solid #001f7540;padding:18px 0;color:#001f75;font-size:18px;margin-top:32px;text-decoration:none}
 .education-link span{font-size:30px}
+#academics_grad > .education-link > .bilingual-label > [data-ed-lang]{font-size:15px}
 .education-white .elementor-location-footer{border-top:1px solid #001f7520}
 html.education-white body a:hover,html.education-white body a:focus-visible,html.education-white body .elementor-location-header a.elementor-item:hover,html.education-white body .elementor-location-header a.elementor-item:focus-visible,.education-course summary:hover{color:#508aff!important;text-decoration:none!important}
 html.education-white body a:hover *,html.education-white body a:focus-visible *{color:inherit!important}
@@ -54,8 +56,9 @@ html.education-white body a:hover *,html.education-white body a:focus-visible *{
 .education-lab-copy{margin-bottom:20px}
 .education-lab-meta{display:flex;flex-direction:column;gap:6px;margin-top:auto}
 .education-lab-grid .education-lab-meta p{font-size:12px;line-height:1.6}
-.education-lab-grid .education-link{font-size:12px;line-height:1.5;margin-top:14px;padding:10px 0;border-bottom:1px solid #001f7530}
-.education-lab-grid .education-link span{font-size:20px}
+.education-lab-grid .education-link{font-size:11px;line-height:1.5;margin-top:14px;padding:10px 0;border-bottom:1px solid #001f7530}
+.education-lab-grid .education-link span{font-size:inherit}
+.education-lab-grid .education-link > span[aria-hidden="true"]{font-size:20px}
 @media(min-width:851px) and (max-width:1000px){.education-lab-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:600px){.education-lab-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:32px 20px}.education-lab-grid .education-lab h3{font-size:14px}}
 @media(max-width:420px){.education-lab-grid{grid-template-columns:1fr;gap:36px}}
@@ -283,7 +286,6 @@ html.education-white body .education-course-popup-close:focus-visible{color:#001
 .education-grad-band::before{content:'';position:absolute;left:0;top:28px;width:6px;height:6px;border-radius:50%;background:#001f75}
 .education-grad-band-label{margin-bottom:24px}
 .education-grad-band-label h3{font:600 10px/1.5 'Pretendard',sans-serif;letter-spacing:.04em;margin:0}
-.education-grad-band-label h3>span{display:block;font-size:10px;font-weight:400;letter-spacing:0;opacity:.6;margin-top:5px}
 .education-grad-required{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px}
 .education-grad-roadmap .education-course-category .education-course-group{font-size:10px;font-weight:600;line-height:1.5;letter-spacing:0;min-height:34px;margin:0 0 14px!important;word-break:normal}
 .education-grad-field-ko{display:block;font:400 9px/1.5 'Pretendard',sans-serif;opacity:.6;margin-top:5px;word-break:keep-all}
@@ -301,7 +303,6 @@ html.education-white body .education-course-popup-close:focus-visible{color:#001
 
 /* 대학원 교과 구분 제목 130% */
 .education-grad-band-label h3{font-size:13px}
-.education-grad-band-label h3>span{font-size:13px}
 
 /* 닫기 아이콘의 포커스 박스와 테마의 버튼 반전 스타일 방지 */
 html.education-white body .education-course-popup-close,
@@ -318,21 +319,28 @@ html.education-white body .education-course-popup-close:focus-visible svg{stroke
 
 /* 지정된 페이지 제목과 Education 본문·카드·팝업 글자 크기 */
 .education-introduction h1{font-size:50px}
-#academics_under>p[lang="ko"],#academics_grad>p[lang="ko"],#academics_grad li{font-size:12px}
+#academics_under>p[data-ed-lang],#academics_grad>p[data-ed-lang],#academics_grad li{font-size:12px}
 .education-course-popup-header h3{font-size:12px}
 .education-course-popup .education-course-description p,
 .education-course-popup-body>p{font-size:10px}
 .education-course-popup .education-course-description .translation-heading{font-size:12px!important}
 .education-course-popup .education-course-description .translation-en{font-size:10px!important}
-.education-editorial .education-lab-grid .education-lab h3{font-size:12px}
+.education-editorial .education-lab-grid .education-lab h3{font-size:14.4px}
 .education-editorial .education-lab-grid .education-lab p{font-size:10px}
 
-/* Education 본문: 번역은 가까이, 다음 내용은 넓게 */
-.education-editorial #academics_under>p.translation-en,
-.education-editorial #academics_grad>p.translation-en{font-size:12px}
-.education-editorial #academics_under>p[lang="ko"]:has(+p.translation-en),
-.education-editorial #academics_grad>p[lang="ko"]:has(+p.translation-en){margin-bottom:15px}
-.education-editorial #academics_under>p[lang="ko"]+p.translation-en,
-.education-editorial #academics_grad>p[lang="ko"]+p.translation-en{margin-top:0}
-.education-editorial #academics_under>p.translation-en:has(+p[lang="ko"]),
-.education-editorial #academics_grad>p.translation-en:has(+p[lang="ko"]){margin-bottom:50px}
+/* Education switches between complete language variants without moving its anchors. */
+html.education-white:not([data-education-language="en"]) [data-ed-lang="en"],
+html.education-white[data-education-language="en"] [data-ed-lang="ko"],
+.education-language-toggle[hidden]{display:none!important}
+#academics_top.education-introduction{display:flex;align-items:center;justify-content:space-between;gap:24px}
+html.education-white .education-editorial .education-language-toggle{
+  display:inline-grid;place-items:center;flex:0 0 auto;
+  width:44px;height:44px;padding:0;border:1px solid #001f7550;border-radius:50%;
+  background:#fff;color:#001f75;font:600 15px/1 'Pretendard',sans-serif;text-transform:none;cursor:pointer;
+}
+html.education-white .education-editorial .education-language-toggle:hover,
+html.education-white .education-editorial .education-language-toggle[aria-pressed="true"]{background:#001f75;color:#fff}
+html.education-white .education-editorial .education-language-toggle:focus-visible{outline:2px solid #001f75;outline-offset:4px}
+.education-editorial [data-ed-lang="en"]{word-break:normal;overflow-wrap:anywhere}
+.education-roadmap-semester-label [lang="en"]{display:inline-block;max-width:36px}
+.education-editorial:has(> #academics_top) .education-sections :is(p, li){color:#000000}

@@ -25,7 +25,9 @@
     }, {capture:true, passive:true});
     courses.forEach((course, index) => {
       const heading = course.querySelector('summary');
-      const name = (heading || course).textContent.trim();
+      const names = [...(heading || course).querySelectorAll('[data-ed-lang]')];
+      const name = names.find(label => label.lang === 'ko')?.textContent.trim()
+        || (heading || course).textContent.trim();
       const description = course.querySelector('.education-course-description');
       const button = document.createElement('button');
       button.type = 'button';
@@ -64,13 +66,18 @@
         '아동가족문제와 사회적디자인2,4':['아동가족문제와','사회적디자인2,4']
       };
       const lines = lineBreaks[name];
-      if (lines) {
-        button.setAttribute('aria-label', name);
-        lines.forEach(text => {
-          const line = document.createElement('span');
-          line.className = 'education-course-name-line';
-          line.textContent = text;
-          button.append(line);
+      if (names.length) {
+        names.forEach(label => {
+          const copy = label.cloneNode(true);
+          if (label.lang === 'ko' && lines) {
+            copy.replaceChildren(...lines.map(text => {
+              const line = document.createElement('span');
+              line.className = 'education-course-name-line';
+              line.textContent = text;
+              return line;
+            }));
+          }
+          button.append(copy);
         });
       } else button.textContent = name;
       button.setAttribute('aria-controls', popup.id);
@@ -84,14 +91,16 @@
         selected?.setAttribute('aria-expanded', 'false');
         selected?.setAttribute('aria-pressed', 'false');
         selected = button;
+        const language = document.documentElement.dataset.educationLanguage || 'ko';
+        const english = language === 'en';
         const title = document.createElement('h3');
         title.id = `${sectionId}-popup-title`;
-        title.textContent = name;
+        title.textContent = names.find(label => label.lang === language)?.textContent.trim() || name;
         const close = document.createElement('button');
         close.type = 'button';
         close.className = 'education-course-popup-close';
         close.innerHTML = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18" stroke-linecap="round" stroke-linejoin="round"/></svg>';
-        close.setAttribute('aria-label', '닫기');
+        close.setAttribute('aria-label', english ? 'Close' : '닫기');
         close.addEventListener('click', () => {
           popup.hidePopover();
           button.setAttribute('aria-expanded', 'false');
@@ -106,7 +115,7 @@
         if (description) body.append(description.cloneNode(true));
         else {
           const empty = document.createElement('p');
-          empty.textContent = '상세 설명은 준비 중입니다.';
+          empty.textContent = english ? 'A description is not yet available.' : '상세 설명은 준비 중입니다.';
           body.append(empty);
         }
         popup.replaceChildren(header, body);
